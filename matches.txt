@@ -1386,3 +1386,43 @@
 2024-06-29, Louisville, Bay FC, 0, 1
 2024-06-30, Angel City, Pride, 0, 3
 2024-06-30, Gotham, Reign, 1, 1
+2024-07-05, Thorns, Wave, 1, 0
+2024-07-06, Angel City, Gotham, 1, 2
+2024-07-06, Bay FC, Spirit, 0, 3
+2024-07-06, Current, Pride, 1, 2
+2024-07-06, Red Stars, Dash, 1, 0
+2024-07-07, Courage, Louisville, 3, 1
+2024-07-07, Reign, Royals, 1, 1
+2024-08-23, Royals, Bay FC, 2, 1
+2024-08-23, Dash, Pride, 0, 1
+2024-08-24, Louisville, Red Stars, 3, 1
+2024-08-24, Gotham, Thorns, 2, 0
+2024-08-24, Wave, Angel City, 1, 2
+2024-08-25, Reign, Courage, 1, 0
+2024-08-25, Spirit, Current, 4, 1
+2024-08-30, Thorns, Bay FC, 1, 3
+2024-08-31, Dash, Royals, 1, 3
+2024-08-31, Louisville, Reign, 2, 3
+2024-09-01, Wave, Spirit, 1, 1
+2024-09-01, Pride, Gotham, 3, 0
+2024-09-01, Courage, Current, 2, 1
+2024-09-01, Angel City, Red Stars, 2, 1
+2024-09-06, Angel City, Reign, 2, 3
+2024-09-07, Bay FC, Louisville, 1, 0
+2024-09-07, Current, Royals, 1, 0
+2024-09-07, Spirit, Thorns, 2, 1
+2024-09-08, Wave, Courage, 1, 4
+2024-09-08, Red Stars, Pride, 0, 1
+2024-09-08, Gotham, Dash, 2, 1
+2024-09-13, Pride, Current, 0, 0
+2024-09-13, Thorns, Red Stars, 0, 1
+2024-09-13, Courage, Bay FC, 1, 1
+2024-09-14, Royals, Wave, 1, 2
+2024-09-14, Louisville, Angel City, 2, 1
+2024-09-15, Spirit, Dash, 3, 0
+2024-09-16, Reign, Gotham, 0, 2
+2024-09-20, Bay FC, Pride, 0, 1
+2024-09-20, Current, Spirit, 3, 0
+2024-09-21, Red Stars, Wave, 1, 0
+2024-09-21, Dash, Reign, 1, 0
+2024-09-21, Louisville, Courage, 2, 1

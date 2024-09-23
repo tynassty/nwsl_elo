@@ -6,8 +6,8 @@ from datetime import datetime
 import reader
 
 INITIAL_ELO = 1000
-K_FACTOR = 50  # The K-factor determines the maximum possible change in rating.
-HOME_FIELD_ADVANTAGE = 0  # Elo points added to the home team's rating for home advantage - 60 by experiment
+K_FACTOR = 39  # The K-factor determines the maximum possible change in rating.
+HOME_FIELD_ADVANTAGE = 60  # Elo points added to the home team's rating for home advantage - 60 by experiment
 
 
 def expected_result(elo_a, elo_b):
@@ -62,12 +62,17 @@ def calculate_elo_ratings(matches):
         new_home_elo = update_elo(home_elo, home_result, expected_home)
         new_away_elo = update_elo(away_elo, away_result, expected_away)
 
-        total_dif += abs(home_result - expected_home)
+        dif = abs(home_result - expected_home)
+        total_dif += dif
+
+        if expected_away >= 0.7 and away_result == 1:
+            print(home_club, "(", home_elo, ")", home_score, "-", away_score, away_club, "(", away_elo, ")", date)
 
         # store elo ratings
         elo_ratings[home_club] = new_home_elo
         elo_ratings[away_club] = new_away_elo
 
+    print("total error:", total_dif, "\n")
     return elo_ratings
 
 
