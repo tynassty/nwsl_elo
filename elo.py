@@ -7,8 +7,8 @@ import reader
 import numpy as np
 
 INITIAL_ELO = 1000
-K_FACTOR = 40  # The K-factor determines the (NORMAL) maximum possible change in rating.
-HOME_FIELD_ADVANTAGE = 60  # Elo points added to the home team's rating for home advantage - 60 by experiment
+HOME_FIELD_ADVANTAGE = 72  # Elo points added to the home team's rating for home advantage (72)
+K_FACTOR = 52  # The K-factor determines the (NORMAL) maximum possible change in rating. (52)
 WINDOW = 100  # window of days to check number of matches played (for adjusting k factors)
 
 FIRST_DATE = datetime(2013, 4, 13)
@@ -41,13 +41,14 @@ def update_elo(elo, score, expected, k=K_FACTOR):
     return elo + k * (score - expected)
 
 
-def calculate_elo_ratings(matches):
+def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage=HOME_FIELD_ADVANTAGE, k=K_FACTOR,
+                          print_error=True, season_reset=False):
     total_dif = 0
     baseline_dif = 0
 
     clubs, dates = get_clubs_and_matches(matches)
-    elo_ratings = {club: INITIAL_ELO for club in clubs}
-    arr = [{club: INITIAL_ELO for club in clubs} for _ in range(len(dates))]
+    elo_ratings = {club: initial_elo for club in clubs}
+    arr = [{club: initial_elo for club in clubs} for _ in range(len(dates))]
     date_index = 0
 
     dates_played = {club: [] for club in clubs}
@@ -55,7 +56,13 @@ def calculate_elo_ratings(matches):
     total_results = [[], []]
 
     for match in matches:
-        date, home_club, away_club, home_score, away_score = match
+        date, home_club, away_club, home_score, away_score, neutral = match
+        home_score = int(home_score)
+        away_score = int(away_score)
+        if season_reset:
+            if date.year != dates[date_index].year:
+                for club in clubs:
+                    elo_ratings[club] = initial_elo
         if date > dates[date_index]:
             # update the current elo ratings as we move to next date
             for club in clubs:
@@ -64,9 +71,9 @@ def calculate_elo_ratings(matches):
             date_index += 1
 
         # if home_club not in elo_ratings:
-        #     elo_ratings[home_club] = INITIAL_ELO
+        #     elo_ratings[home_club] = initial_elo
         # if away_club not in elo_ratings:
-        #     elo_ratings[away_club] = INITIAL_ELO
+        #     elo_ratings[away_club] = initial_elo
 
         home_elo = elo_ratings[home_club]
         away_elo = elo_ratings[away_club]
@@ -85,12 +92,12 @@ def calculate_elo_ratings(matches):
             away_result = 0.5
 
         # calc expected results
-        expected_home = expected_result(home_elo + HOME_FIELD_ADVANTAGE, away_elo)
-        expected_away = expected_result(away_elo, home_elo + HOME_FIELD_ADVANTAGE)
+        expected_home = expected_result(home_elo + (home_field_advantage * (not neutral)), away_elo)
+        expected_away = expected_result(away_elo, home_elo + (home_field_advantage * (not neutral)))
 
         # Update Elo ratings
-        new_home_elo = update_elo(home_elo, home_result, expected_home)
-        new_away_elo = update_elo(away_elo, away_result, expected_away)
+        new_home_elo = update_elo(home_elo, home_result, expected_home, k=k)
+        new_away_elo = update_elo(away_elo, away_result, expected_away, k=k)
 
         dif = abs(home_result - expected_home)
         total_dif += dif
@@ -109,13 +116,13 @@ def calculate_elo_ratings(matches):
     for club in clubs:
         arr[date_index][club] = elo_ratings[club]
 
-    print("total error:", total_dif)
-    print("average error:", total_dif / len(matches))
-    print("baseline average error", baseline_dif / len(matches))
+    if print_error:
+        print("total error:", total_dif)
+        print("average error:", total_dif / len(matches))
+        print("baseline average error", baseline_dif / len(matches))
+        print("\n")
 
-    print("\n")
-
-    return elo_ratings, arr, dates, total_results
+    return elo_ratings, arr, dates, total_results, total_dif/len(matches)
 
 
 def get_clubs_and_matches(matches):
@@ -166,13 +173,18 @@ def plot_elo_ratings_over_time(arr, dates, clubs):
         club_dates = []
         club_elos = []
         for i in range(len(full_dates)):
-            if CLUB_METADATA[club][0] < full_dates[i] < CLUB_METADATA[club][1]:
-                club_dates.append(full_dates[i])
-                club_elos.append(full_elo_arr[i][club])
-        if len(CLUB_METADATA[club]) > 2:
-            plt.step(club_dates, club_elos, CLUB_METADATA[club][2], label=club)
+            if club in CLUB_METADATA:
+                if CLUB_METADATA[club][0] < full_dates[i] < CLUB_METADATA[club][1]:
+                    club_dates.append(full_dates[i])
+                    club_elos.append(full_elo_arr[i][club])
+        if club in CLUB_METADATA:
+            if len(CLUB_METADATA[club]) > 2:
+                plt.step(club_dates, club_elos, CLUB_METADATA[club][2], label=club)
+            else:
+                plt.step(club_dates, club_elos, label=club)
         else:
-            plt.step(club_dates, club_elos, label=club)
+            plt.step(full_dates, elo_over_time, label=club)
+
 
     # Plot settings
     plt.xlabel('Date')
@@ -184,14 +196,19 @@ def plot_elo_ratings_over_time(arr, dates, clubs):
     plt.show()
 
 
-# Example usage:
+if __name__ == "__main__":
 
-matches = reader.read_matches("matches.txt")
-elo_ratings, arr, dates, total_results = calculate_elo_ratings(matches)
-# for elo_rating in elo_ratings:
-#     print(elo_rating, elo_ratings[elo_rating])
+    # Example usage:
+    matches = reader.read_matches("matches.txt")
+    elo_ratings, arr, dates, total_results, dif = calculate_elo_ratings(matches)
+    for elo_rating in elo_ratings:
+        print(elo_rating, ":", elo_ratings[elo_rating])
+    #
+    # sorted_elos = sorted(elo_ratings, key=elo_ratings.get)
+    # for elo_rating in sorted_elos:
+    #     print(elo_rating, elo_ratings[elo_rating])
 
-number = 44.5
+    # number = 44.5
 
-clubs, _ = get_clubs_and_matches(matches)
-plot_elo_ratings_over_time(arr, dates, clubs)
+    clubs, _ = get_clubs_and_matches(matches)
+    plot_elo_ratings_over_time(arr, dates, clubs)
