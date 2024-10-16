@@ -1103,7 +1103,7 @@
 2022-10-16, Wave, Red Stars, 2, 1, vs
 2022-10-23, Reign, Current, 0, 2, vs
 2022-10-23, Thorns, Wave, 2, 1, vs
-2022-10-29, Thorns, Current, 2, 0, vs
+2022-10-29, Thorns, Current, 2, 0, N
 2023-03-25, Courage, Current, 1, 0, vs
 2023-03-25, Wave, Red Stars, 3, 2, vs
 2023-03-26, Angel City, Gotham, 1, 2, vs
@@ -1279,7 +1279,7 @@
 2023-10-22, Courage, Gotham, 0, 2, vs
 2023-11-05, Thorns, Gotham, 0, 1, vs
 2023-11-05, Wave, Reign, 0, 1, vs
-2023-11-11, Reign, Gotham, 1, 2, vs
+2023-11-11, Reign, Gotham, 1, 2, N
 2024-03-15, Gotham, Wave, 0, 1, vs
 2024-03-16, Courage, Dash, 5, 1, vs
 2024-03-16, Current, Thorns, 5, 4, vs
@@ -1435,3 +1435,17 @@
 2024-09-28, Wave, Thorns, 2, 0, vs
 2024-09-29, Red Stars, Courage, 1, 3, vs
 2024-09-29, Reign, Bay FC, 0, 1, vs
+2024-10-04, Dash, Red Stars, 0, 2, vs
+2024-10-04, Reign, Angel City, 0, 1, vs
+2024-10-05, Courage, Wave, 2, 1, vs
+2024-10-05, Gotham, Bay FC, 5, 1, vs
+2024-10-05, Louisville, Current, 0, 2, vs
+2024-10-05, Thorns, Royals, 1, 2, vs
+2024-10-06, Pride, Spirit, 2, 0, vs
+2024-10-11, Thorns, Pride, 2, 0, vs
+2024-10-12, Red Stars, Gotham, 0, 2, vs
+2024-10-12, Courage, Angel City, 1, 1, vs
+2024-10-12, Bay FC, Current, 0, 1, vs
+2024-10-13, Royals, Reign, 3, 0, vs
+2024-10-13, Spirit, Louisville, 4, 1, vs
+2024-10-13, Wave, Dash, 0, 2, vs
