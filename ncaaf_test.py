@@ -31,13 +31,15 @@ def parse_csv_with_commas(input_string):
 
 if __name__ == "__main__":
     matches = reader.read_matches("ncaaf.txt")
-    hfa = 65
+    hfa = 64
     elo_ratings, arr, dates, total_results, dif \
-        = elo.calculate_elo_ratings(matches, initial_elo=1000, home_field_advantage=hfa, k=76, season_reset=False,
-                                    end_date=datetime.datetime(2029, 3, 1), print_error=True)
+        = elo.calculate_elo_ratings(matches, initial_elo=1000, home_field_advantage=hfa, k=76, season_reset=0.01954,
+                                    end_date=datetime.datetime(2024, 10, 21), print_error=False,
+                                    reset_date=datetime.datetime(1, 3, 1))
 
-    # # by test, k=76 if hfa=0
-    # # by test, if k=76, hfa=65
+    # hfa=64, k=75
+
+    # sr=0.01954, hfa=64, k=76
 
     # for elo_rating in elo_ratings:
     #     print(elo_rating, elo_ratings[elo_rating])
@@ -51,13 +53,12 @@ if __name__ == "__main__":
     #     print(i+1, sorted_elos[i], elo_ratings[sorted_elos[i]])
 
     # print(elo_ratings["Syracuse"])
-    # clubs = ["Michigan", "Army"]
-    # elo.plot_elo_ratings_over_time(arr, dates, clubs)
+    # clubs = SEC_E
+    # elo.plot_elo_ratings_over_time(arr, dates, clubs, block=False)
 
+    clubs = SEC_W
+    elo.plot_elo_ratings_over_time(arr, dates, clubs)
 
-
-
-
-    # print(elo.expected_result(elo_ratings["Massachusetts"] + hfa, elo_ratings["Missouri"]))
+    # print(elo.expected_result(elo_ratings["Pittsburgh"] + hfa, elo_ratings["Syracuse"]))
     # print(a)
     # print(elo.update_elo(elo_ratings["Syracuse"], 1, a))

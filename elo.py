@@ -38,13 +38,49 @@ def update_elo(elo, score, expected, k=K_FACTOR):
 
 
 def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage=HOME_FIELD_ADVANTAGE, k=K_FACTOR,
-                          print_error=True, season_reset=False, end_date=None, windows=WINDOWS,
-                          window_weights=WINDOW_WEIGHTS):
+                          print_error=True, season_reset=False, reset_date=datetime(1, 1, 1), end_date=None,
+                          windows=WINDOWS, window_weights=WINDOW_WEIGHTS):
     total_dif = 0
     baseline_dif = 0
 
     clubs, dates = get_clubs_and_matches(matches)
     elo_ratings = {club: initial_elo for club in clubs}
+    """
+    Calculate the Elo ratings for a list of matches.
+
+    :param matches: List of match data. Each match is a tuple consisting of
+                    (date, home_team, away_team, home_score, away_score, neutral), where:
+                    - date: datetime object representing when the match took place.
+                    - home_team: Name of the home club.
+                    - away_team: Name of the away club.
+                    - home_score: Final score of the home club.
+                    - away_score: Final score of the away club.
+                    - neutral: Boolean value indicating whether the match was played at a neutral venue.
+    :param initial_elo: The initial Elo rating for all clubs at the start (default=1000).
+    :param home_field_advantage: The amount of Elo points added to the home team due to home advantage
+                                 (default=72 points).
+    :param k: The K-factor, which determines the maximum change in Elo after a match (default=52).
+    :param print_error: Boolean indicating whether to print error statistics (default=True).
+    :param season_reset: Allows for resetting the Elo ratings at the start of a new season. If `True`, ratings reset to
+                         `initial_elo` at the start of a new year. If a float value between 0 and 1 is given, the
+                         ratings will proportionally reset, blending `initial_elo` with the club's previous Elo
+                         (default=False).
+    :param reset_date: date to reset on if season reset
+    :param end_date: Optional datetime value; matches after this date will be excluded (default=None).
+    :param windows: A list of time periods (in days) for weighted Elo calculations. Allows tracking club performance
+                    over different windows, e.g., last 10 days, last month, last year (default=[10, 31, 365]).
+    :param window_weights: Weights associated with each window in `windows`, used to adjust Elo updates based on
+                           recent form. By default, weights are zeroed out (default=[0, 0, 0]).
+
+    :return: A tuple of results:
+             - elo_ratings: Final Elo ratings for all clubs after processing the matches.
+             - elo_history: Elo ratings for all clubs at each point in time (each match date).
+             - dates: List of unique match dates.
+             - results_comparison: List of two sublists comparing expected and actual results:
+                                  1. Expected results for the home team.
+                                  2. Actual results for the home team.
+             - average_error: The average error between expected and actual results over all matches.
+    """
     elo_history = [{club: initial_elo for club in clubs} for _ in range(len(dates))]
     date_index = 0
 
@@ -52,21 +88,27 @@ def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage
 
     results_comparison = [[], []]
 
+    reset_date = datetime(matches[0][0].year + 1, reset_date.month, reset_date.day)
+
     for match in matches:
         date, home_club, away_club, home_score, away_score, neutral = match
+
         if end_date is not None and end_date < date:
             break
+
         home_score = int(home_score)
         away_score = int(away_score)
 
         if season_reset:
-            if date.year != dates[date_index].year:
-                dates.insert(date_index + 1, dates[date_index] + timedelta(days=7))
+            # if date.year != dates[date_index].year:
+            if date > reset_date:
+                reset_date = datetime(reset_date.year + 1, reset_date.month, reset_date.day)
+                dates.insert(date_index + 1, dates[date_index] + timedelta(days=28))
                 elo_history.insert(date_index + 1, {club: initial_elo for club in clubs})
                 for club in clubs:
                     elo_history[date_index][club] = elo_ratings[club]
 
-                elo_ratings = {club: initial_elo for club in clubs}
+                elo_ratings = {club: (initial_elo * season_reset) + (elo_ratings[club] * (1-season_reset)) for club in clubs}
                 dates_played = {club: [] for club in clubs}
 
                 date_index += 1
@@ -129,9 +171,9 @@ def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage
         results_comparison[1].append(home_result)
 
         # print some interesting information!
-        if abs(home_result - expected_home) > 0.98:
-            print(date, f"({expected_home:.4f})", home_club, f"({home_elo:.2f})", home_score, "-", away_score,
-                  away_club, f"({away_elo:.2f})")
+        # if abs(home_result - expected_home) > 0.98:
+        #     print(date, f"({expected_home:.4f})", home_club, f"({home_elo:.2f})", home_score, "-", away_score,
+        #           away_club, f"({away_elo:.2f})")
 
         # store elo ratings
         elo_ratings[home_club] = updated_home_elo
@@ -145,9 +187,8 @@ def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage
         elo_history[date_index][club] = elo_ratings[club]
 
     if print_error:
-        print("total error:", total_dif)
-        print("average error:", total_dif / len(matches))
-        print("baseline average error", baseline_dif / len(matches))
+        print("Brier score:", total_dif / len(matches))
+        print("baseline Brier score", baseline_dif / len(matches))
         print("\n")
 
     return elo_ratings, elo_history, dates, results_comparison, total_dif/len(matches)
@@ -173,7 +214,10 @@ def get_clubs_and_matches(matches):
     return clubs, dates
 
 
-def plot_elo_ratings_over_time(arr, dates, clubs, club_metadata={}):
+def plot_elo_ratings_over_time(arr, dates, clubs, club_metadata={}, block=True):
+    # create a new figure
+    plt.figure()
+
     # Ensure all dates are covered by filling in missing Elo ratings for non-match days
     full_elo_arr = []
     full_dates = []
@@ -191,47 +235,51 @@ def plot_elo_ratings_over_time(arr, dates, clubs, club_metadata={}):
         current_date += timedelta(days=1)
         all_dates.append(current_date)
 
+    # Build the full Elo array for every date
     for current_date in all_dates:
         if current_date in dates:
-            # On match days, use the corresponding Elo ratings
+            # On match days, update Elo ratings
             date_index = dates.index(current_date)
-            last_elo = arr[date_index]  # Update Elo ratings on match day
-        # For non-match days, carry over the last Elo rating
+            last_elo = arr[date_index]
+        # Carry over the last Elo rating for non-match days
         full_elo_arr.append(last_elo.copy())
         full_dates.append(current_date)
 
     # Plot the Elo ratings for each club over time
-    # clubs = ["Louisville", "Gotham"]
     for club in clubs:
         if club in full_elo_arr[0]:
+            # Elo ratings for the current club over time
             elo_over_time = [elo_ratings[club] for elo_ratings in full_elo_arr]
-            club_dates = []
-            club_elos = []
-            for i in range(len(full_dates)):
-                if club in club_metadata:
-                    if club_metadata[club][0] < full_dates[i] < club_metadata[club][1]:
-                        club_dates.append(full_dates[i])
-                        club_elos.append(full_elo_arr[i][club])
+
+            # Filter based on club metadata if available
             if club in club_metadata:
+                club_dates = []
+                club_elos = []
+                start_date, end_date = club_metadata[club][:2]
+                for i, date in enumerate(full_dates):
+                    if start_date < date < end_date:
+                        club_dates.append(date)
+                        club_elos.append(full_elo_arr[i][club])
+
+                # Plot with custom styles if metadata includes them
                 if len(club_metadata[club]) > 2:
                     plt.plot(club_dates, club_elos, club_metadata[club][2], label=club)
                 else:
                     plt.plot(club_dates, club_elos, label=club)
             else:
+                # Plot without filtering if no metadata
                 plt.plot(full_dates, elo_over_time, label=club)
         else:
-            print("club " + club + " does not exist")
-
+            print(f"Club {club} does not exist")
 
     # Plot settings
     plt.xlabel('Date')
     plt.ylabel('Elo Rating')
     plt.title('Elo Ratings Over Time')
-    plt.legend()
-    plt.xticks(rotation=45)  # Rotate the x-axis labels if needed
+    plt.xticks(rotation=45)
     plt.tight_layout()
     plt.legend(fontsize='small')
-    plt.show()
+    plt.show(block=block)
 
 
 if __name__ == "__main__":

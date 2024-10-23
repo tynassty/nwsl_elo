@@ -23,28 +23,38 @@ club_metadata = {
     "Bay FC": (datetime(2024, 1, 1), FINAL_DATE, "#041A2E"),
 }
 
-matches = reader.read_matches("matches.txt")
-elo_ratings, arr, dates, total_results, dif = elo.calculate_elo_ratings(matches, print_error=True,
-                                                                        home_field_advantage=44, k=25,
-                                                                        season_reset=True,
-                                                                        end_date=datetime(2027, 10, 8))
-# hfa=51, k=58 according to testing
-# no hfa gives k=25
-# if k=25 forced, hfa=44
+hfa = 45
+k = 30
+sr = 0.5511
+matches = reader.read_matches("nwsl_matches.txt")
+elo_ratings, arr, dates, total_results, dif = elo.calculate_elo_ratings(matches, print_error=False,
+                                                                        home_field_advantage=hfa, k=k,
+                                                                        season_reset=sr,
+                                                                        end_date=datetime(2028, 10, 22),
+                                                                        reset_date=datetime(1, 1, 1))
+
+# if season_reset, k=33, hfa=44
+# if no season_reset, k=25, hfa=44
+
+# with variable sr:
+# k=30, hfa=45, sr=0.55
 
 # for elo_rating in elo_ratings:
 #     print(elo_rating, ":", elo_ratings[elo_rating])
 #
 sorted_elos = sorted(elo_ratings, key=elo_ratings.get)
+# sorted_elos.reverse()
 # for elo_rating in sorted_elos:
-#     print(elo_rating, elo_ratings[elo_rating])
+#     if elo_rating not in ["Boston", "Kansas City"]:
+#         print(elo_rating)
+#         print(elo_rating, elo_ratings[elo_rating])
 
 # number = 44.5
 
 clubs, _ = elo.get_clubs_and_matches(matches)
 elo.plot_elo_ratings_over_time(arr, dates, clubs, club_metadata=club_metadata)
 
-# home = "Wave"
-# away = "Dash"
-# print(elo_ratings[home], ",", elo_ratings[away])
-# print(elo.expected_result(elo_ratings[home] + 38, elo_ratings[away]))
+# home = "Gotham"
+# away = "Pride"
+# print(str(elo_ratings[home]) + ", " + str(elo_ratings[away]))
+# print(elo.expected_result(elo_ratings[home] + hfa, elo_ratings[away]))

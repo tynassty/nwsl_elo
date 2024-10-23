@@ -1449,3 +1449,10 @@
 2024-10-13, Royals, Reign, 3, 0, vs
 2024-10-13, Spirit, Louisville, 4, 1, vs
 2024-10-13, Wave, Dash, 0, 2, vs
+2024-10-18, Reign, Dash, 2, 1, vs
+2024-10-19, Current, Wave, 4, 1, vs
+2024-10-19, Louisville, Thorns, 1, 0, vs
+2024-10-19, Bay FC, Courage, 1, 0, vs
+2024-10-20, Gotham, Pride, 3, 1, vs
+2024-10-20, Spirit, Red Stars, 2, 0, vs
+2024-10-20, Angel City, Royals, 1, 1, vs

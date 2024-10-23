@@ -87,7 +87,7 @@ def clean_name(state_name):
 
 
 if __name__ == '__main__':
-    # matches = read_matches("matches.txt")
+    # matches = read_matches("nwsl_matches.txt")
     # for match in matches:
     #     print(match)
 
