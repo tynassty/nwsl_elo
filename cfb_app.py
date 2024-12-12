@@ -4,7 +4,7 @@ import elo
 import ncaaf_test
 import reader
 
-matches = reader.read_matches("ncaaf.txt")
+matches = reader.read_matches("ncaaf_matches.txt")
 hfa = 65
 elo_ratings, arr, dates, total_results, dif \
     = elo.calculate_elo_ratings(matches, initial_elo=1000, home_field_advantage=hfa, k=76, season_reset=False,

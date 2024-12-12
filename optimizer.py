@@ -4,7 +4,7 @@ import datetime
 import elo
 import reader
 
-matches = reader.read_matches("ncaaf.txt")
+matches = reader.read_matches("ncaaf_matches.txt")
 
 hfa = 60
 k = 40

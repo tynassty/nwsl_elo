@@ -1,1458 +1,1472 @@
-2013-04-13, Kansas City, Thorns, 1, 1, vs
-2013-04-14, Boston, Spirit, 1, 1, vs
-2013-04-14, Red Stars, Reign, 1, 1, vs
-2013-04-14, Sky Blue, Flash, 1, 0, vs
-2013-04-20, Spirit, Flash, 1, 1, vs
-2013-04-21, Thorns, Reign, 2, 1, vs
-2013-04-26, Kansas City, Reign, 2, 0, vs
-2013-04-27, Flash, Boston, 1, 2, vs
-2013-04-27, Red Stars, Thorns, 0, 2, vs
-2013-04-27, Spirit, Sky Blue, 1, 2, vs
-2013-05-01, Flash, Sky Blue, 2, 1, vs
-2013-05-04, Boston, Red Stars, 4, 1, vs
-2013-05-04, Reign, Kansas City, 0, 1, vs
-2013-05-04, Spirit, Thorns, 1, 2, vs
-2013-05-08, Sky Blue, Red Stars, 1, 1, vs
-2013-05-11, Flash, Kansas City, 2, 1, vs
-2013-05-11, Sky Blue, Reign, 2, 0, vs
-2013-05-11, Spirit, Boston, 1, 1, vs
-2013-05-12, Red Stars, Thorns, 0, 2, vs
-2013-05-16, Reign, Spirit, 2, 4, vs
-2013-05-16, Thorns, Sky Blue, 0, 1, vs
-2013-05-18, Kansas City, Boston, 2, 0, vs
-2013-05-19, Reign, Sky Blue, 0, 3, vs
-2013-05-19, Thorns, Spirit, 2, 0, vs
-2013-05-24, Flash, Red Stars, 2, 1, vs
-2013-05-25, Boston, Spirit, 3, 0, vs
-2013-05-25, Kansas City, Sky Blue, 0, 1, vs
-2013-05-25, Reign, Thorns, 0, 1, vs
-2013-06-01, Sky Blue, Boston, 5, 1, vs
-2013-06-01, Thorns, Red Stars, 0, 2, vs
-2013-06-05, Boston, Flash, 2, 2, vs
-2013-06-06, Thorns, Kansas City, 4, 3, vs
-2013-06-08, Sky Blue, Flash, 0, 3, vs
-2013-06-09, Red Stars, Boston, 1, 0, vs
-2013-06-09, Reign, Kansas City, 0, 1, vs
-2013-06-13, Red Stars, Kansas City, 0, 2, vs
-2013-06-15, Spirit, Flash, 0, 2, vs
-2013-06-16, Boston, Sky Blue, 2, 3, vs
-2013-06-16, Kansas City, Red Stars, 1, 3, vs
-2013-06-16, Thorns, Reign, 2, 0, vs
-2013-06-19, Red Stars, Flash, 2, 2, vs
-2013-06-22, Sky Blue, Thorns, 0, 0, vs
-2013-06-23, Flash, Reign, 1, 1, vs
-2013-06-23, Kansas City, Spirit, 2, 0, vs
-2013-06-26, Boston, Reign, 1, 2, vs
-2013-06-26, Sky Blue, Kansas City, 2, 2, vs
-2013-06-28, Flash, Spirit, 4, 0, vs
-2013-06-29, Reign, Red Stars, 3, 1, vs
-2013-06-30, Boston, Sky Blue, 3, 2, vs
-2013-06-30, Kansas City, Thorns, 2, 0, vs
-2013-07-03, Reign, Boston, 1, 1, vs
-2013-07-03, Spirit, Kansas City, 1, 1, vs
-2013-07-04, Red Stars, Flash, 1, 0, vs
-2013-07-06, Sky Blue, Spirit, 1, 0, vs
-2013-07-06, Thorns, Boston, 0, 2, vs
-2013-07-07, Kansas City, Flash, 0, 0, vs
-2013-07-10, Spirit, Red Stars, 0, 2, vs
-2013-07-11, Reign, Flash, 3, 2, vs
-2013-07-13, Sky Blue, Boston, 0, 0, vs
-2013-07-14, Red Stars, Kansas City, 3, 3, vs
-2013-07-14, Reign, Spirit, 2, 1, vs
-2013-07-14, Thorns, Flash, 1, 1, vs
-2013-07-20, Kansas City, Reign, 2, 0, vs
-2013-07-20, Red Stars, Spirit, 1, 0, vs
-2013-07-21, Boston, Thorns, 1, 2, vs
-2013-07-21, Flash, Sky Blue, 3, 0, vs
-2013-07-24, Kansas City, Boston, 3, 0, vs
-2013-07-25, Reign, Red Stars, 4, 1, vs
-2013-07-27, Spirit, Boston, 2, 5, vs
-2013-07-28, Sky Blue, Kansas City, 0, 1, vs
-2013-07-28, Thorns, Red Stars, 3, 3, vs
-2013-07-31, Flash, Spirit, 3, 0, vs
-2013-07-31, Thorns, Sky Blue, 3, 1, vs
-2013-08-03, Boston, Flash, 2, 2, vs
-2013-08-03, Red Stars, Reign, 3, 1, vs
-2013-08-03, Sky Blue, Spirit, 1, 0, vs
-2013-08-04, Thorns, Kansas City, 2, 3, vs
-2013-08-07, Boston, Thorns, 2, 1, vs
-2013-08-07, Flash, Reign, 1, 0, vs
-2013-08-07, Spirit, Red Stars, 1, 0, vs
-2013-08-10, Boston, Kansas City, 1, 0, vs
-2013-08-10, Flash, Thorns, 0, 0, vs
-2013-08-10, Red Stars, Sky Blue, 3, 3, vs
-2013-08-10, Spirit, Reign, 1, 0, vs
-2013-08-17, Flash, Boston, 2, 1, vs
-2013-08-17, Reign, Thorns, 1, 2, vs
-2013-08-18, Kansas City, Red Stars, 1, 2, vs
-2013-08-18, Spirit, Sky Blue, 1, 1, vs
-2013-08-24, Flash, Sky Blue, 2, 0, vs
-2013-08-24, Kansas City, Thorns, 2, 3, vs
-2013-08-31, Flash, Thorns, 0, 2, vs
-2014-04-12, Dash, Thorns, 0, 1, vs
-2014-04-12, Kansas City, Sky Blue, 1, 1, vs
-2014-04-13, Reign, Boston, 3, 0, vs
-2014-04-13, Spirit, Flash, 1, 3, vs
-2014-04-19, Red Stars, Flash, 1, 0, vs
-2014-04-19, Sky Blue, Thorns, 1, 1, vs
-2014-04-19, Spirit, Kansas City, 3, 1, vs
-2014-04-20, Boston, Dash, 2, 3, vs
-2014-04-23, Reign, Spirit, 3, 1, vs
-2014-04-26, Red Stars, Spirit, 0, 1, vs
-2014-04-26, Thorns, Kansas City, 3, 1, vs
-2014-04-27, Boston, Sky Blue, 3, 2, vs
-2014-04-27, Reign, Dash, 2, 0, vs
-2014-04-30, Kansas City, Red Stars, 1, 0, vs
-2014-04-30, Sky Blue, Reign, 0, 2, vs
-2014-05-03, Dash, Kansas City, 0, 4, vs
-2014-05-03, Flash, Thorns, 1, 1, vs
-2014-05-03, Sky Blue, Boston, 1, 0, vs
-2014-05-03, Spirit, Reign, 1, 2, vs
-2014-05-07, Flash, Kansas City, 2, 1, vs
-2014-05-07, Sky Blue, Red Stars, 1, 1, vs
-2014-05-10, Thorns, Reign, 0, 1, vs
-2014-05-11, Flash, Sky Blue, 2, 0, vs
-2014-05-11, Kansas City, Spirit, 2, 1, vs
-2014-05-11, Red Stars, Dash, 1, 0, vs
-2014-05-14, Dash, Thorns, 0, 1, vs
-2014-05-14, Reign, Kansas City, 3, 2, vs
-2014-05-15, Boston, Red Stars, 1, 3, vs
-2014-05-17, Spirit, Flash, 3, 2, vs
-2014-05-18, Boston, Red Stars, 1, 4, vs
-2014-05-18, Kansas City, Dash, 2, 2, vs
-2014-05-21, Kansas City, Reign, 1, 1, vs
-2014-05-21, Spirit, Sky Blue, 3, 3, vs
-2014-05-21, Thorns, Flash, 2, 1, vs
-2014-05-23, Dash, Red Stars, 1, 3, vs
-2014-05-24, Thorns, Sky Blue, 0, 1, vs
-2014-05-25, Boston, Kansas City, 0, 2, vs
-2014-05-25, Reign, Flash, 2, 2, vs
-2014-05-26, Spirit, Dash, 3, 2, vs
-2014-05-28, Boston, Thorns, 4, 1, vs
-2014-05-28, Sky Blue, Red Stars, 0, 2, vs
-2014-05-31, Flash, Dash, 1, 2, vs
-2014-06-01, Boston, Spirit, 2, 3, vs
-2014-06-01, Sky Blue, Reign, 1, 3, vs
-2014-06-04, Kansas City, Flash, 1, 0, vs
-2014-06-04, Red Stars, Spirit, 0, 1, vs
-2014-06-07, Kansas City, Boston, 2, 0, vs
-2014-06-07, Reign, Red Stars, 3, 1, vs
-2014-06-07, Thorns, Flash, 0, 5, vs
-2014-06-08, Sky Blue, Dash, 0, 3, vs
-2014-06-11, Boston, Spirit, 2, 0, vs
-2014-06-11, Dash, Flash, 2, 1, vs
-2014-06-14, Dash, Kansas City, 1, 2, vs
-2014-06-15, Red Stars, Sky Blue, 2, 2, vs
-2014-06-15, Thorns, Spirit, 2, 0, vs
-2014-06-18, Flash, Red Stars, 2, 0, vs
-2014-06-19, Boston, Reign, 0, 2, vs
-2014-06-21, Kansas City, Red Stars, 1, 0, vs
-2014-06-21, Spirit, Thorns, 1, 6, vs
-2014-06-22, Flash, Reign, 1, 2, vs
-2014-06-22, Sky Blue, Boston, 1, 1, vs
-2014-06-25, Thorns, Sky Blue, 1, 2, vs
-2014-06-27, Flash, Boston, 2, 1, vs
-2014-06-28, Dash, Spirit, 0, 1, vs
-2014-06-28, Kansas City, Thorns, 1, 0, vs
-2014-06-28, Reign, Sky Blue, 0, 0, vs
-2014-07-02, Flash, Reign, 1, 2, vs
-2014-07-02, Spirit, Boston, 3, 3, vs
-2014-07-04, Thorns, Red Stars, 2, 2, vs
-2014-07-05, Dash, Flash, 1, 4, vs
-2014-07-06, Reign, Boston, 3, 2, vs
-2014-07-06, Sky Blue, Kansas City, 0, 5, vs
-2014-07-09, Red Stars, Thorns, 1, 1, vs
-2014-07-11, Dash, Boston, 2, 1, vs
-2014-07-12, Flash, Spirit, 0, 1, vs
-2014-07-12, Red Stars, Reign, 1, 0, vs
-2014-07-13, Thorns, Kansas City, 7, 1, vs
-2014-07-17, Dash, Spirit, 1, 1, vs
-2014-07-17, Red Stars, Thorns, 1, 1, vs
-2014-07-18, Flash, Kansas City, 1, 1, vs
-2014-07-20, Reign, Red Stars, 1, 1, vs
-2014-07-20, Sky Blue, Spirit, 4, 2, vs
-2014-07-20, Thorns, Boston, 6, 3, vs
-2014-07-23, Spirit, Thorns, 1, 1, vs
-2014-07-25, Flash, Boston, 2, 4, vs
-2014-07-26, Red Stars, Dash, 0, 0, vs
-2014-07-27, Kansas City, Sky Blue, 2, 1, vs
-2014-07-27, Reign, Thorns, 5, 0, vs
-2014-07-30, Dash, Reign, 1, 4, vs
-2014-07-30, Spirit, Kansas City, 2, 1, vs
-2014-07-31, Sky Blue, Flash, 1, 0, vs
-2014-08-02, Kansas City, Reign, 1, 1, vs
-2014-08-02, Spirit, Red Stars, 2, 1, vs
-2014-08-03, Boston, Flash, 3, 4, vs
-2014-08-03, Thorns, Dash, 1, 0, vs
-2014-08-06, Kansas City, Boston, 2, 1, vs
-2014-08-06, Reign, Dash, 4, 1, vs
-2014-08-09, Dash, Sky Blue, 1, 3, vs
-2014-08-09, Red Stars, Kansas City, 2, 1, vs
-2014-08-09, Reign, Spirit, 1, 1, vs
-2014-08-10, Boston, Thorns, 2, 0, vs
-2014-08-13, Flash, Sky Blue, 2, 3, vs
-2014-08-13, Red Stars, Boston, 2, 0, vs
-2014-08-16, Red Stars, Flash, 3, 3, vs
-2014-08-16, Spirit, Sky Blue, 0, 1, vs
-2014-08-17, Boston, Dash, 1, 0, vs
-2014-08-17, Thorns, Reign, 1, 0, vs
-2014-08-20, Sky Blue, Dash, 1, 0, vs
-2014-08-23, Kansas City, Thorns, 2, 0, vs
-2014-08-24, Reign, Spirit, 2, 1, vs
-2014-08-31, Reign, Kansas City, 1, 2, vs
-2015-04-10, Dash, Spirit, 2, 0, vs
-2015-04-11, Thorns, Boston, 4, 1, vs
-2015-04-12, Kansas City, Sky Blue, 0, 1, vs
-2015-04-12, Reign, Flash, 5, 1, vs
-2015-04-18, Red Stars, Reign, 3, 2, vs
-2015-04-18, Sky Blue, Dash, 1, 1, vs
-2015-04-18, Spirit, Kansas City, 3, 1, vs
-2015-04-18, Thorns, Flash, 1, 0, vs
-2015-04-23, Kansas City, Reign, 1, 0, vs
-2015-04-25, Red Stars, Thorns, 2, 2, vs
-2015-04-26, Boston, Dash, 3, 2, vs
-2015-04-26, Sky Blue, Spirit, 1, 3, vs
-2015-05-02, Dash, Kansas City, 0, 2, vs
-2015-05-02, Flash, Boston, 3, 1, vs
-2015-05-02, Red Stars, Sky Blue, 1, 0, vs
-2015-05-02, Reign, Spirit, 3, 1, vs
-2015-05-08, Flash, Kansas City, 0, 1, vs
-2015-05-09, Red Stars, Boston, 3, 0, vs
-2015-05-09, Sky Blue, Reign, 1, 1, vs
-2015-05-09, Thorns, Spirit, 2, 2, vs
-2015-05-14, Kansas City, Flash, 0, 0, vs
-2015-05-15, Dash, Red Stars, 2, 2, vs
-2015-05-16, Boston, Thorns, 1, 0, vs
-2015-05-16, Spirit, Sky Blue, 1, 0, vs
-2015-05-22, Boston, Sky Blue, 1, 1, vs
-2015-05-23, Flash, Spirit, 3, 2, vs
-2015-05-23, Kansas City, Red Stars, 1, 2, vs
-2015-05-23, Thorns, Dash, 0, 1, vs
-2015-05-30, Boston, Kansas City, 1, 0, vs
-2015-05-30, Reign, Red Stars, 0, 0, vs
-2015-05-30, Spirit, Thorns, 2, 1, vs
-2015-05-31, Sky Blue, Dash, 1, 1, vs
-2015-06-06, Dash, Thorns, 0, 0, vs
-2015-06-06, Flash, Red Stars, 3, 1, vs
-2015-06-06, Reign, Sky Blue, 3, 0, vs
-2015-06-06, Spirit, Boston, 1, 1, vs
-2015-06-19, Thorns, Kansas City, 1, 1, vs
-2015-06-20, Dash, Flash, 2, 0, vs
-2015-06-21, Boston, Reign, 2, 3, vs
-2015-06-27, Reign, Kansas City, 2, 1, vs
-2015-06-27, Spirit, Dash, 1, 0, vs
-2015-06-28, Boston, Flash, 0, 2, vs
-2015-06-28, Sky Blue, Red Stars, 0, 3, vs
-2015-07-03, Flash, Reign, 1, 1, vs
-2015-07-03, Kansas City, Spirit, 3, 0, vs
-2015-07-03, Thorns, Sky Blue, 2, 1, vs
-2015-07-09, Boston, Kansas City, 2, 3, vs
-2015-07-11, Reign, Flash, 4, 2, vs
-2015-07-11, Sky Blue, Thorns, 1, 0, vs
-2015-07-12, Dash, Red Stars, 1, 2, vs
-2015-07-18, Red Stars, Boston, 1, 1, vs
-2015-07-18, Spirit, Reign, 3, 0, vs
-2015-07-19, Flash, Sky Blue, 3, 3, vs
-2015-07-20, Kansas City, Dash, 1, 1, vs
-2015-07-22, Boston, Red Stars, 1, 2, vs
-2015-07-22, Thorns, Reign, 0, 1, vs
-2015-07-25, Flash, Dash, 0, 1, vs
-2015-07-25, Sky Blue, Boston, 3, 1, vs
-2015-07-25, Spirit, Red Stars, 1, 1, vs
-2015-07-26, Reign, Thorns, 3, 0, vs
-2015-07-29, Dash, Kansas City, 3, 2, vs
-2015-07-29, Flash, Thorns, 0, 2, vs
-2015-08-01, Boston, Reign, 1, 2, vs
-2015-08-01, Red Stars, Kansas City, 2, 2, vs
-2015-08-01, Sky Blue, Flash, 1, 2, vs
-2015-08-01, Spirit, Dash, 3, 1, vs
-2015-08-05, Thorns, Boston, 5, 2, vs
-2015-08-07, Dash, Sky Blue, 0, 2, vs
-2015-08-08, Boston, Spirit, 2, 1, vs
-2015-08-08, Kansas City, Flash, 4, 0, vs
-2015-08-09, Thorns, Red Stars, 2, 1, vs
-2015-08-12, Kansas City, Thorns, 3, 0, vs
-2015-08-12, Red Stars, Sky Blue, 1, 1, vs
-2015-08-12, Reign, Dash, 2, 1, vs
-2015-08-12, Spirit, Flash, 1, 1, vs
-2015-08-16, Red Stars, Spirit, 1, 2, vs
-2015-08-21, Dash, Reign, 0, 3, vs
-2015-08-22, Kansas City, Boston, 3, 0, vs
-2015-08-22, Sky Blue, Thorns, 1, 0, vs
-2015-08-23, Red Stars, Flash, 0, 0, vs
-2015-08-26, Reign, Boston, 3, 1, vs
-2015-08-27, Kansas City, Spirit, 0, 0, vs
-2015-08-29, Flash, Red Stars, 0, 2, vs
-2015-08-29, Reign, Sky Blue, 1, 1, vs
-2015-08-30, Dash, Boston, 1, 0, vs
-2015-08-30, Thorns, Spirit, 3, 3, vs
-2015-09-02, Sky Blue, Kansas City, 2, 3, vs
-2015-09-04, Flash, Thorns, 3, 2, vs
-2015-09-05, Spirit, Reign, 1, 2, vs
-2015-09-06, Red Stars, Dash, 1, 1, vs
-2015-09-13, Red Stars, Kansas City, 0, 3, vs
-2015-09-13, Reign, Spirit, 3, 0, vs
-2015-10-01, Kansas City, Reign, 1, 0, N
-2016-04-16, Dash, Red Stars, 3, 1, vs
-2016-04-16, Kansas City, Flash, 0, 1, vs
-2016-04-16, Spirit, Boston, 1, 0, vs
-2016-04-17, Reign, Sky Blue, 1, 2, vs
-2016-04-17, Thorns, Pride, 2, 1, vs
-2016-04-23, Kansas City, Thorns, 1, 1, vs
-2016-04-23, Pride, Dash, 3, 1, vs
-2016-04-23, Red Stars, Flash, 1, 0, vs
-2016-04-24, Boston, Reign, 0, 3, vs
-2016-04-24, Sky Blue, Spirit, 1, 2, vs
-2016-04-29, Dash, Sky Blue, 0, 0, vs
-2016-04-29, Flash, Spirit, 0, 3, vs
-2016-05-01, Boston, Thorns, 0, 1, vs
-2016-05-01, Red Stars, Pride, 1, 0, vs
-2016-05-01, Reign, Kansas City, 1, 0, vs
-2016-05-07, Boston, Red Stars, 0, 1, vs
-2016-05-07, Kansas City, Dash, 1, 2, vs
-2016-05-07, Sky Blue, Flash, 1, 2, vs
-2016-05-07, Spirit, Thorns, 0, 0, vs
-2016-05-08, Pride, Reign, 2, 0, vs
-2016-05-13, Kansas City, Red Stars, 0, 0, vs
-2016-05-13, Sky Blue, Boston, 1, 0, vs
-2016-05-14, Pride, Flash, 1, 0, vs
-2016-05-14, Reign, Thorns, 1, 1, vs
-2016-05-14, Spirit, Dash, 1, 0, vs
-2016-05-20, Dash, Pride, 0, 1, vs
-2016-05-21, Flash, Sky Blue, 5, 2, vs
-2016-05-21, Thorns, Spirit, 4, 1, vs
-2016-05-22, Boston, Kansas City, 1, 0, vs
-2016-05-22, Reign, Red Stars, 1, 2, vs
-2016-05-27, Flash, Boston, 4, 0, vs
-2016-05-28, Kansas City, Pride, 2, 0, vs
-2016-05-29, Red Stars, Sky Blue, 1, 1, vs
-2016-05-29, Thorns, Reign, 0, 0, vs
-2016-06-10, Boston, Spirit, 1, 1, vs
-2016-06-11, Flash, Pride, 1, 0, vs
-2016-06-11, Sky Blue, Kansas City, 1, 1, vs
-2016-06-12, Red Stars, Thorns, 1, 1, vs
-2016-06-12, Reign, Dash, 1, 0, vs
-2016-06-17, Flash, Thorns, 0, 2, vs
-2016-06-18, Red Stars, Boston, 3, 0, vs
-2016-06-18, Spirit, Pride, 2, 0, vs
-2016-06-19, Dash, Kansas City, 0, 1, vs
-2016-06-19, Sky Blue, Reign, 0, 0, vs
-2016-06-22, Thorns, Red Stars, 2, 0, vs
-2016-06-23, Pride, Dash, 1, 0, vs
-2016-06-24, Flash, Boston, 7, 1, vs
-2016-06-25, Kansas City, Reign, 0, 0, vs
-2016-06-25, Spirit, Sky Blue, 1, 2, vs
-2016-06-26, Pride, Thorns, 1, 2, vs
-2016-07-01, Flash, Red Stars, 2, 0, vs
-2016-07-02, Reign, Boston, 2, 0, vs
-2016-07-02, Spirit, Kansas City, 2, 0, vs
-2016-07-02, Thorns, Sky Blue, 2, 1, vs
-2016-07-09, Flash, Reign, 3, 2, vs
-2016-07-09, Sky Blue, Dash, 1, 0, vs
-2016-07-09, Spirit, Red Stars, 2, 0, vs
-2016-07-09, Thorns, Kansas City, 1, 2, vs
-2016-07-10, Pride, Boston, 2, 1, vs
-2016-07-16, Dash, Thorns, 3, 0, vs
-2016-07-16, Kansas City, Spirit, 2, 3, vs
-2016-07-16, Pride, Red Stars, 0, 1, vs
-2016-07-16, Reign, Flash, 1, 1, vs
-2016-07-17, Boston, Sky Blue, 2, 3, vs
-2016-07-23, Flash, Kansas City, 0, 1, vs
-2016-07-23, Red Stars, Dash, 1, 1, vs
-2016-07-23, Reign, Pride, 5, 2, vs
-2016-07-23, Sky Blue, Spirit, 1, 0, vs
-2016-07-30, Dash, Flash, 3, 3, vs
-2016-07-30, Red Stars, Kansas City, 1, 0, vs
-2016-07-30, Thorns, Reign, 1, 0, vs
-2016-07-31, Boston, Pride, 1, 0, vs
-2016-07-31, Spirit, Sky Blue, 3, 1, vs
-2016-08-18, Dash, Spirit, 1, 2, vs
-2016-08-26, Pride, Spirit, 1, 2, vs
-2016-08-27, Flash, Dash, 2, 2, vs
-2016-08-27, Reign, Thorns, 3, 1, vs
-2016-08-27, Sky Blue, Red Stars, 1, 3, vs
-2016-08-28, Kansas City, Boston, 0, 2, vs
-2016-08-31, Boston, Dash, 1, 3, vs
-2016-09-03, Dash, Pride, 4, 2, vs
-2016-09-03, Spirit, Flash, 1, 1, vs
-2016-09-04, Kansas City, Sky Blue, 2, 1, vs
-2016-09-04, Red Stars, Reign, 2, 2, vs
-2016-09-04, Thorns, Boston, 5, 1, vs
-2016-09-07, Boston, Flash, 2, 2, vs
-2016-09-07, Red Stars, Kansas City, 2, 3, vs
-2016-09-07, Sky Blue, Pride, 1, 1, vs
-2016-09-07, Spirit, Reign, 2, 1, vs
-2016-09-07, Thorns, Dash, 3, 0, vs
-2016-09-10, Pride, Sky Blue, 1, 2, vs
-2016-09-11, Dash, Boston, 4, 1, vs
-2016-09-11, Kansas City, Red Stars, 0, 0, vs
-2016-09-11, Reign, Spirit, 2, 0, vs
-2016-09-11, Thorns, Flash, 3, 2, vs
-2016-09-24, Boston, Flash, 0, 4, vs
-2016-09-24, Pride, Kansas City, 1, 2, vs
-2016-09-24, Red Stars, Spirit, 3, 1, vs
-2016-09-25, Dash, Reign, 2, 3, vs
-2016-09-25, Sky Blue, Thorns, 1, 3, vs
-2016-09-30, Spirit, Red Stars, 2, 1, vs
-2016-10-02, Thorns, Flash, 3, 4, vs
-2016-10-09, Spirit, Flash, 2, 2, N
-2017-04-15, Dash, Red Stars, 2, 0, vs
-2017-04-15, Reign, Sky Blue, 1, 1, vs
-2017-04-15, Spirit, Courage, 0, 1, vs
-2017-04-15, Thorns, Pride, 2, 0, vs
-2017-04-16, Kansas City, Boston, 2, 0, vs
-2017-04-22, Courage, Thorns, 1, 0, vs
-2017-04-22, Pride, Spirit, 1, 1, vs
-2017-04-22, Red Stars, Kansas City, 1, 0, vs
-2017-04-22, Reign, Dash, 5, 1, vs
-2017-04-23, Boston, Sky Blue, 1, 0, vs
-2017-04-29, Boston, Reign, 3, 0, vs
-2017-04-29, Courage, Pride, 3, 1, vs
-2017-04-29, Spirit, Dash, 0, 1, vs
-2017-04-29, Thorns, Red Stars, 1, 0, vs
-2017-04-30, Sky Blue, Kansas City, 1, 0, vs
-2017-05-06, Red Stars, Dash, 2, 0, vs
-2017-05-06, Spirit, Sky Blue, 4, 3, vs
-2017-05-06, Thorns, Reign, 2, 2, vs
-2017-05-07, Boston, Courage, 0, 1, vs
-2017-05-07, Kansas City, Pride, 1, 1, vs
-2017-05-13, Dash, Sky Blue, 1, 3, vs
-2017-05-13, Kansas City, Thorns, 0, 0, vs
-2017-05-13, Reign, Spirit, 6, 2, vs
-2017-05-14, Pride, Courage, 3, 1, vs
-2017-05-14, Red Stars, Boston, 1, 1, vs
-2017-05-19, Boston, Thorns, 2, 2, vs
-2017-05-20, Sky Blue, Dash, 2, 1, vs
-2017-05-20, Spirit, Kansas City, 0, 1, vs
-2017-05-21, Courage, Red Stars, 1, 3, vs
-2017-05-21, Reign, Pride, 1, 1, vs
-2017-05-24, Courage, Sky Blue, 2, 0, vs
-2017-05-27, Dash, Reign, 0, 2, vs
-2017-05-27, Kansas City, Spirit, 3, 2, vs
-2017-05-27, Red Stars, Courage, 3, 2, vs
-2017-05-27, Sky Blue, Pride, 2, 1, vs
-2017-05-27, Thorns, Boston, 2, 0, vs
-2017-06-03, Courage, Kansas City, 2, 0, vs
-2017-06-03, Pride, Boston, 2, 0, vs
-2017-06-03, Sky Blue, Thorns, 0, 2, vs
-2017-06-03, Spirit, Dash, 2, 0, vs
-2017-06-04, Red Stars, Reign, 1, 0, vs
-2017-06-17, Courage, Boston, 3, 1, vs
-2017-06-17, Dash, Pride, 2, 4, vs
-2017-06-17, Kansas City, Reign, 2, 2, vs
-2017-06-17, Red Stars, Spirit, 1, 1, vs
-2017-06-17, Thorns, Sky Blue, 1, 3, vs
-2017-06-24, Boston, Courage, 0, 1, vs
-2017-06-24, Pride, Dash, 0, 2, vs
-2017-06-24, Reign, Kansas City, 1, 1, vs
-2017-06-24, Spirit, Thorns, 1, 0, vs
-2017-06-25, Red Stars, Sky Blue, 2, 1, vs
-2017-06-28, Dash, Boston, 0, 0, vs
-2017-06-28, Reign, Red Stars, 2, 1, vs
-2017-06-28, Sky Blue, Pride, 2, 3, vs
-2017-06-28, Thorns, Kansas City, 3, 0, vs
-2017-07-01, Boston, Spirit, 1, 0, vs
-2017-07-01, Courage, Sky Blue, 0, 1, vs
-2017-07-01, Pride, Red Stars, 0, 1, vs
-2017-07-01, Reign, Thorns, 2, 0, vs
-2017-07-02, Kansas City, Dash, 1, 2, vs
-2017-07-07, Boston, Red Stars, 0, 0, vs
-2017-07-08, Courage, Reign, 2, 0, vs
-2017-07-08, Dash, Thorns, 1, 1, vs
-2017-07-08, Sky Blue, Kansas City, 3, 2, vs
-2017-07-08, Spirit, Pride, 2, 2, vs
-2017-07-15, Dash, Spirit, 2, 1, vs
-2017-07-15, Pride, Kansas City, 4, 1, vs
-2017-07-15, Reign, Boston, 1, 1, vs
-2017-07-15, Sky Blue, Red Stars, 2, 2, vs
-2017-07-15, Thorns, Courage, 1, 0, vs
-2017-07-22, Dash, Boston, 1, 0, vs
-2017-07-22, Red Stars, Pride, 2, 1, vs
-2017-07-22, Reign, Sky Blue, 5, 4, vs
-2017-07-22, Thorns, Spirit, 2, 1, vs
-2017-08-04, Boston, Kansas City, 2, 2, vs
-2017-08-04, Sky Blue, Spirit, 1, 4, vs
-2017-08-05, Courage, Reign, 1, 0, vs
-2017-08-05, Pride, Red Stars, 1, 1, vs
-2017-08-05, Thorns, Dash, 2, 1, vs
-2017-08-08, Pride, Spirit, 3, 0, vs
-2017-08-10, Kansas City, Courage, 0, 1, vs
-2017-08-12, Pride, Sky Blue, 5, 0, vs
-2017-08-12, Red Stars, Thorns, 2, 3, vs
-2017-08-12, Spirit, Boston, 2, 2, vs
-2017-08-13, Dash, Kansas City, 0, 1, vs
-2017-08-13, Reign, Courage, 1, 2, vs
-2017-08-16, Boston, Dash, 1, 3, vs
-2017-08-16, Kansas City, Thorns, 2, 1, vs
-2017-08-16, Red Stars, Reign, 1, 2, vs
-2017-08-19, Boston, Pride, 1, 2, vs
-2017-08-19, Courage, Spirit, 2, 0, vs
-2017-08-19, Sky Blue, Reign, 5, 4, vs
-2017-08-19, Thorns, Dash, 2, 0, vs
-2017-08-20, Red Stars, Kansas City, 1, 3, vs
-2017-08-26, Kansas City, Pride, 1, 2, vs
-2017-08-26, Reign, Thorns, 1, 2, vs
-2017-08-26, Sky Blue, Boston, 1, 0, vs
-2017-08-26, Spirit, Red Stars, 1, 2, vs
-2017-08-30, Spirit, Courage, 2, 3, vs
-2017-09-02, Pride, Boston, 4, 2, vs
-2017-09-02, Thorns, Spirit, 4, 0, vs
-2017-09-03, Dash, Reign, 0, 1, vs
-2017-09-03, Kansas City, Sky Blue, 4, 1, vs
-2017-09-03, Red Stars, Courage, 2, 1, vs
-2017-09-07, Pride, Reign, 1, 1, vs
-2017-09-09, Courage, Dash, 1, 0, vs
-2017-09-09, Kansas City, Red Stars, 0, 0, vs
-2017-09-10, Boston, Thorns, 0, 1, vs
-2017-09-10, Sky Blue, Spirit, 1, 2, vs
-2017-09-23, Dash, Red Stars, 2, 3, vs
-2017-09-23, Pride, Thorns, 0, 0, vs
-2017-09-23, Spirit, Boston, 0, 3, vs
-2017-09-24, Reign, Kansas City, 0, 1, vs
-2017-09-24, Sky Blue, Courage, 1, 1, vs
-2017-09-27, Dash, Courage, 0, 4, vs
-2017-09-30, Boston, Sky Blue, 3, 4, vs
-2017-09-30, Courage, Pride, 2, 3, vs
-2017-09-30, Spirit, Reign, 2, 3, vs
-2017-09-30, Thorns, Red Stars, 3, 1, vs
-2017-10-01, Kansas City, Dash, 1, 1, vs
-2017-10-07, Thorns, Pride, 4, 1, vs
-2017-10-08, Courage, Red Stars, 1, 0, vs
-2017-10-14, Courage, Thorns, 0, 1, N
-2018-03-24, Courage, Thorns, 1, 0, vs
-2018-03-24, Pride, Royals, 1, 1, vs
-2018-03-24, Reign, Spirit, 2, 1, vs
-2018-03-25, Dash, Red Stars, 1, 1, vs
-2018-03-30, Dash, Royals, 0, 0, vs
-2018-03-31, Courage, Sky Blue, 1, 0, vs
-2018-03-31, Red Stars, Thorns, 2, 3, vs
-2018-03-31, Spirit, Pride, 2, 0, vs
-2018-04-14, Royals, Red Stars, 0, 1, vs
-2018-04-14, Spirit, Courage, 2, 4, vs
-2018-04-15, Sky Blue, Reign, 0, 1, vs
-2018-04-15, Thorns, Pride, 2, 1, vs
-2018-04-18, Courage, Reign, 1, 0, vs
-2018-04-18, Red Stars, Dash, 3, 0, vs
-2018-04-20, Thorns, Spirit, 1, 1, vs
-2018-04-21, Courage, Royals, 2, 2, vs
-2018-04-21, Red Stars, Sky Blue, 1, 1, vs
-2018-04-22, Pride, Dash, 1, 0, vs
-2018-04-28, Dash, Courage, 0, 2, vs
-2018-04-28, Pride, Reign, 1, 1, vs
-2018-04-28, Royals, Thorns, 1, 1, vs
-2018-04-28, Spirit, Red Stars, 1, 1, vs
-2018-05-02, Red Stars, Pride, 0, 2, vs
-2018-05-05, Royals, Spirit, 2, 0, vs
-2018-05-05, Sky Blue, Dash, 2, 3, vs
-2018-05-05, Thorns, Reign, 2, 3, vs
-2018-05-06, Courage, Red Stars, 1, 1, vs
-2018-05-09, Dash, Thorns, 1, 1, vs
-2018-05-09, Royals, Pride, 0, 0, vs
-2018-05-12, Courage, Spirit, 1, 0, vs
-2018-05-12, Red Stars, Dash, 2, 2, vs
-2018-05-12, Reign, Sky Blue, 4, 1, vs
-2018-05-12, Thorns, Pride, 1, 2, vs
-2018-05-19, Reign, Red Stars, 0, 0, vs
-2018-05-19, Royals, Dash, 1, 0, vs
-2018-05-19, Sky Blue, Courage, 1, 2, vs
-2018-05-19, Spirit, Thorns, 0, 1, vs
-2018-05-23, Dash, Reign, 2, 1, vs
-2018-05-23, Pride, Courage, 3, 4, vs
-2018-05-23, Spirit, Sky Blue, 1, 0, vs
-2018-05-25, Thorns, Royals, 2, 0, vs
-2018-05-26, Red Stars, Pride, 2, 5, vs
-2018-05-26, Sky Blue, Reign, 0, 1, vs
-2018-05-27, Dash, Spirit, 3, 2, vs
-2018-05-30, Thorns, Courage, 1, 4, vs
-2018-06-02, Sky Blue, Royals, 1, 2, vs
-2018-06-02, Spirit, Red Stars, 0, 2, vs
-2018-06-03, Dash, Courage, 1, 1, vs
-2018-06-03, Reign, Pride, 0, 0, vs
-2018-06-08, Sky Blue, Spirit, 0, 0, vs
-2018-06-16, Courage, Royals, 0, 1, vs
-2018-06-16, Pride, Sky Blue, 3, 2, vs
-2018-06-16, Red Stars, Thorns, 1, 1, vs
-2018-06-16, Spirit, Reign, 0, 0, vs
-2018-06-22, Dash, Thorns, 1, 3, vs
-2018-06-23, Red Stars, Royals, 2, 0, vs
-2018-06-23, Reign, Courage, 1, 4, vs
-2018-06-23, Spirit, Pride, 0, 1, vs
-2018-06-27, Pride, Dash, 1, 2, vs
-2018-06-27, Royals, Reign, 0, 0, vs
-2018-06-27, Thorns, Sky Blue, 1, 1, vs
-2018-06-30, Pride, Courage, 0, 3, vs
-2018-06-30, Reign, Thorns, 1, 0, vs
-2018-06-30, Royals, Sky Blue, 3, 1, vs
-2018-07-01, Red Stars, Spirit, 2, 0, vs
-2018-07-04, Courage, Red Stars, 4, 1, vs
-2018-07-06, Thorns, Royals, 4, 0, vs
-2018-07-07, Pride, Spirit, 2, 1, vs
-2018-07-07, Reign, Dash, 3, 1, vs
-2018-07-07, Sky Blue, Red Stars, 1, 3, vs
-2018-07-11, Courage, Spirit, 2, 0, vs
-2018-07-11, Dash, Pride, 3, 1, vs
-2018-07-11, Reign, Royals, 1, 0, vs
-2018-07-14, Red Stars, Reign, 1, 0, vs
-2018-07-14, Royals, Pride, 1, 2, vs
-2018-07-14, Sky Blue, Courage, 0, 4, vs
-2018-07-15, Thorns, Dash, 3, 1, vs
-2018-07-20, Royals, Courage, 0, 0, vs
-2018-07-21, Pride, Reign, 1, 1, vs
-2018-07-21, Sky Blue, Thorns, 1, 2, vs
-2018-07-22, Spirit, Dash, 0, 1, vs
-2018-08-05, Courage, Thorns, 2, 1, vs
-2018-08-05, Dash, Royals, 1, 2, vs
-2018-08-05, Pride, Sky Blue, 2, 2, vs
-2018-08-05, Reign, Spirit, 2, 0, vs
-2018-08-08, Royals, Spirit, 1, 0, vs
-2018-08-10, Red Stars, Courage, 1, 1, vs
-2018-08-11, Pride, Thorns, 0, 2, vs
-2018-08-11, Royals, Reign, 0, 1, vs
-2018-08-11, Sky Blue, Dash, 1, 2, vs
-2018-08-15, Reign, Red Stars, 0, 0, vs
-2018-08-17, Dash, Spirit, 4, 0, vs
-2018-08-18, Sky Blue, Royals, 2, 2, vs
-2018-08-18, Thorns, Red Stars, 2, 2, vs
-2018-08-19, Courage, Pride, 3, 0, vs
-2018-08-21, Reign, Dash, 2, 0, vs
-2018-08-22, Spirit, Royals, 0, 1, vs
-2018-08-22, Thorns, Sky Blue, 2, 1, vs
-2018-08-25, Dash, Sky Blue, 6, 1, vs
-2018-08-25, Pride, Red Stars, 1, 3, vs
-2018-08-25, Reign, Courage, 1, 1, vs
-2018-08-25, Spirit, Thorns, 0, 1, vs
-2018-09-02, Spirit, Sky Blue, 1, 1, vs
-2018-09-04, Red Stars, Sky Blue, 5, 0, vs
-2018-09-07, Thorns, Reign, 3, 1, vs
-2018-09-08, Courage, Dash, 5, 0, vs
-2018-09-08, Royals, Red Stars, 2, 1, vs
-2018-09-08, Sky Blue, Pride, 1, 0, vs
-2018-09-15, Thorns, Reign, 2, 1, vs
-2018-09-18, Courage, Red Stars, 2, 0, N
-2018-09-22, Thorns, Courage, 0, 3, @
-2019-04-13, Courage, Red Stars, 1, 1, vs
-2019-04-13, Spirit, Sky Blue, 2, 0, vs
-2019-04-14, Dash, Reign, 1, 1, vs
-2019-04-14, Pride, Thorns, 0, 2, vs
-2019-04-17, Courage, Pride, 5, 0, vs
-2019-04-20, Red Stars, Thorns, 4, 4, vs
-2019-04-20, Royals, Spirit, 1, 0, vs
-2019-04-20, Sky Blue, Dash, 0, 1, vs
-2019-04-21, Reign, Pride, 1, 1, vs
-2019-04-27, Pride, Royals, 0, 1, vs
-2019-04-28, Dash, Courage, 1, 4, vs
-2019-04-28, Red Stars, Reign, 3, 0, vs
-2019-04-28, Sky Blue, Thorns, 2, 2, vs
-2019-05-03, Royals, Red Stars, 1, 0, vs
-2019-05-04, Courage, Sky Blue, 0, 0, vs
-2019-05-04, Spirit, Reign, 0, 0, vs
-2019-05-05, Dash, Pride, 1, 0, vs
-2019-05-11, Pride, Thorns, 1, 3, vs
-2019-05-11, Royals, Dash, 1, 2, vs
-2019-05-11, Sky Blue, Spirit, 2, 3, vs
-2019-05-12, Red Stars, Courage, 3, 1, vs
-2019-05-18, Reign, Sky Blue, 2, 1, vs
-2019-05-18, Spirit, Thorns, 3, 1, vs
-2019-05-19, Courage, Royals, 1, 1, vs
-2019-05-19, Dash, Red Stars, 1, 2, vs
-2019-05-25, Royals, Pride, 2, 0, vs
-2019-05-25, Sky Blue, Thorns, 0, 1, vs
-2019-05-26, Red Stars, Spirit, 0, 2, vs
-2019-05-27, Reign, Courage, 2, 1, vs
-2019-06-01, Pride, Courage, 0, 3, vs
-2019-06-01, Spirit, Royals, 2, 0, vs
-2019-06-02, Reign, Dash, 1, 1, vs
-2019-06-02, Thorns, Red Stars, 3, 0, vs
-2019-06-15, Courage, Thorns, 1, 1, vs
-2019-06-15, Dash, Pride, 2, 2, vs
-2019-06-15, Reign, Spirit, 1, 1, vs
-2019-06-15, Royals, Sky Blue, 1, 0, vs
-2019-06-21, Thorns, Royals, 0, 0, vs
-2019-06-22, Sky Blue, Pride, 1, 2, vs
-2019-06-22, Spirit, Dash, 0, 0, vs
-2019-06-23, Red Stars, Reign, 0, 1, vs
-2019-06-28, Royals, Reign, 0, 2, vs
-2019-06-29, Dash, Thorns, 1, 2, vs
-2019-06-29, Spirit, Courage, 1, 2, vs
-2019-06-30, Pride, Red Stars, 2, 3, vs
-2019-07-05, Courage, Dash, 5, 2, vs
-2019-07-05, Thorns, Reign, 0, 1, vs
-2019-07-06, Pride, Spirit, 4, 3, vs
-2019-07-06, Red Stars, Sky Blue, 1, 2, vs
-2019-07-12, Sky Blue, Royals, 1, 0, vs
-2019-07-13, Courage, Reign, 2, 0, vs
-2019-07-13, Dash, Red Stars, 0, 1, vs
-2019-07-14, Thorns, Pride, 4, 3, vs
-2019-07-19, Royals, Thorns, 2, 2, vs
-2019-07-20, Pride, Sky Blue, 1, 0, vs
-2019-07-20, Spirit, Dash, 1, 2, vs
-2019-07-21, Red Stars, Courage, 2, 1, vs
-2019-07-24, Sky Blue, Spirit, 0, 1, vs
-2019-07-24, Thorns, Dash, 5, 0, vs
-2019-07-27, Royals, Courage, 1, 2, vs
-2019-07-28, Dash, Sky Blue, 1, 0, vs
-2019-07-28, Reign, Red Stars, 0, 4, vs
-2019-08-02, Courage, Spirit, 1, 0, vs
-2019-08-02, Dash, Reign, 0, 1, vs
-2019-08-03, Red Stars, Royals, 2, 0, vs
-2019-08-03, Thorns, Sky Blue, 1, 1, vs
-2019-08-07, Reign, Thorns, 1, 0, vs
-2019-08-07, Royals, Sky Blue, 3, 0, vs
-2019-08-10, Pride, Dash, 0, 1, vs
-2019-08-10, Spirit, Red Stars, 0, 1, vs
-2019-08-11, Reign, Royals, 1, 3, vs
-2019-08-11, Thorns, Courage, 2, 1, vs
-2019-08-14, Sky Blue, Red Stars, 2, 1, vs
-2019-08-17, Pride, Royals, 0, 2, vs
-2019-08-17, Thorns, Spirit, 3, 1, vs
-2019-08-18, Sky Blue, Reign, 1, 1, vs
-2019-08-21, Red Stars, Pride, 1, 2, vs
-2019-08-21, Spirit, Royals, 0, 0, vs
-2019-08-24, Courage, Reign, 1, 0, vs
-2019-08-24, Dash, Sky Blue, 1, 2, vs
-2019-08-24, Spirit, Pride, 2, 1, vs
-2019-08-25, Thorns, Red Stars, 3, 0, vs
-2019-09-06, Royals, Thorns, 1, 0, vs
-2019-09-07, Reign, Pride, 3, 1, vs
-2019-09-07, Sky Blue, Courage, 1, 2, vs
-2019-09-08, Red Stars, Dash, 3, 0, vs
-2019-09-11, Pride, Red Stars, 0, 1, vs
-2019-09-11, Thorns, Courage, 0, 6, vs
-2019-09-13, Dash, Royals, 2, 1, vs
-2019-09-14, Courage, Pride, 6, 1, vs
-2019-09-14, Spirit, Reign, 2, 2, vs
-2019-09-15, Sky Blue, Red Stars, 0, 3, vs
-2019-09-17, Courage, Dash, 1, 0, vs
-2019-09-21, Red Stars, Spirit, 3, 1, vs
-2019-09-21, Reign, Sky Blue, 0, 1, vs
-2019-09-21, Royals, Courage, 0, 3, vs
-2019-09-21, Thorns, Dash, 1, 0, vs
-2019-09-25, Dash, Spirit, 0, 0, vs
-2019-09-25, Reign, Royals, 2, 1, vs
-2019-09-28, Red Stars, Royals, 2, 1, vs
-2019-09-28, Spirit, Courage, 2, 1, vs
-2019-09-29, Reign, Thorns, 2, 0, vs
-2019-09-29, Sky Blue, Pride, 1, 1, vs
-2019-10-05, Pride, Spirit, 0, 3, vs
-2019-10-12, Courage, Sky Blue, 3, 2, vs
-2019-10-12, Pride, Reign, 2, 2, vs
-2019-10-12, Royals, Dash, 2, 1, vs
-2019-10-12, Thorns, Spirit, 0, 0, vs
-2019-10-20, Courage, Reign, 4, 1, vs
-2019-10-20, Red Stars, Thorns, 1, 0, vs
-2019-10-27, Courage, Red Stars, 4, 0, vs
-2020-06-27, Courage, Thorns, 2, 1, N
-2020-06-27, Red Stars, Spirit, 1, 2, N
-2020-06-30, Dash, Royals, 3, 3, N
-2020-06-30, Reign, Sky Blue, 0, 0, N
-2020-07-01, Spirit, Courage, 0, 2, N
-2020-07-01, Thorns, Red Stars, 0, 0, N
-2020-07-04, Dash, Reign, 2, 0, N
-2020-07-04, Royals, Sky Blue, 1, 0, N
-2020-07-05, Courage, Red Stars, 1, 0, N
-2020-07-05, Thorns, Spirit, 1, 1, N
-2020-07-08, Royals, Reign, 0, 1, N
-2020-07-08, Sky Blue, Dash, 2, 0, N
-2020-07-12, Red Stars, Royals, 1, 0, N
-2020-07-12, Spirit, Dash, 1, 0, N
-2020-07-13, Reign, Thorns, 0, 0, N
-2020-07-13, Sky Blue, Courage, 0, 2, N
-2020-07-17, Courage, Thorns, 0, 1, N
-2020-07-17, Dash, Royals, 0, 0, N
-2020-07-18, Reign, Red Stars, 0, 0, N
-2020-07-18, Spirit, Sky Blue, 0, 0, N
-2020-07-22, Dash, Thorns, 1, 0, N
-2020-07-22, Red Stars, Sky Blue, 3, 2, N
-2020-07-26, Dash, Red Stars, 2, 0, N
-2020-09-05, Spirit, Sky Blue, 1, 2, vs
-2020-09-12, Courage, Dash, 4, 3, vs
-2020-09-12, Spirit, Red Stars, 2, 1, vs
-2020-09-19, Courage, Pride, 0, 0, vs
-2020-09-20, Red Stars, Sky Blue, 4, 1, vs
-2020-09-20, Thorns, Royals, 3, 0, vs
-2020-09-26, Dash, Pride, 3, 1, vs
-2020-09-26, Red Stars, Spirit, 1, 1, vs
-2020-09-26, Royals, Reign, 2, 2, vs
-2020-09-30, Thorns, Reign, 4, 1, vs
-2020-10-03, Royals, Thorns, 1, 1, vs
-2020-10-03, Sky Blue, Spirit, 0, 1, vs
-2020-10-04, Dash, Courage, 4, 1, vs
-2020-10-09, Pride, Dash, 1, 2, vs
-2020-10-10, Reign, Thorns, 1, 2, vs
-2020-10-10, Sky Blue, Red Stars, 3, 1, vs
-2020-10-17, Pride, Courage, 3, 3, vs
-2020-10-17, Reign, Royals, 2, 0, vs
-2021-04-09, Dash, Red Stars, 0, 0, vs
-2021-04-09, Thorns, Current, 2, 1, vs
-2021-04-10, Courage, Spirit, 3, 2, vs
-2021-04-10, Louisville, Pride, 2, 2, vs
-2021-04-14, Pride, Gotham, 0, 1, vs
-2021-04-15, Red Stars, Thorns, 0, 1, vs
-2021-04-15, Spirit, Louisville, 1, 0, vs
-2021-04-16, Reign, Dash, 0, 0, vs
-2021-04-20, Gotham, Courage, 4, 3, vs
-2021-04-21, Pride, Spirit, 1, 0, vs
-2021-04-21, Red Stars, Current, 1, 1, vs
-2021-04-21, Thorns, Reign, 2, 0, vs
-2021-04-26, Current, Dash, 1, 3, vs
-2021-04-26, Louisville, Courage, 2, 3, vs
-2021-04-27, Reign, Red Stars, 3, 2, vs
-2021-04-27, Spirit, Gotham, 0, 0, vs
-2021-05-01, Courage, Pride, 0, 0, vs
-2021-05-02, Dash, Thorns, 1, 1, vs
-2021-05-02, Gotham, Louisville, 0, 0, vs
-2021-05-03, Current, Reign, 1, 2, vs
-2021-05-08, Thorns, Gotham, 1, 1, vs
-2021-05-15, Gotham, Dash, 1, 0, vs
-2021-05-15, Louisville, Current, 0, 0, vs
-2021-05-15, Reign, Courage, 0, 0, vs
-2021-05-16, Pride, Spirit, 1, 1, vs
-2021-05-16, Thorns, Red Stars, 5, 0, vs
-2021-05-21, Louisville, Spirit, 2, 0, vs
-2021-05-22, Courage, Pride, 1, 2, vs
-2021-05-22, Red Stars, Gotham, 0, 0, vs
-2021-05-23, Dash, Current, 2, 2, vs
-2021-05-23, Thorns, Reign, 1, 2, vs
-2021-05-26, Current, Red Stars, 0, 2, vs
-2021-05-26, Pride, Thorns, 2, 1, vs
-2021-05-26, Spirit, Dash, 2, 1, vs
-2021-05-28, Courage, Louisville, 5, 0, vs
-2021-05-29, Dash, Red Stars, 2, 1, vs
-2021-05-30, Gotham, Thorns, 0, 1, vs
-2021-05-30, Pride, Current, 1, 0, vs
-2021-05-30, Reign, Spirit, 0, 1, vs
-2021-06-05, Gotham, Reign, 1, 0, vs
-2021-06-05, Red Stars, Courage, 1, 0, vs
-2021-06-05, Thorns, Louisville, 3, 0, vs
-2021-06-06, Current, Dash, 0, 1, vs
-2021-06-06, Spirit, Pride, 1, 1, vs
-2021-06-19, Courage, Reign, 2, 1, vs
-2021-06-19, Red Stars, Spirit, 1, 1, vs
-2021-06-20, Louisville, Dash, 1, 0, vs
-2021-06-20, Pride, Gotham, 1, 1, vs
-2021-06-20, Thorns, Current, 1, 0, vs
-2021-06-22, Reign, Red Stars, 2, 0, vs
-2021-06-23, Current, Pride, 1, 3, vs
-2021-06-23, Louisville, Courage, 0, 2, vs
-2021-06-26, Courage, Thorns, 2, 0, vs
-2021-06-26, Current, Spirit, 1, 2, vs
-2021-06-26, Dash, Pride, 2, 1, vs
-2021-06-26, Red Stars, Louisville, 0, 3, vs
-2021-06-26, Reign, Gotham, 0, 3, vs
-2021-07-02, Dash, Reign, 2, 0, vs
-2021-07-02, Gotham, Current, 1, 1, vs
-2021-07-02, Spirit, Red Stars, 0, 1, vs
-2021-07-03, Louisville, Thorns, 0, 2, vs
-2021-07-04, Pride, Courage, 0, 2, vs
-2021-07-09, Pride, Louisville, 1, 1, vs
-2021-07-10, Spirit, Courage, 2, 0, vs
-2021-07-11, Red Stars, Dash, 2, 1, vs
-2021-07-11, Reign, Current, 2, 0, vs
-2021-07-11, Thorns, Gotham, 0, 0, vs
-2021-07-17, Courage, Dash, 1, 2, vs
-2021-07-18, Red Stars, Reign, 3, 1, vs
-2021-07-18, Spirit, Gotham, 2, 3, vs
-2021-07-18, Thorns, Pride, 2, 1, vs
-2021-07-23, Current, Courage, 0, 0, vs
-2021-07-24, Dash, Thorns, 0, 1, vs
-2021-07-24, Pride, Reign, 0, 2, vs
-2021-07-25, Gotham, Red Stars, 2, 1, vs
-2021-07-25, Louisville, Spirit, 0, 2, vs
-2021-07-31, Courage, Pride, 1, 1, vs
-2021-07-31, Reign, Louisville, 2, 0, vs
-2021-08-01, Dash, Gotham, 1, 1, vs
-2021-08-01, Red Stars, Spirit, 3, 1, vs
-2021-08-01, Thorns, Current, 2, 0, vs
-2021-08-07, Gotham, Courage, 0, 1, vs
-2021-08-07, Reign, Dash, 5, 1, vs
-2021-08-07, Spirit, Thorns, 0, 1, vs
-2021-08-08, Louisville, Current, 3, 1, vs
-2021-08-08, Red Stars, Pride, 0, 2, vs
-2021-08-13, Dash, Spirit, 2, 2, vs
-2021-08-14, Current, Reign, 1, 0, vs
-2021-08-14, Pride, Thorns, 1, 1, vs
-2021-08-15, Courage, Red Stars, 1, 0, vs
-2021-08-15, Gotham, Louisville, 1, 1, vs
-2021-08-18, Louisville, Red Stars, 1, 1, vs
-2021-08-21, Courage, Current, 4, 0, vs
-2021-08-21, Reign, Gotham, 3, 2, vs
-2021-08-22, Spirit, Pride, 2, 1, vs
-2021-08-25, Current, Louisville, 2, 1, vs
-2021-08-25, Thorns, Gotham, 2, 1, vs
-2021-08-28, Red Stars, Current, 3, 0, vs
-2021-08-29, Dash, Louisville, 1, 0, vs
-2021-08-29, Gotham, Pride, 0, 1, vs
-2021-08-29, Reign, Thorns, 2, 1, vs
-2021-08-29, Spirit, Courage, 0, 0, vs
-2021-09-01, Dash, Reign, 0, 1, vs
-2021-09-04, Gotham, Red Stars, 0, 0, vs
-2021-09-04, Louisville, Reign, 1, 1, vs
-2021-09-04, Thorns, Spirit, 3, 0, vs
-2021-09-05, Current, Courage, 0, 0, vs
-2021-09-05, Pride, Dash, 1, 1, vs
-2021-09-10, Dash, Red Stars, 1, 1, vs
-2021-09-11, Pride, Louisville, 3, 1, vs
-2021-09-12, Courage, Thorns, 0, 1, vs
-2021-09-12, Spirit, Reign, 0, 3, vs
-2021-09-25, Gotham, Courage, 3, 1, vs
-2021-09-25, Red Stars, Thorns, 2, 1, vs
-2021-09-26, Louisville, Dash, 0, 4, vs
-2021-09-26, Reign, Pride, 3, 0, vs
-2021-09-26, Spirit, Current, 2, 1, vs
-2021-10-06, Courage, Louisville, 3, 1, vs
-2021-10-06, Gotham, Spirit, 0, 0, vs
-2021-10-06, Thorns, Dash, 2, 3, vs
-2021-10-09, Pride, Gotham, 2, 3, vs
-2021-10-09, Spirit, Louisville, 3, 0, vs
-2021-10-10, Current, Thorns, 0, 0, vs
-2021-10-10, Dash, Courage, 4, 1, vs
-2021-10-10, Reign, Red Stars, 3, 2, vs
-2021-10-13, Courage, Spirit, 1, 2, vs
-2021-10-13, Current, Dash, 3, 0, vs
-2021-10-13, Red Stars, Pride, 1, 0, vs
-2021-10-13, Thorns, Reign, 1, 1, vs
-2021-10-16, Louisville, Pride, 3, 1, vs
-2021-10-16, Red Stars, Current, 2, 1, vs
-2021-10-16, Reign, Spirit, 0, 2, vs
-2021-10-17, Courage, Gotham, 0, 3, vs
-2021-10-17, Dash, Thorns, 0, 1, vs
-2021-10-22, Current, Gotham, 1, 1, vs
-2021-10-28, Louisville, Gotham, 1, 1, vs
-2021-10-29, Pride, Red Stars, 0, 1, vs
-2021-10-30, Current, Reign, 0, 3, vs
-2021-10-30, Thorns, Courage, 0, 0, vs
-2021-10-31, Gotham, Louisville, 1, 1, vs
-2021-10-31, Spirit, Dash, 1, 0, vs
-2021-11-07, Red Stars, Gotham, 1, 0, vs
-2021-11-07, Spirit, Courage, 1, 0, vs
-2021-11-14, Reign, Spirit, 1, 2, vs
-2021-11-14, Thorns, Red Stars, 0, 2, vs
-2021-11-20, Spirit, Red Stars, 2, 1, N
-2022-03-18, Louisville, Current, 1, 1, vs
-2022-03-18, Reign, Thorns, 1, 1, vs
-2022-03-19, Angel City, Wave, 1, 1, vs
-2022-03-19, Courage, Gotham, 2, 0, vs
-2022-03-19, Pride, Spirit, 0, 0, vs
-2022-03-20, Dash, Red Stars, 1, 3, vs
-2022-03-25, Louisville, Dash, 2, 3, vs
-2022-03-25, Red Stars, Current, 1, 2, vs
-2022-03-25, Spirit, Gotham, 1, 1, vs
-2022-03-26, Angel City, Reign, 1, 3, vs
-2022-03-26, Courage, Pride, 1, 0, vs
-2022-03-26, Wave, Thorns, 0, 1, vs
-2022-03-30, Dash, Current, 0, 3, vs
-2022-03-30, Pride, Gotham, 0, 1, vs
-2022-03-30, Red Stars, Louisville, 0, 0, vs
-2022-03-30, Spirit, Courage, 2, 2, vs
-2022-03-30, Thorns, Angel City, 3, 0, vs
-2022-04-02, Current, Louisville, 0, 3, vs
-2022-04-02, Red Stars, Dash, 2, 0, vs
-2022-04-02, Thorns, Reign, 0, 1, vs
-2022-04-02, Wave, Angel City, 4, 2, vs
-2022-04-03, Gotham, Courage, 1, 1, vs
-2022-04-03, Spirit, Pride, 4, 1, vs
-2022-04-14, Reign, Wave, 3, 1, vs
-2022-04-15, Current, Dash, 2, 1, vs
-2022-04-16, Louisville, Red Stars, 1, 1, vs
-2022-04-16, Pride, Courage, 2, 4, vs
-2022-04-17, Gotham, Spirit, 1, 3, vs
-2022-04-17, Reign, Angel City, 2, 1, vs
-2022-04-17, Thorns, Wave, 3, 2, vs
-2022-04-23, Courage, Spirit, 2, 2, vs
-2022-04-23, Gotham, Pride, 1, 1, vs
-2022-04-23, Wave, Reign, 1, 1, vs
-2022-04-24, Angel City, Thorns, 1, 0, vs
-2022-04-24, Current, Red Stars, 2, 1, vs
-2022-04-24, Dash, Louisville, 2, 1, vs
-2022-04-29, Angel City, Courage, 2, 1, vs
-2022-04-30, Red Stars, Louisville, 2, 1, vs
-2022-04-30, Thorns, Current, 3, 0, vs
-2022-05-01, Dash, Wave, 0, 1, vs
-2022-05-01, Pride, Gotham, 0, 3, vs
-2022-05-01, Spirit, Reign, 2, 1, vs
-2022-05-04, Current, Courage, 1, 2, vs
-2022-05-04, Reign, Spirit, 0, 0, vs
-2022-05-07, Courage, Spirit, 2, 1, vs
-2022-05-07, Wave, Gotham, 4, 0, vs
-2022-05-08, Angel City, Pride, 0, 1, vs
-2022-05-08, Current, Dash, 0, 2, vs
-2022-05-08, Reign, Louisville, 2, 2, vs
-2022-05-13, Thorns, Reign, 0, 0, vs
-2022-05-14, Louisville, Dash, 1, 1, vs
-2022-05-14, Pride, Current, 2, 2, vs
-2022-05-15, Spirit, Angel City, 0, 1, vs
-2022-05-15, Wave, Red Stars, 2, 1, vs
-2022-05-18, Courage, Pride, 1, 2, vs
-2022-05-18, Louisville, Wave, 1, 0, vs
-2022-05-18, Thorns, Spirit, 1, 1, vs
-2022-05-21, Angel City, Current, 1, 0, vs
-2022-05-21, Thorns, Dash, 0, 2, vs
-2022-05-22, Courage, Wave, 0, 1, vs
-2022-05-22, Gotham, Louisville, 0, 1, vs
-2022-05-22, Pride, Red Stars, 2, 4, vs
-2022-05-22, Reign, Spirit, 0, 0, vs
-2022-05-25, Reign, Current, 1, 0, vs
-2022-05-27, Pride, Spirit, 2, 2, vs
-2022-05-28, Red Stars, Thorns, 2, 2, vs
-2022-05-29, Angel City, Gotham, 0, 1, vs
-2022-05-29, Dash, Courage, 1, 1, vs
-2022-05-29, Reign, Wave, 1, 0, vs
-2022-05-30, Current, Louisville, 1, 0, vs
-2022-06-01, Spirit, Red Stars, 1, 1, vs
-2022-06-03, Dash, Pride, 5, 0, vs
-2022-06-03, Thorns, Angel City, 3, 0, vs
-2022-06-04, Current, Wave, 2, 2, vs
-2022-06-04, Gotham, Spirit, 1, 0, vs
-2022-06-04, Louisville, Courage, 0, 3, vs
-2022-06-04, Red Stars, Reign, 1, 0, vs
-2022-06-07, Angel City, Dash, 0, 0, vs
-2022-06-08, Red Stars, Spirit, 0, 0, vs
-2022-06-08, Wave, Thorns, 2, 2, vs
-2022-06-11, Current, Gotham, 1, 0, vs
-2022-06-11, Louisville, Angel City, 2, 3, vs
-2022-06-11, Spirit, Courage, 2, 3, vs
-2022-06-12, Dash, Thorns, 0, 4, vs
-2022-06-12, Red Stars, Pride, 1, 0, vs
-2022-06-12, Wave, Reign, 1, 1, vs
-2022-06-17, Spirit, Louisville, 2, 2, vs
-2022-06-18, Current, Red Stars, 2, 2, vs
-2022-06-18, Reign, Angel City, 1, 0, vs
-2022-06-19, Courage, Dash, 3, 4, vs
-2022-06-19, Gotham, Wave, 0, 3, vs
-2022-06-19, Thorns, Pride, 6, 0, vs
-2022-07-01, Angel City, Thorns, 1, 1, vs
-2022-07-01, Dash, Current, 1, 2, vs
-2022-07-01, Reign, Courage, 2, 0, vs
-2022-07-02, Gotham, Red Stars, 0, 3, vs
-2022-07-03, Pride, Louisville, 2, 2, vs
-2022-07-03, Wave, Spirit, 2, 1, vs
-2022-07-08, Louisville, Gotham, 1, 2, vs
-2022-07-08, Pride, Dash, 1, 0, vs
-2022-07-09, Angel City, Wave, 2, 1, vs
-2022-07-10, Red Stars, Courage, 2, 2, vs
-2022-07-10, Reign, Thorns, 2, 2, vs
-2022-07-10, Spirit, Current, 0, 1, vs
-2022-07-15, Wave, Louisville, 0, 0, vs
-2022-07-16, Dash, Red Stars, 4, 1, vs
-2022-07-16, Thorns, Gotham, 5, 0, vs
-2022-07-17, Current, Reign, 1, 0, vs
-2022-07-17, Spirit, Pride, 0, 0, vs
-2022-07-29, Courage, Spirit, 3, 3, vs
-2022-07-29, Louisville, Thorns, 1, 2, vs
-2022-07-30, Angel City, Reign, 2, 3, vs
-2022-07-30, Red Stars, Wave, 0, 1, vs
-2022-07-31, Current, Pride, 2, 2, vs
-2022-07-31, Gotham, Dash, 2, 4, vs
-2022-08-02, Louisville, Reign, 1, 1, vs
-2022-08-05, Louisville, Spirit, 1, 1, vs
-2022-08-05, Thorns, Courage, 3, 3, vs
-2022-08-07, Pride, Angel City, 2, 2, vs
-2022-08-07, Red Stars, Gotham, 2, 0, vs
-2022-08-07, Reign, Dash, 1, 2, vs
-2022-08-07, Wave, Current, 1, 2, vs
-2022-08-10, Spirit, Thorns, 1, 2, vs
-2022-08-12, Dash, Louisville, 0, 0, vs
-2022-08-13, Courage, Current, 3, 4, vs
-2022-08-13, Wave, Pride, 0, 1, vs
-2022-08-14, Angel City, Red Stars, 1, 0, vs
-2022-08-14, Reign, Gotham, 4, 1, vs
-2022-08-17, Dash, Gotham, 2, 1, vs
-2022-08-19, Current, Angel City, 1, 1, vs
-2022-08-20, Courage, Red Stars, 4, 0, vs
-2022-08-20, Gotham, Pride, 1, 2, vs
-2022-08-20, Wave, Dash, 3, 1, vs
-2022-08-24, Courage, Thorns, 3, 1, vs
-2022-08-26, Pride, Reign, 1, 2, vs
-2022-08-27, Dash, Spirit, 2, 2, vs
-2022-08-27, Louisville, Red Stars, 0, 4, vs
-2022-08-27, Thorns, Wave, 0, 2, vs
-2022-08-28, Current, Courage, 3, 2, vs
-2022-08-28, Gotham, Angel City, 1, 3, vs
-2022-09-04, Gotham, Courage, 0, 1, vs
-2022-09-09, Pride, Thorns, 0, 2, vs
-2022-09-09, Reign, Red Stars, 2, 2, vs
-2022-09-10, Courage, Louisville, 5, 1, vs
-2022-09-10, Spirit, Wave, 4, 3, vs
-2022-09-11, Dash, Angel City, 1, 1, vs
-2022-09-11, Gotham, Current, 0, 1, vs
-2022-09-14, Courage, Angel City, 1, 0, vs
-2022-09-14, Red Stars, Current, 4, 0, vs
-2022-09-16, Louisville, Pride, 2, 0, vs
-2022-09-17, Courage, Reign, 1, 2, vs
-2022-09-17, Red Stars, Dash, 0, 1, vs
-2022-09-17, Spirit, Gotham, 2, 0, vs
-2022-09-17, Wave, Angel City, 1, 0, vs
-2022-09-18, Current, Thorns, 1, 1, vs
-2022-09-21, Angel City, Spirit, 2, 1, vs
-2022-09-21, Gotham, Reign, 0, 1, vs
-2022-09-21, Pride, Courage, 0, 3, vs
-2022-09-21, Thorns, Louisville, 3, 0, vs
-2022-09-24, Courage, Gotham, 3, 0, vs
-2022-09-24, Dash, Reign, 0, 2, vs
-2022-09-25, Angel City, Louisville, 1, 3, vs
-2022-09-25, Current, Spirit, 3, 0, vs
-2022-09-25, Pride, Wave, 2, 2, vs
-2022-09-25, Thorns, Red Stars, 3, 0, vs
-2022-09-30, Wave, Courage, 0, 0, vs
-2022-10-01, Gotham, Thorns, 3, 3, vs
-2022-10-01, Louisville, Current, 1, 0, vs
-2022-10-01, Reign, Pride, 3, 0, vs
-2022-10-01, Spirit, Dash, 1, 2, vs
-2022-10-02, Red Stars, Angel City, 2, 0, vs
-2022-10-16, Dash, Current, 1, 2, vs
-2022-10-16, Wave, Red Stars, 2, 1, vs
-2022-10-23, Reign, Current, 0, 2, vs
-2022-10-23, Thorns, Wave, 2, 1, vs
-2022-10-29, Thorns, Current, 2, 0, N
-2023-03-25, Courage, Current, 1, 0, vs
-2023-03-25, Wave, Red Stars, 3, 2, vs
-2023-03-26, Angel City, Gotham, 1, 2, vs
-2023-03-26, Dash, Louisville, 0, 0, vs
-2023-03-26, Spirit, Reign, 1, 0, vs
-2023-03-26, Thorns, Pride, 4, 0, vs
-2023-04-01, Current, Thorns, 1, 4, vs
-2023-04-01, Gotham, Reign, 0, 2, vs
-2023-04-01, Louisville, Spirit, 2, 2, vs
-2023-04-01, Red Stars, Dash, 1, 2, vs
-2023-04-01, Wave, Courage, 3, 1, vs
-2023-04-02, Pride, Angel City, 1, 2, vs
-2023-04-14, Thorns, Dash, 1, 1, vs
-2023-04-15, Angel City, Louisville, 2, 2, vs
-2023-04-15, Courage, Spirit, 1, 2, vs
-2023-04-15, Pride, Gotham, 0, 2, vs
-2023-04-15, Red Stars, Current, 4, 2, vs
-2023-04-15, Reign, Wave, 1, 0, vs
-2023-04-19, Angel City, Reign, 0, 2, vs
-2023-04-19, Dash, Current, 0, 2, vs
-2023-04-19, Gotham, Spirit, 1, 0, vs
-2023-04-19, Pride, Courage, 1, 1, vs
-2023-04-19, Wave, Thorns, 1, 0, vs
-2023-04-22, Gotham, Courage, 1, 0, vs
-2023-04-22, Reign, Red Stars, 5, 2, vs
-2023-04-22, Spirit, Dash, 0, 0, vs
-2023-04-22, Thorns, Louisville, 2, 0, vs
-2023-04-23, Angel City, Wave, 0, 2, vs
-2023-04-23, Current, Pride, 2, 0, vs
-2023-04-28, Dash, Courage, 0, 1, vs
-2023-04-29, Louisville, Reign, 2, 2, vs
-2023-04-29, Red Stars, Spirit, 1, 1, vs
-2023-04-29, Thorns, Angel City, 3, 3, vs
-2023-04-29, Wave, Pride, 1, 3, vs
-2023-04-30, Current, Gotham, 2, 0, vs
-2023-05-03, Courage, Gotham, 1, 1, vs
-2023-05-03, Dash, Red Stars, 2, 0, vs
-2023-05-03, Reign, Angel City, 0, 0, vs
-2023-05-06, Courage, Thorns, 3, 3, vs
-2023-05-06, Pride, Louisville, 1, 0, vs
-2023-05-06, Reign, Dash, 2, 0, vs
-2023-05-06, Spirit, Wave, 3, 1, vs
-2023-05-07, Angel City, Current, 3, 2, vs
-2023-05-07, Red Stars, Gotham, 1, 2, vs
-2023-05-10, Spirit, Pride, 4, 2, vs
-2023-05-12, Dash, Thorns, 2, 1, vs
-2023-05-12, Louisville, Red Stars, 3, 0, vs
-2023-05-13, Angel City, Spirit, 0, 1, vs
-2023-05-14, Courage, Reign, 1, 0, vs
-2023-05-14, Current, Wave, 0, 2, vs
-2023-05-14, Gotham, Pride, 0, 0, vs
-2023-05-17, Louisville, Current, 3, 2, vs
-2023-05-20, Courage, Angel City, 0, 0, vs
-2023-05-20, Current, Louisville, 0, 2, vs
-2023-05-20, Dash, Wave, 0, 3, vs
-2023-05-20, Pride, Spirit, 2, 1, vs
-2023-05-21, Reign, Gotham, 1, 4, vs
-2023-05-21, Thorns, Red Stars, 4, 0, vs
-2023-05-26, Current, Dash, 0, 2, vs
-2023-05-26, Wave, Thorns, 1, 1, vs
-2023-05-27, Louisville, Courage, 1, 2, vs
-2023-05-27, Red Stars, Pride, 1, 0, vs
-2023-05-27, Reign, Angel City, 4, 1, vs
-2023-05-28, Spirit, Gotham, 1, 1, vs
-2023-05-31, Red Stars, Louisville, 0, 2, vs
-2023-05-31, Thorns, Angel City, 3, 2, vs
-2023-05-31, Wave, Reign, 0, 3, vs
-2023-06-03, Current, Courage, 1, 0, vs
-2023-06-03, Dash, Pride, 2, 0, vs
-2023-06-03, Reign, Thorns, 0, 2, vs
-2023-06-03, Spirit, Louisville, 1, 1, vs
-2023-06-04, Gotham, Wave, 0, 1, vs
-2023-06-05, Angel City, Red Stars, 1, 2, vs
-2023-06-09, Louisville, Wave, 0, 0, vs
-2023-06-10, Red Stars, Courage, 0, 5, vs
-2023-06-10, Reign, Current, 2, 1, vs
-2023-06-10, Spirit, Angel City, 2, 1, vs
-2023-06-11, Dash, Gotham, 1, 1, vs
-2023-06-11, Pride, Thorns, 3, 1, vs
-2023-06-14, Current, Red Stars, 4, 0, vs
-2023-06-14, Louisville, Dash, 3, 0, vs
-2023-06-14, Spirit, Courage, 1, 2, vs
-2023-06-17, Courage, Pride, 3, 0, vs
-2023-06-17, Dash, Reign, 0, 0, vs
-2023-06-17, Wave, Angel City, 1, 2, vs
-2023-06-18, Current, Spirit, 2, 3, vs
-2023-06-18, Louisville, Gotham, 2, 0, vs
-2023-06-18, Red Stars, Thorns, 2, 3, vs
-2023-06-23, Thorns, Spirit, 4, 2, vs
-2023-06-24, Courage, Louisville, 1, 0, vs
-2023-06-24, Pride, Current, 1, 2, vs
-2023-06-24, Wave, Reign, 1, 2, vs
-2023-06-25, Angel City, Dash, 0, 0, vs
-2023-06-25, Gotham, Red Stars, 2, 1, vs
-2023-06-28, Angel City, Wave, 2, 1, vs
-2023-06-28, Thorns, Reign, 0, 1, vs
-2023-07-01, Courage, Dash, 1, 0, vs
-2023-07-01, Red Stars, Wave, 1, 0, vs
-2023-07-01, Reign, Louisville, 2, 2, vs
-2023-07-01, Spirit, Pride, 0, 3, vs
-2023-07-01, Thorns, Current, 0, 1, vs
-2023-07-02, Gotham, Angel City, 0, 0, vs
-2023-07-07, Dash, Red Stars, 0, 1, vs
-2023-07-07, Louisville, Current, 2, 1, vs
-2023-07-07, Pride, Reign, 1, 0, vs
-2023-07-08, Wave, Spirit, 2, 2, vs
-2023-07-09, Angel City, Courage, 2, 1, vs
-2023-07-09, Gotham, Thorns, 2, 1, vs
-2023-07-21, Louisville, Red Stars, 2, 0, vs
-2023-07-21, Thorns, Wave, 4, 1, vs
-2023-07-22, Courage, Spirit, 6, 0, vs
-2023-07-22, Current, Dash, 3, 1, vs
-2023-07-23, Pride, Gotham, 1, 3, vs
-2023-07-28, Reign, Wave, 1, 0, vs
-2023-07-28, Spirit, Gotham, 4, 2, vs
-2023-07-29, Angel City, Thorns, 2, 1, vs
-2023-07-29, Courage, Pride, 5, 0, vs
-2023-07-29, Dash, Louisville, 1, 0, vs
-2023-07-29, Red Stars, Current, 0, 0, vs
-2023-08-04, Pride, Spirit, 0, 1, vs
-2023-08-05, Current, Louisville, 3, 0, vs
-2023-08-05, Gotham, Courage, 2, 0, vs
-2023-08-05, Red Stars, Dash, 3, 0, vs
-2023-08-05, Wave, Angel City, 1, 1, vs
-2023-08-06, Reign, Thorns, 0, 0, vs
-2023-08-09, Gotham, Pride, 1, 1, vs
-2023-08-18, Current, Reign, 1, 0, vs
-2023-08-19, Dash, Spirit, 1, 1, vs
-2023-08-19, Louisville, Angel City, 1, 1, vs
-2023-08-19, Wave, Gotham, 2, 1, vs
-2023-08-20, Pride, Red Stars, 5, 0, vs
-2023-08-20, Thorns, Courage, 2, 1, vs
-2023-08-25, Pride, Wave, 1, 2, vs
-2023-08-26, Dash, Current, 1, 1, vs
-2023-08-27, Angel City, Reign, 2, 1, vs
-2023-08-27, Courage, Red Stars, 1, 1, vs
-2023-08-27, Gotham, Louisville, 0, 0, vs
-2023-08-27, Spirit, Thorns, 1, 1, vs
-2023-09-01, Current, Angel City, 0, 1, vs
-2023-09-02, Courage, Gotham, 3, 3, vs
-2023-09-02, Louisville, Thorns, 2, 1, vs
-2023-09-03, Reign, Pride, 1, 0, vs
-2023-09-03, Spirit, Red Stars, 0, 2, vs
-2023-09-03, Wave, Dash, 1, 0, vs
-2023-09-06, Current, Courage, 0, 1, vs
-2023-09-06, Reign, Louisville, 0, 1, vs
-2023-09-09, Courage, Louisville, 2, 0, vs
-2023-09-15, Louisville, Dash, 0, 1, vs
-2023-09-16, Gotham, Spirit, 2, 0, vs
-2023-09-16, Thorns, Reign, 2, 0, vs
-2023-09-16, Wave, Current, 1, 2, vs
-2023-09-17, Pride, Courage, 2, 1, vs
-2023-09-17, Red Stars, Angel City, 2, 2, vs
-2023-09-30, Red Stars, Louisville, 1, 0, vs
-2023-09-30, Spirit, Current, 2, 1, vs
-2023-09-30, Thorns, Wave, 0, 2, vs
-2023-10-01, Gotham, Dash, 0, 2, vs
-2023-10-01, Reign, Courage, 1, 1, vs
-2023-10-02, Angel City, Pride, 0, 1, vs
-2023-10-06, Louisville, Pride, 3, 2, vs
-2023-10-06, Reign, Spirit, 0, 0, vs
-2023-10-07, Courage, Wave, 0, 0, vs
-2023-10-07, Current, Red Stars, 6, 3, vs
-2023-10-07, Thorns, Gotham, 1, 0, vs
-2023-10-08, Dash, Angel City, 1, 2, vs
-2023-10-15, Angel City, Thorns, 5, 1, vs
-2023-10-15, Gotham, Current, 2, 2, vs
-2023-10-15, Pride, Dash, 1, 0, vs
-2023-10-15, Red Stars, Reign, 0, 3, vs
-2023-10-15, Spirit, Courage, 0, 1, vs
-2023-10-15, Wave, Louisville, 2, 0, vs
-2023-10-20, Reign, Angel City, 1, 0, vs
-2023-10-22, Courage, Gotham, 0, 2, vs
-2023-11-05, Thorns, Gotham, 0, 1, vs
-2023-11-05, Wave, Reign, 0, 1, vs
-2023-11-11, Reign, Gotham, 1, 2, N
-2024-03-15, Gotham, Wave, 0, 1, vs
-2024-03-16, Courage, Dash, 5, 1, vs
-2024-03-16, Current, Thorns, 5, 4, vs
-2024-03-16, Louisville, Pride, 2, 2, vs
-2024-03-16, Royals, Red Stars, 0, 2, vs
-2024-03-17, Angel City, Bay FC, 0, 1, vs
-2024-03-17, Reign, Spirit, 1, 0, vs
-2024-03-22, Pride, Angel City, 1, 1, vs
-2024-03-22, Royals, Courage, 2, 1, vs
-2024-03-23, Dash, Louisville, 0, 0, vs
-2024-03-23, Red Stars, Reign, 2, 1, vs
-2024-03-23, Spirit, Bay FC, 2, 1, vs
-2024-03-23, Wave, Current, 1, 2, vs
-2024-03-24, Thorns, Gotham, 0, 1, vs
-2024-03-29, Pride, Red Stars, 1, 1, vs
-2024-03-29, Wave, Reign, 1, 0, vs
-2024-03-30, Bay FC, Dash, 2, 3, vs
-2024-03-30, Courage, Gotham, 1, 0, vs
-2024-03-30, Current, Angel City, 4, 2, vs
-2024-03-30, Thorns, Louisville, 2, 2, vs
-2024-03-31, Spirit, Royals, 2, 1, vs
-2024-04-12, Dash, Spirit, 1, 3, vs
-2024-04-12, Royals, Pride, 0, 1, vs
-2024-04-13, Courage, Thorns, 2, 0, vs
-2024-04-13, Louisville, Wave, 0, 0, vs
-2024-04-13, Red Stars, Angel City, 0, 1, vs
-2024-04-14, Bay FC, Reign, 3, 2, vs
-2024-04-14, Gotham, Current, 1, 1, vs
-2024-04-19, Pride, Wave, 1, 0, vs
-2024-04-20, Current, Bay FC, 5, 2, vs
-2024-04-20, Louisville, Royals, 5, 1, vs
-2024-04-20, Spirit, Gotham, 2, 0, vs
-2024-04-20, Thorns, Dash, 4, 1, vs
-2024-04-21, Angel City, Courage, 2, 1, vs
-2024-04-21, Reign, Red Stars, 1, 2, vs
-2024-04-26, Angel City, Current, 1, 3, vs
-2024-04-26, Spirit, Pride, 2, 3, vs
-2024-04-27, Courage, Reign, 1, 0, vs
-2024-04-27, Red Stars, Thorns, 0, 2, vs
-2024-04-27, Royals, Dash, 0, 0, vs
-2024-04-27, Wave, Bay FC, 2, 1, vs
-2024-04-28, Gotham, Louisville, 1, 1, vs
-2024-05-01, Bay FC, Thorns, 2, 3, vs
-2024-05-01, Pride, Courage, 4, 1, vs
-2024-05-01, Red Stars, Spirit, 2, 4, vs
-2024-05-03, Reign, Wave, 2, 1, vs
-2024-05-03, Royals, Angel City, 1, 2, vs
-2024-05-04, Gotham, Courage, 1, 0, vs
-2024-05-04, Thorns, Spirit, 2, 1, vs
-2024-05-05, Bay FC, Red Stars, 1, 2, vs
-2024-05-05, Dash, Current, 1, 1, vs
-2024-05-05, Pride, Louisville, 1, 0, vs
-2024-05-08, Dash, Gotham, 0, 1, vs
-2024-05-08, Reign, Current, 0, 0, vs
-2024-05-08, Wave, Royals, 2, 0, vs
-2024-05-10, Louisville, Spirit, 1, 2, vs
-2024-05-11, Pride, Bay FC, 1, 0, vs
-2024-05-11, Thorns, Reign, 4, 0, vs
-2024-05-12, Angel City, Dash, 0, 1, vs
-2024-05-12, Current, Courage, 1, 0, vs
-2024-05-12, Red Stars, Royals, 3, 1, vs
-2024-05-12, Wave, Gotham, 1, 1, vs
-2024-05-17, Bay FC, Wave, 2, 1, vs
-2024-05-17, Courage, Royals, 1, 0, vs
-2024-05-17, Dash, Thorns, 0, 2, vs
-2024-05-18, Current, Louisville, 3, 3, vs
-2024-05-18, Spirit, Angel City, 4, 2, vs
-2024-05-19, Gotham, Red Stars, 2, 1, vs
-2024-05-19, Reign, Pride, 2, 3, vs
-2024-05-23, Angel City, Wave, 0, 0, vs
-2024-05-24, Bay FC, Gotham, 0, 2, vs
-2024-05-24, Dash, Courage, 3, 0, vs
-2024-05-24, Pride, Thorns, 2, 1, vs
-2024-05-24, Spirit, Reign, 3, 2, vs
-2024-05-25, Red Stars, Louisville, 0, 1, vs
-2024-05-25, Royals, Current, 0, 1, vs
-2024-06-07, Louisville, Dash, 2, 0, vs
-2024-06-07, Wave, Pride, 1, 1, vs
-2024-06-08, Gotham, Angel City, 2, 1, vs
-2024-06-08, Red Stars, Bay FC, 1, 2, vs
-2024-06-08, Royals, Spirit, 0, 1, vs
-2024-06-08, Thorns, Courage, 1, 0, vs
-2024-06-09, Current, Reign, 5, 2, vs
-2024-06-14, Current, Red Stars, 2, 2, vs
-2024-06-15, Courage, Pride, 0, 0, vs
-2024-06-15, Dash, Angel City, 0, 0, vs
-2024-06-15, Louisville, Gotham, 0, 2, vs
-2024-06-15, Spirit, Wave, 1, 1, vs
-2024-06-16, Bay FC, Royals, 0, 1, vs
-2024-06-16, Reign, Thorns, 0, 0, vs
-2024-06-19, Angel City, Louisville, 3, 2, vs
-2024-06-19, Gotham, Wave, 2, 1, vs
-2024-06-21, Pride, Royals, 6, 0, vs
-2024-06-22, Bay FC, Angel City, 1, 0, vs
-2024-06-22, Dash, Wave, 0, 0, vs
-2024-06-23, Courage, Red Stars, 3, 1, vs
-2024-06-23, Gotham, Spirit, 0, 2, vs
-2024-06-23, Reign, Louisville, 1, 1, vs
-2024-06-23, Thorns, Current, 1, 4, vs
-2024-06-28, Current, Dash, 2, 0, vs
-2024-06-28, Wave, Red Stars, 0, 3, vs
-2024-06-29, Louisville, Bay FC, 0, 1, vs
-2024-06-29, Royals, Thorns, 0, 0, vs
-2024-06-29, Spirit, Courage, 0, 1, vs
-2024-06-30, Angel City, Pride, 0, 3, vs
-2024-06-30, Gotham, Reign, 1, 1, vs
-2024-07-05, Thorns, Wave, 1, 0, vs
-2024-07-06, Angel City, Gotham, 1, 2, vs
-2024-07-06, Bay FC, Spirit, 0, 3, vs
-2024-07-06, Current, Pride, 1, 2, vs
-2024-07-06, Red Stars, Dash, 1, 0, vs
-2024-07-07, Courage, Louisville, 3, 1, vs
-2024-07-07, Reign, Royals, 1, 1, vs
-2024-08-23, Dash, Pride, 0, 1, vs
-2024-08-23, Royals, Bay FC, 2, 1, vs
-2024-08-24, Gotham, Thorns, 2, 0, vs
-2024-08-24, Louisville, Red Stars, 3, 1, vs
-2024-08-24, Wave, Angel City, 1, 2, vs
-2024-08-25, Reign, Courage, 1, 0, vs
-2024-08-25, Spirit, Current, 4, 1, vs
-2024-08-30, Thorns, Bay FC, 1, 3, vs
-2024-08-31, Dash, Royals, 1, 3, vs
-2024-08-31, Louisville, Reign, 2, 3, vs
-2024-09-01, Angel City, Red Stars, 2, 1, vs
-2024-09-01, Courage, Current, 2, 1, vs
-2024-09-01, Pride, Gotham, 3, 0, vs
-2024-09-01, Wave, Spirit, 1, 1, vs
-2024-09-06, Angel City, Reign, 2, 3, vs
-2024-09-07, Bay FC, Louisville, 1, 0, vs
-2024-09-07, Current, Royals, 1, 0, vs
-2024-09-07, Spirit, Thorns, 2, 1, vs
-2024-09-08, Gotham, Dash, 2, 1, vs
-2024-09-08, Red Stars, Pride, 0, 1, vs
-2024-09-08, Wave, Courage, 1, 4, vs
-2024-09-13, Courage, Bay FC, 1, 1, vs
-2024-09-13, Pride, Current, 0, 0, vs
-2024-09-13, Thorns, Red Stars, 0, 1, vs
-2024-09-14, Louisville, Angel City, 2, 1, vs
-2024-09-14, Royals, Wave, 1, 2, vs
-2024-09-15, Spirit, Dash, 3, 0, vs
-2024-09-16, Reign, Gotham, 0, 2, vs
-2024-09-20, Bay FC, Pride, 0, 1, vs
-2024-09-20, Current, Spirit, 3, 0, vs
-2024-09-21, Dash, Reign, 1, 0, vs
-2024-09-21, Louisville, Courage, 2, 1, vs
-2024-09-21, Red Stars, Wave, 1, 0, vs
-2024-09-22, Gotham, Royals, 1, 0, vs
-2024-09-23, Angel City, Thorns, 2, 2, vs
-2024-09-27, Angel City, Spirit, 1, 2, vs
-2024-09-28, Current, Gotham, 1, 1, vs
-2024-09-28, Royals, Louisville, 1, 0, vs
-2024-09-28, Pride, Dash, 3, 1, vs
-2024-09-28, Wave, Thorns, 2, 0, vs
-2024-09-29, Red Stars, Courage, 1, 3, vs
-2024-09-29, Reign, Bay FC, 0, 1, vs
-2024-10-04, Dash, Red Stars, 0, 2, vs
-2024-10-04, Reign, Angel City, 0, 1, vs
-2024-10-05, Courage, Wave, 2, 1, vs
-2024-10-05, Gotham, Bay FC, 5, 1, vs
-2024-10-05, Louisville, Current, 0, 2, vs
-2024-10-05, Thorns, Royals, 1, 2, vs
-2024-10-06, Pride, Spirit, 2, 0, vs
-2024-10-11, Thorns, Pride, 2, 0, vs
-2024-10-12, Red Stars, Gotham, 0, 2, vs
-2024-10-12, Courage, Angel City, 1, 1, vs
-2024-10-12, Bay FC, Current, 0, 1, vs
-2024-10-13, Royals, Reign, 3, 0, vs
-2024-10-13, Spirit, Louisville, 4, 1, vs
-2024-10-13, Wave, Dash, 0, 2, vs
-2024-10-18, Reign, Dash, 2, 1, vs
-2024-10-19, Current, Wave, 4, 1, vs
-2024-10-19, Louisville, Thorns, 1, 0, vs
-2024-10-19, Bay FC, Courage, 1, 0, vs
-2024-10-20, Gotham, Pride, 3, 1, vs
-2024-10-20, Spirit, Red Stars, 2, 0, vs
-2024-10-20, Angel City, Royals, 1, 1, vs
+2013-04-13, Kansas City, Thorns, 1, 1, vs, TRUE
+2013-04-14, Boston, Spirit, 1, 1, vs, TRUE
+2013-04-14, Red Stars, Reign, 1, 1, vs, TRUE
+2013-04-14, Sky Blue, Flash, 1, 0, vs, TRUE
+2013-04-20, Spirit, Flash, 1, 1, vs, TRUE
+2013-04-21, Thorns, Reign, 2, 1, vs, TRUE
+2013-04-26, Kansas City, Reign, 2, 0, vs, TRUE
+2013-04-27, Flash, Boston, 1, 2, vs, TRUE
+2013-04-27, Red Stars, Thorns, 0, 2, vs, TRUE
+2013-04-27, Spirit, Sky Blue, 1, 2, vs, TRUE
+2013-05-01, Flash, Sky Blue, 2, 1, vs, TRUE
+2013-05-04, Boston, Red Stars, 4, 1, vs, TRUE
+2013-05-04, Reign, Kansas City, 0, 1, vs, TRUE
+2013-05-04, Spirit, Thorns, 1, 2, vs, TRUE
+2013-05-08, Sky Blue, Red Stars, 1, 1, vs, TRUE
+2013-05-11, Flash, Kansas City, 2, 1, vs, TRUE
+2013-05-11, Sky Blue, Reign, 2, 0, vs, TRUE
+2013-05-11, Spirit, Boston, 1, 1, vs, TRUE
+2013-05-12, Red Stars, Thorns, 0, 2, vs, TRUE
+2013-05-16, Reign, Spirit, 2, 4, vs, TRUE
+2013-05-16, Thorns, Sky Blue, 0, 1, vs, TRUE
+2013-05-18, Kansas City, Boston, 2, 0, vs, TRUE
+2013-05-19, Reign, Sky Blue, 0, 3, vs, TRUE
+2013-05-19, Thorns, Spirit, 2, 0, vs, TRUE
+2013-05-24, Flash, Red Stars, 2, 1, vs, TRUE
+2013-05-25, Boston, Spirit, 3, 0, vs, TRUE
+2013-05-25, Kansas City, Sky Blue, 0, 1, vs, TRUE
+2013-05-25, Reign, Thorns, 0, 1, vs, TRUE
+2013-06-01, Sky Blue, Boston, 5, 1, vs, TRUE
+2013-06-01, Thorns, Red Stars, 0, 2, vs, TRUE
+2013-06-05, Boston, Flash, 2, 2, vs, TRUE
+2013-06-06, Thorns, Kansas City, 4, 3, vs, TRUE
+2013-06-08, Sky Blue, Flash, 0, 3, vs, TRUE
+2013-06-09, Red Stars, Boston, 1, 0, vs, TRUE
+2013-06-09, Reign, Kansas City, 0, 1, vs, TRUE
+2013-06-13, Red Stars, Kansas City, 0, 2, vs, TRUE
+2013-06-15, Spirit, Flash, 0, 2, vs, TRUE
+2013-06-16, Boston, Sky Blue, 2, 3, vs, TRUE
+2013-06-16, Kansas City, Red Stars, 1, 3, vs, TRUE
+2013-06-16, Thorns, Reign, 2, 0, vs, TRUE
+2013-06-19, Red Stars, Flash, 2, 2, vs, TRUE
+2013-06-22, Sky Blue, Thorns, 0, 0, vs, TRUE
+2013-06-23, Flash, Reign, 1, 1, vs, TRUE
+2013-06-23, Kansas City, Spirit, 2, 0, vs, TRUE
+2013-06-26, Boston, Reign, 1, 2, vs, TRUE
+2013-06-26, Sky Blue, Kansas City, 2, 2, vs, TRUE
+2013-06-28, Flash, Spirit, 4, 0, vs, TRUE
+2013-06-29, Reign, Red Stars, 3, 1, vs, TRUE
+2013-06-30, Boston, Sky Blue, 3, 2, vs, TRUE
+2013-06-30, Kansas City, Thorns, 2, 0, vs, TRUE
+2013-07-03, Reign, Boston, 1, 1, vs, TRUE
+2013-07-03, Spirit, Kansas City, 1, 1, vs, TRUE
+2013-07-04, Red Stars, Flash, 1, 0, vs, TRUE
+2013-07-06, Sky Blue, Spirit, 1, 0, vs, TRUE
+2013-07-06, Thorns, Boston, 0, 2, vs, TRUE
+2013-07-07, Kansas City, Flash, 0, 0, vs, TRUE
+2013-07-10, Spirit, Red Stars, 0, 2, vs, TRUE
+2013-07-11, Reign, Flash, 3, 2, vs, TRUE
+2013-07-13, Sky Blue, Boston, 0, 0, vs, TRUE
+2013-07-14, Red Stars, Kansas City, 3, 3, vs, TRUE
+2013-07-14, Reign, Spirit, 2, 1, vs, TRUE
+2013-07-14, Thorns, Flash, 1, 1, vs, TRUE
+2013-07-20, Kansas City, Reign, 2, 0, vs, TRUE
+2013-07-20, Red Stars, Spirit, 1, 0, vs, TRUE
+2013-07-21, Boston, Thorns, 1, 2, vs, TRUE
+2013-07-21, Flash, Sky Blue, 3, 0, vs, TRUE
+2013-07-24, Kansas City, Boston, 3, 0, vs, TRUE
+2013-07-25, Reign, Red Stars, 4, 1, vs, TRUE
+2013-07-27, Spirit, Boston, 2, 5, vs, TRUE
+2013-07-28, Sky Blue, Kansas City, 0, 1, vs, TRUE
+2013-07-28, Thorns, Red Stars, 3, 3, vs, TRUE
+2013-07-31, Flash, Spirit, 3, 0, vs, TRUE
+2013-07-31, Thorns, Sky Blue, 3, 1, vs, TRUE
+2013-08-03, Boston, Flash, 2, 2, vs, TRUE
+2013-08-03, Red Stars, Reign, 3, 1, vs, TRUE
+2013-08-03, Sky Blue, Spirit, 1, 0, vs, TRUE
+2013-08-04, Thorns, Kansas City, 2, 3, vs, TRUE
+2013-08-07, Boston, Thorns, 2, 1, vs, TRUE
+2013-08-07, Flash, Reign, 1, 0, vs, TRUE
+2013-08-07, Spirit, Red Stars, 1, 0, vs, TRUE
+2013-08-10, Boston, Kansas City, 1, 0, vs, TRUE
+2013-08-10, Flash, Thorns, 0, 0, vs, TRUE
+2013-08-10, Red Stars, Sky Blue, 3, 3, vs, TRUE
+2013-08-10, Spirit, Reign, 1, 0, vs, TRUE
+2013-08-17, Flash, Boston, 2, 1, vs, TRUE
+2013-08-17, Reign, Thorns, 1, 2, vs, TRUE
+2013-08-18, Kansas City, Red Stars, 1, 2, vs, TRUE
+2013-08-18, Spirit, Sky Blue, 1, 1, vs, TRUE
+2013-08-24, Flash, Sky Blue, 2, 0, vs, FALSE
+2013-08-24, Kansas City, Thorns, 2, 3, vs, FALSE
+2013-08-31, Flash, Thorns, 0, 2, vs, FALSE
+2014-04-12, Dash, Thorns, 0, 1, vs, TRUE
+2014-04-12, Kansas City, Sky Blue, 1, 1, vs, TRUE
+2014-04-13, Reign, Boston, 3, 0, vs, TRUE
+2014-04-13, Spirit, Flash, 1, 3, vs, TRUE
+2014-04-19, Red Stars, Flash, 1, 0, vs, TRUE
+2014-04-19, Sky Blue, Thorns, 1, 1, vs, TRUE
+2014-04-19, Spirit, Kansas City, 3, 1, vs, TRUE
+2014-04-20, Boston, Dash, 2, 3, vs, TRUE
+2014-04-23, Reign, Spirit, 3, 1, vs, TRUE
+2014-04-26, Red Stars, Spirit, 0, 1, vs, TRUE
+2014-04-26, Thorns, Kansas City, 3, 1, vs, TRUE
+2014-04-27, Boston, Sky Blue, 3, 2, vs, TRUE
+2014-04-27, Reign, Dash, 2, 0, vs, TRUE
+2014-04-30, Kansas City, Red Stars, 1, 0, vs, TRUE
+2014-04-30, Sky Blue, Reign, 0, 2, vs, TRUE
+2014-05-03, Dash, Kansas City, 0, 4, vs, TRUE
+2014-05-03, Flash, Thorns, 1, 1, vs, TRUE
+2014-05-03, Sky Blue, Boston, 1, 0, vs, TRUE
+2014-05-03, Spirit, Reign, 1, 2, vs, TRUE
+2014-05-07, Flash, Kansas City, 2, 1, vs, TRUE
+2014-05-07, Sky Blue, Red Stars, 1, 1, vs, TRUE
+2014-05-10, Thorns, Reign, 0, 1, vs, TRUE
+2014-05-11, Flash, Sky Blue, 2, 0, vs, TRUE
+2014-05-11, Kansas City, Spirit, 2, 1, vs, TRUE
+2014-05-11, Red Stars, Dash, 1, 0, vs, TRUE
+2014-05-14, Dash, Thorns, 0, 1, vs, TRUE
+2014-05-14, Reign, Kansas City, 3, 2, vs, TRUE
+2014-05-15, Boston, Red Stars, 1, 3, vs, TRUE
+2014-05-17, Spirit, Flash, 3, 2, vs, TRUE
+2014-05-18, Boston, Red Stars, 1, 4, vs, TRUE
+2014-05-18, Kansas City, Dash, 2, 2, vs, TRUE
+2014-05-21, Kansas City, Reign, 1, 1, vs, TRUE
+2014-05-21, Spirit, Sky Blue, 3, 3, vs, TRUE
+2014-05-21, Thorns, Flash, 2, 1, vs, TRUE
+2014-05-23, Dash, Red Stars, 1, 3, vs, TRUE
+2014-05-24, Thorns, Sky Blue, 0, 1, vs, TRUE
+2014-05-25, Boston, Kansas City, 0, 2, vs, TRUE
+2014-05-25, Reign, Flash, 2, 2, vs, TRUE
+2014-05-26, Spirit, Dash, 3, 2, vs, TRUE
+2014-05-28, Boston, Thorns, 4, 1, vs, TRUE
+2014-05-28, Sky Blue, Red Stars, 0, 2, vs, TRUE
+2014-05-31, Flash, Dash, 1, 2, vs, TRUE
+2014-06-01, Boston, Spirit, 2, 3, vs, TRUE
+2014-06-01, Sky Blue, Reign, 1, 3, vs, TRUE
+2014-06-04, Kansas City, Flash, 1, 0, vs, TRUE
+2014-06-04, Red Stars, Spirit, 0, 1, vs, TRUE
+2014-06-07, Kansas City, Boston, 2, 0, vs, TRUE
+2014-06-07, Reign, Red Stars, 3, 1, vs, TRUE
+2014-06-07, Thorns, Flash, 0, 5, vs, TRUE
+2014-06-08, Sky Blue, Dash, 0, 3, vs, TRUE
+2014-06-11, Boston, Spirit, 2, 0, vs, TRUE
+2014-06-11, Dash, Flash, 2, 1, vs, TRUE
+2014-06-14, Dash, Kansas City, 1, 2, vs, TRUE
+2014-06-15, Red Stars, Sky Blue, 2, 2, vs, TRUE
+2014-06-15, Thorns, Spirit, 2, 0, vs, TRUE
+2014-06-18, Flash, Red Stars, 2, 0, vs, TRUE
+2014-06-19, Boston, Reign, 0, 2, vs, TRUE
+2014-06-21, Kansas City, Red Stars, 1, 0, vs, TRUE
+2014-06-21, Spirit, Thorns, 1, 6, vs, TRUE
+2014-06-22, Flash, Reign, 1, 2, vs, TRUE
+2014-06-22, Sky Blue, Boston, 1, 1, vs, TRUE
+2014-06-25, Thorns, Sky Blue, 1, 2, vs, TRUE
+2014-06-27, Flash, Boston, 2, 1, vs, TRUE
+2014-06-28, Dash, Spirit, 0, 1, vs, TRUE
+2014-06-28, Kansas City, Thorns, 1, 0, vs, TRUE
+2014-06-28, Reign, Sky Blue, 0, 0, vs, TRUE
+2014-07-02, Flash, Reign, 1, 2, vs, TRUE
+2014-07-02, Spirit, Boston, 3, 3, vs, TRUE
+2014-07-04, Thorns, Red Stars, 2, 2, vs, TRUE
+2014-07-05, Dash, Flash, 1, 4, vs, TRUE
+2014-07-06, Reign, Boston, 3, 2, vs, TRUE
+2014-07-06, Sky Blue, Kansas City, 0, 5, vs, TRUE
+2014-07-09, Red Stars, Thorns, 1, 1, vs, TRUE
+2014-07-11, Dash, Boston, 2, 1, vs, TRUE
+2014-07-12, Flash, Spirit, 0, 1, vs, TRUE
+2014-07-12, Red Stars, Reign, 1, 0, vs, TRUE
+2014-07-13, Thorns, Kansas City, 7, 1, vs, TRUE
+2014-07-17, Dash, Spirit, 1, 1, vs, TRUE
+2014-07-17, Red Stars, Thorns, 1, 1, vs, TRUE
+2014-07-18, Flash, Kansas City, 1, 1, vs, TRUE
+2014-07-20, Reign, Red Stars, 1, 1, vs, TRUE
+2014-07-20, Sky Blue, Spirit, 4, 2, vs, TRUE
+2014-07-20, Thorns, Boston, 6, 3, vs, TRUE
+2014-07-23, Spirit, Thorns, 1, 1, vs, TRUE
+2014-07-25, Flash, Boston, 2, 4, vs, TRUE
+2014-07-26, Red Stars, Dash, 0, 0, vs, TRUE
+2014-07-27, Kansas City, Sky Blue, 2, 1, vs, TRUE
+2014-07-27, Reign, Thorns, 5, 0, vs, TRUE
+2014-07-30, Dash, Reign, 1, 4, vs, TRUE
+2014-07-30, Spirit, Kansas City, 2, 1, vs, TRUE
+2014-07-31, Sky Blue, Flash, 1, 0, vs, TRUE
+2014-08-02, Kansas City, Reign, 1, 1, vs, TRUE
+2014-08-02, Spirit, Red Stars, 2, 1, vs, TRUE
+2014-08-03, Boston, Flash, 3, 4, vs, TRUE
+2014-08-03, Thorns, Dash, 1, 0, vs, TRUE
+2014-08-06, Kansas City, Boston, 2, 1, vs, TRUE
+2014-08-06, Reign, Dash, 4, 1, vs, TRUE
+2014-08-09, Dash, Sky Blue, 1, 3, vs, TRUE
+2014-08-09, Red Stars, Kansas City, 2, 1, vs, TRUE
+2014-08-09, Reign, Spirit, 1, 1, vs, TRUE
+2014-08-10, Boston, Thorns, 2, 0, vs, TRUE
+2014-08-13, Flash, Sky Blue, 2, 3, vs, TRUE
+2014-08-13, Red Stars, Boston, 2, 0, vs, TRUE
+2014-08-16, Red Stars, Flash, 3, 3, vs, TRUE
+2014-08-16, Spirit, Sky Blue, 0, 1, vs, TRUE
+2014-08-17, Boston, Dash, 1, 0, vs, TRUE
+2014-08-17, Thorns, Reign, 1, 0, vs, TRUE
+2014-08-20, Sky Blue, Dash, 1, 0, vs, TRUE
+2014-08-23, Kansas City, Thorns, 2, 0, vs, FALSE
+2014-08-24, Reign, Spirit, 2, 1, vs, FALSE
+2014-08-31, Reign, Kansas City, 1, 2, vs, FALSE
+2015-04-10, Dash, Spirit, 2, 0, vs, TRUE
+2015-04-11, Thorns, Boston, 4, 1, vs, TRUE
+2015-04-12, Kansas City, Sky Blue, 0, 1, vs, TRUE
+2015-04-12, Reign, Flash, 5, 1, vs, TRUE
+2015-04-18, Red Stars, Reign, 3, 2, vs, TRUE
+2015-04-18, Sky Blue, Dash, 1, 1, vs, TRUE
+2015-04-18, Spirit, Kansas City, 3, 1, vs, TRUE
+2015-04-18, Thorns, Flash, 1, 0, vs, TRUE
+2015-04-23, Kansas City, Reign, 1, 0, vs, TRUE
+2015-04-25, Red Stars, Thorns, 2, 2, vs, TRUE
+2015-04-26, Boston, Dash, 3, 2, vs, TRUE
+2015-04-26, Sky Blue, Spirit, 1, 3, vs, TRUE
+2015-05-02, Dash, Kansas City, 0, 2, vs, TRUE
+2015-05-02, Flash, Boston, 3, 1, vs, TRUE
+2015-05-02, Red Stars, Sky Blue, 1, 0, vs, TRUE
+2015-05-02, Reign, Spirit, 3, 1, vs, TRUE
+2015-05-08, Flash, Kansas City, 0, 1, vs, TRUE
+2015-05-09, Red Stars, Boston, 3, 0, vs, TRUE
+2015-05-09, Sky Blue, Reign, 1, 1, vs, TRUE
+2015-05-09, Thorns, Spirit, 2, 2, vs, TRUE
+2015-05-14, Kansas City, Flash, 0, 0, vs, TRUE
+2015-05-15, Dash, Red Stars, 2, 2, vs, TRUE
+2015-05-16, Boston, Thorns, 1, 0, vs, TRUE
+2015-05-16, Spirit, Sky Blue, 1, 0, vs, TRUE
+2015-05-22, Boston, Sky Blue, 1, 1, vs, TRUE
+2015-05-23, Flash, Spirit, 3, 2, vs, TRUE
+2015-05-23, Kansas City, Red Stars, 1, 2, vs, TRUE
+2015-05-23, Thorns, Dash, 0, 1, vs, TRUE
+2015-05-30, Boston, Kansas City, 1, 0, vs, TRUE
+2015-05-30, Reign, Red Stars, 0, 0, vs, TRUE
+2015-05-30, Spirit, Thorns, 2, 1, vs, TRUE
+2015-05-31, Sky Blue, Dash, 1, 1, vs, TRUE
+2015-06-06, Dash, Thorns, 0, 0, vs, TRUE
+2015-06-06, Flash, Red Stars, 3, 1, vs, TRUE
+2015-06-06, Reign, Sky Blue, 3, 0, vs, TRUE
+2015-06-06, Spirit, Boston, 1, 1, vs, TRUE
+2015-06-19, Thorns, Kansas City, 1, 1, vs, TRUE
+2015-06-20, Dash, Flash, 2, 0, vs, TRUE
+2015-06-21, Boston, Reign, 2, 3, vs, TRUE
+2015-06-27, Reign, Kansas City, 2, 1, vs, TRUE
+2015-06-27, Spirit, Dash, 1, 0, vs, TRUE
+2015-06-28, Boston, Flash, 0, 2, vs, TRUE
+2015-06-28, Sky Blue, Red Stars, 0, 3, vs, TRUE
+2015-07-03, Flash, Reign, 1, 1, vs, TRUE
+2015-07-03, Kansas City, Spirit, 3, 0, vs, TRUE
+2015-07-03, Thorns, Sky Blue, 2, 1, vs, TRUE
+2015-07-09, Boston, Kansas City, 2, 3, vs, TRUE
+2015-07-11, Reign, Flash, 4, 2, vs, TRUE
+2015-07-11, Sky Blue, Thorns, 1, 0, vs, TRUE
+2015-07-12, Dash, Red Stars, 1, 2, vs, TRUE
+2015-07-18, Red Stars, Boston, 1, 1, vs, TRUE
+2015-07-18, Spirit, Reign, 3, 0, vs, TRUE
+2015-07-19, Flash, Sky Blue, 3, 3, vs, TRUE
+2015-07-20, Kansas City, Dash, 1, 1, vs, TRUE
+2015-07-22, Boston, Red Stars, 1, 2, vs, TRUE
+2015-07-22, Thorns, Reign, 0, 1, vs, TRUE
+2015-07-25, Flash, Dash, 0, 1, vs, TRUE
+2015-07-25, Sky Blue, Boston, 3, 1, vs, TRUE
+2015-07-25, Spirit, Red Stars, 1, 1, vs, TRUE
+2015-07-26, Reign, Thorns, 3, 0, vs, TRUE
+2015-07-29, Dash, Kansas City, 3, 2, vs, TRUE
+2015-07-29, Flash, Thorns, 0, 2, vs, TRUE
+2015-08-01, Boston, Reign, 1, 2, vs, TRUE
+2015-08-01, Red Stars, Kansas City, 2, 2, vs, TRUE
+2015-08-01, Sky Blue, Flash, 1, 2, vs, TRUE
+2015-08-01, Spirit, Dash, 3, 1, vs, TRUE
+2015-08-05, Thorns, Boston, 5, 2, vs, TRUE
+2015-08-07, Dash, Sky Blue, 0, 2, vs, TRUE
+2015-08-08, Boston, Spirit, 2, 1, vs, TRUE
+2015-08-08, Kansas City, Flash, 4, 0, vs, TRUE
+2015-08-09, Thorns, Red Stars, 2, 1, vs, TRUE
+2015-08-12, Kansas City, Thorns, 3, 0, vs, TRUE
+2015-08-12, Red Stars, Sky Blue, 1, 1, vs, TRUE
+2015-08-12, Reign, Dash, 2, 1, vs, TRUE
+2015-08-12, Spirit, Flash, 1, 1, vs, TRUE
+2015-08-16, Red Stars, Spirit, 1, 2, vs, TRUE
+2015-08-21, Dash, Reign, 0, 3, vs, TRUE
+2015-08-22, Kansas City, Boston, 3, 0, vs, TRUE
+2015-08-22, Sky Blue, Thorns, 1, 0, vs, TRUE
+2015-08-23, Red Stars, Flash, 0, 0, vs, TRUE
+2015-08-26, Reign, Boston, 3, 1, vs, TRUE
+2015-08-27, Kansas City, Spirit, 0, 0, vs, TRUE
+2015-08-29, Flash, Red Stars, 0, 2, vs, TRUE
+2015-08-29, Reign, Sky Blue, 1, 1, vs, TRUE
+2015-08-30, Dash, Boston, 1, 0, vs, TRUE
+2015-08-30, Thorns, Spirit, 3, 3, vs, TRUE
+2015-09-02, Sky Blue, Kansas City, 2, 3, vs, TRUE
+2015-09-04, Flash, Thorns, 3, 2, vs, TRUE
+2015-09-05, Spirit, Reign, 1, 2, vs, TRUE
+2015-09-06, Red Stars, Dash, 1, 1, vs, TRUE
+2015-09-13, Red Stars, Kansas City, 0, 3, vs, FALSE
+2015-09-13, Reign, Spirit, 3, 0, vs, FALSE
+2015-10-01, Kansas City, Reign, 1, 0, N, FALSE
+2016-04-16, Dash, Red Stars, 3, 1, vs, TRUE
+2016-04-16, Kansas City, Flash, 0, 1, vs, TRUE
+2016-04-16, Spirit, Boston, 1, 0, vs, TRUE
+2016-04-17, Reign, Sky Blue, 1, 2, vs, TRUE
+2016-04-17, Thorns, Pride, 2, 1, vs, TRUE
+2016-04-23, Kansas City, Thorns, 1, 1, vs, TRUE
+2016-04-23, Pride, Dash, 3, 1, vs, TRUE
+2016-04-23, Red Stars, Flash, 1, 0, vs, TRUE
+2016-04-24, Boston, Reign, 0, 3, vs, TRUE
+2016-04-24, Sky Blue, Spirit, 1, 2, vs, TRUE
+2016-04-29, Dash, Sky Blue, 0, 0, vs, TRUE
+2016-04-29, Flash, Spirit, 0, 3, vs, TRUE
+2016-05-01, Boston, Thorns, 0, 1, vs, TRUE
+2016-05-01, Red Stars, Pride, 1, 0, vs, TRUE
+2016-05-01, Reign, Kansas City, 1, 0, vs, TRUE
+2016-05-07, Boston, Red Stars, 0, 1, vs, TRUE
+2016-05-07, Kansas City, Dash, 1, 2, vs, TRUE
+2016-05-07, Sky Blue, Flash, 1, 2, vs, TRUE
+2016-05-07, Spirit, Thorns, 0, 0, vs, TRUE
+2016-05-08, Pride, Reign, 2, 0, vs, TRUE
+2016-05-13, Kansas City, Red Stars, 0, 0, vs, TRUE
+2016-05-13, Sky Blue, Boston, 1, 0, vs, TRUE
+2016-05-14, Pride, Flash, 1, 0, vs, TRUE
+2016-05-14, Reign, Thorns, 1, 1, vs, TRUE
+2016-05-14, Spirit, Dash, 1, 0, vs, TRUE
+2016-05-20, Dash, Pride, 0, 1, vs, TRUE
+2016-05-21, Flash, Sky Blue, 5, 2, vs, TRUE
+2016-05-21, Thorns, Spirit, 4, 1, vs, TRUE
+2016-05-22, Boston, Kansas City, 1, 0, vs, TRUE
+2016-05-22, Reign, Red Stars, 1, 2, vs, TRUE
+2016-05-27, Flash, Boston, 4, 0, vs, TRUE
+2016-05-28, Kansas City, Pride, 2, 0, vs, TRUE
+2016-05-29, Red Stars, Sky Blue, 1, 1, vs, TRUE
+2016-05-29, Thorns, Reign, 0, 0, vs, TRUE
+2016-06-10, Boston, Spirit, 1, 1, vs, TRUE
+2016-06-11, Flash, Pride, 1, 0, vs, TRUE
+2016-06-11, Sky Blue, Kansas City, 1, 1, vs, TRUE
+2016-06-12, Red Stars, Thorns, 1, 1, vs, TRUE
+2016-06-12, Reign, Dash, 1, 0, vs, TRUE
+2016-06-17, Flash, Thorns, 0, 2, vs, TRUE
+2016-06-18, Red Stars, Boston, 3, 0, vs, TRUE
+2016-06-18, Spirit, Pride, 2, 0, vs, TRUE
+2016-06-19, Dash, Kansas City, 0, 1, vs, TRUE
+2016-06-19, Sky Blue, Reign, 0, 0, vs, TRUE
+2016-06-22, Thorns, Red Stars, 2, 0, vs, TRUE
+2016-06-23, Pride, Dash, 1, 0, vs, TRUE
+2016-06-24, Flash, Boston, 7, 1, vs, TRUE
+2016-06-25, Kansas City, Reign, 0, 0, vs, TRUE
+2016-06-25, Spirit, Sky Blue, 1, 2, vs, TRUE
+2016-06-26, Pride, Thorns, 1, 2, vs, TRUE
+2016-07-01, Flash, Red Stars, 2, 0, vs, TRUE
+2016-07-02, Reign, Boston, 2, 0, vs, TRUE
+2016-07-02, Spirit, Kansas City, 2, 0, vs, TRUE
+2016-07-02, Thorns, Sky Blue, 2, 1, vs, TRUE
+2016-07-09, Flash, Reign, 3, 2, vs, TRUE
+2016-07-09, Sky Blue, Dash, 1, 0, vs, TRUE
+2016-07-09, Spirit, Red Stars, 2, 0, vs, TRUE
+2016-07-09, Thorns, Kansas City, 1, 2, vs, TRUE
+2016-07-10, Pride, Boston, 2, 1, vs, TRUE
+2016-07-16, Dash, Thorns, 3, 0, vs, TRUE
+2016-07-16, Kansas City, Spirit, 2, 3, vs, TRUE
+2016-07-16, Pride, Red Stars, 0, 1, vs, TRUE
+2016-07-16, Reign, Flash, 1, 1, vs, TRUE
+2016-07-17, Boston, Sky Blue, 2, 3, vs, TRUE
+2016-07-23, Flash, Kansas City, 0, 1, vs, TRUE
+2016-07-23, Red Stars, Dash, 1, 1, vs, TRUE
+2016-07-23, Reign, Pride, 5, 2, vs, TRUE
+2016-07-23, Sky Blue, Spirit, 1, 0, vs, TRUE
+2016-07-30, Dash, Flash, 3, 3, vs, TRUE
+2016-07-30, Red Stars, Kansas City, 1, 0, vs, TRUE
+2016-07-30, Thorns, Reign, 1, 0, vs, TRUE
+2016-07-31, Boston, Pride, 1, 0, vs, TRUE
+2016-07-31, Spirit, Sky Blue, 3, 1, vs, TRUE
+2016-08-18, Dash, Spirit, 1, 2, vs, TRUE
+2016-08-26, Pride, Spirit, 1, 2, vs, TRUE
+2016-08-27, Flash, Dash, 2, 2, vs, TRUE
+2016-08-27, Reign, Thorns, 3, 1, vs, TRUE
+2016-08-27, Sky Blue, Red Stars, 1, 3, vs, TRUE
+2016-08-28, Kansas City, Boston, 0, 2, vs, TRUE
+2016-08-31, Boston, Dash, 1, 3, vs, TRUE
+2016-09-03, Dash, Pride, 4, 2, vs, TRUE
+2016-09-03, Spirit, Flash, 1, 1, vs, TRUE
+2016-09-04, Kansas City, Sky Blue, 2, 1, vs, TRUE
+2016-09-04, Red Stars, Reign, 2, 2, vs, TRUE
+2016-09-04, Thorns, Boston, 5, 1, vs, TRUE
+2016-09-07, Boston, Flash, 2, 2, vs, TRUE
+2016-09-07, Red Stars, Kansas City, 2, 3, vs, TRUE
+2016-09-07, Sky Blue, Pride, 1, 1, vs, TRUE
+2016-09-07, Spirit, Reign, 2, 1, vs, TRUE
+2016-09-07, Thorns, Dash, 3, 0, vs, TRUE
+2016-09-10, Pride, Sky Blue, 1, 2, vs, TRUE
+2016-09-11, Dash, Boston, 4, 1, vs, TRUE
+2016-09-11, Kansas City, Red Stars, 0, 0, vs, TRUE
+2016-09-11, Reign, Spirit, 2, 0, vs, TRUE
+2016-09-11, Thorns, Flash, 3, 2, vs, TRUE
+2016-09-24, Boston, Flash, 0, 4, vs, TRUE
+2016-09-24, Pride, Kansas City, 1, 2, vs, TRUE
+2016-09-24, Red Stars, Spirit, 3, 1, vs, TRUE
+2016-09-25, Dash, Reign, 2, 3, vs, TRUE
+2016-09-25, Sky Blue, Thorns, 1, 3, vs, TRUE
+2016-09-30, Spirit, Red Stars, 2, 1, vs, FALSE
+2016-10-02, Thorns, Flash, 3, 4, vs, FALSE
+2016-10-09, Spirit, Flash, 2, 2, N, FALSE
+2017-04-15, Dash, Red Stars, 2, 0, vs, TRUE
+2017-04-15, Reign, Sky Blue, 1, 1, vs, TRUE
+2017-04-15, Spirit, Courage, 0, 1, vs, TRUE
+2017-04-15, Thorns, Pride, 2, 0, vs, TRUE
+2017-04-16, Kansas City, Boston, 2, 0, vs, TRUE
+2017-04-22, Courage, Thorns, 1, 0, vs, TRUE
+2017-04-22, Pride, Spirit, 1, 1, vs, TRUE
+2017-04-22, Red Stars, Kansas City, 1, 0, vs, TRUE
+2017-04-22, Reign, Dash, 5, 1, vs, TRUE
+2017-04-23, Boston, Sky Blue, 1, 0, vs, TRUE
+2017-04-29, Boston, Reign, 3, 0, vs, TRUE
+2017-04-29, Courage, Pride, 3, 1, vs, TRUE
+2017-04-29, Spirit, Dash, 0, 1, vs, TRUE
+2017-04-29, Thorns, Red Stars, 1, 0, vs, TRUE
+2017-04-30, Sky Blue, Kansas City, 1, 0, vs, TRUE
+2017-05-06, Red Stars, Dash, 2, 0, vs, TRUE
+2017-05-06, Spirit, Sky Blue, 4, 3, vs, TRUE
+2017-05-06, Thorns, Reign, 2, 2, vs, TRUE
+2017-05-07, Boston, Courage, 0, 1, vs, TRUE
+2017-05-07, Kansas City, Pride, 1, 1, vs, TRUE
+2017-05-13, Dash, Sky Blue, 1, 3, vs, TRUE
+2017-05-13, Kansas City, Thorns, 0, 0, vs, TRUE
+2017-05-13, Reign, Spirit, 6, 2, vs, TRUE
+2017-05-14, Pride, Courage, 3, 1, vs, TRUE
+2017-05-14, Red Stars, Boston, 1, 1, vs, TRUE
+2017-05-19, Boston, Thorns, 2, 2, vs, TRUE
+2017-05-20, Sky Blue, Dash, 2, 1, vs, TRUE
+2017-05-20, Spirit, Kansas City, 0, 1, vs, TRUE
+2017-05-21, Courage, Red Stars, 1, 3, vs, TRUE
+2017-05-21, Reign, Pride, 1, 1, vs, TRUE
+2017-05-24, Courage, Sky Blue, 2, 0, vs, TRUE
+2017-05-27, Dash, Reign, 0, 2, vs, TRUE
+2017-05-27, Kansas City, Spirit, 3, 2, vs, TRUE
+2017-05-27, Red Stars, Courage, 3, 2, vs, TRUE
+2017-05-27, Sky Blue, Pride, 2, 1, vs, TRUE
+2017-05-27, Thorns, Boston, 2, 0, vs, TRUE
+2017-06-03, Courage, Kansas City, 2, 0, vs, TRUE
+2017-06-03, Pride, Boston, 2, 0, vs, TRUE
+2017-06-03, Sky Blue, Thorns, 0, 2, vs, TRUE
+2017-06-03, Spirit, Dash, 2, 0, vs, TRUE
+2017-06-04, Red Stars, Reign, 1, 0, vs, TRUE
+2017-06-17, Courage, Boston, 3, 1, vs, TRUE
+2017-06-17, Dash, Pride, 2, 4, vs, TRUE
+2017-06-17, Kansas City, Reign, 2, 2, vs, TRUE
+2017-06-17, Red Stars, Spirit, 1, 1, vs, TRUE
+2017-06-17, Thorns, Sky Blue, 1, 3, vs, TRUE
+2017-06-24, Boston, Courage, 0, 1, vs, TRUE
+2017-06-24, Pride, Dash, 0, 2, vs, TRUE
+2017-06-24, Reign, Kansas City, 1, 1, vs, TRUE
+2017-06-24, Spirit, Thorns, 1, 0, vs, TRUE
+2017-06-25, Red Stars, Sky Blue, 2, 1, vs, TRUE
+2017-06-28, Dash, Boston, 0, 0, vs, TRUE
+2017-06-28, Reign, Red Stars, 2, 1, vs, TRUE
+2017-06-28, Sky Blue, Pride, 2, 3, vs, TRUE
+2017-06-28, Thorns, Kansas City, 3, 0, vs, TRUE
+2017-07-01, Boston, Spirit, 1, 0, vs, TRUE
+2017-07-01, Courage, Sky Blue, 0, 1, vs, TRUE
+2017-07-01, Pride, Red Stars, 0, 1, vs, TRUE
+2017-07-01, Reign, Thorns, 2, 0, vs, TRUE
+2017-07-02, Kansas City, Dash, 1, 2, vs, TRUE
+2017-07-07, Boston, Red Stars, 0, 0, vs, TRUE
+2017-07-08, Courage, Reign, 2, 0, vs, TRUE
+2017-07-08, Dash, Thorns, 1, 1, vs, TRUE
+2017-07-08, Sky Blue, Kansas City, 3, 2, vs, TRUE
+2017-07-08, Spirit, Pride, 2, 2, vs, TRUE
+2017-07-15, Dash, Spirit, 2, 1, vs, TRUE
+2017-07-15, Pride, Kansas City, 4, 1, vs, TRUE
+2017-07-15, Reign, Boston, 1, 1, vs, TRUE
+2017-07-15, Sky Blue, Red Stars, 2, 2, vs, TRUE
+2017-07-15, Thorns, Courage, 1, 0, vs, TRUE
+2017-07-22, Dash, Boston, 1, 0, vs, TRUE
+2017-07-22, Red Stars, Pride, 2, 1, vs, TRUE
+2017-07-22, Reign, Sky Blue, 5, 4, vs, TRUE
+2017-07-22, Thorns, Spirit, 2, 1, vs, TRUE
+2017-08-04, Boston, Kansas City, 2, 2, vs, TRUE
+2017-08-04, Sky Blue, Spirit, 1, 4, vs, TRUE
+2017-08-05, Courage, Reign, 1, 0, vs, TRUE
+2017-08-05, Pride, Red Stars, 1, 1, vs, TRUE
+2017-08-05, Thorns, Dash, 2, 1, vs, TRUE
+2017-08-08, Pride, Spirit, 3, 0, vs, TRUE
+2017-08-10, Kansas City, Courage, 0, 1, vs, TRUE
+2017-08-12, Pride, Sky Blue, 5, 0, vs, TRUE
+2017-08-12, Red Stars, Thorns, 2, 3, vs, TRUE
+2017-08-12, Spirit, Boston, 2, 2, vs, TRUE
+2017-08-13, Dash, Kansas City, 0, 1, vs, TRUE
+2017-08-13, Reign, Courage, 1, 2, vs, TRUE
+2017-08-16, Boston, Dash, 1, 3, vs, TRUE
+2017-08-16, Kansas City, Thorns, 2, 1, vs, TRUE
+2017-08-16, Red Stars, Reign, 1, 2, vs, TRUE
+2017-08-19, Boston, Pride, 1, 2, vs, TRUE
+2017-08-19, Courage, Spirit, 2, 0, vs, TRUE
+2017-08-19, Sky Blue, Reign, 5, 4, vs, TRUE
+2017-08-19, Thorns, Dash, 2, 0, vs, TRUE
+2017-08-20, Red Stars, Kansas City, 1, 3, vs, TRUE
+2017-08-26, Kansas City, Pride, 1, 2, vs, TRUE
+2017-08-26, Reign, Thorns, 1, 2, vs, TRUE
+2017-08-26, Sky Blue, Boston, 1, 0, vs, TRUE
+2017-08-26, Spirit, Red Stars, 1, 2, vs, TRUE
+2017-08-30, Spirit, Courage, 2, 3, vs, TRUE
+2017-09-02, Pride, Boston, 4, 2, vs, TRUE
+2017-09-02, Thorns, Spirit, 4, 0, vs, TRUE
+2017-09-03, Dash, Reign, 0, 1, vs, TRUE
+2017-09-03, Kansas City, Sky Blue, 4, 1, vs, TRUE
+2017-09-03, Red Stars, Courage, 2, 1, vs, TRUE
+2017-09-07, Pride, Reign, 1, 1, vs, TRUE
+2017-09-09, Courage, Dash, 1, 0, vs, TRUE
+2017-09-09, Kansas City, Red Stars, 0, 0, vs, TRUE
+2017-09-10, Boston, Thorns, 0, 1, vs, TRUE
+2017-09-10, Sky Blue, Spirit, 1, 2, vs, TRUE
+2017-09-23, Dash, Red Stars, 2, 3, vs, TRUE
+2017-09-23, Pride, Thorns, 0, 0, vs, TRUE
+2017-09-23, Spirit, Boston, 0, 3, vs, TRUE
+2017-09-24, Reign, Kansas City, 0, 1, vs, TRUE
+2017-09-24, Sky Blue, Courage, 1, 1, vs, TRUE
+2017-09-27, Dash, Courage, 0, 4, vs, TRUE
+2017-09-30, Boston, Sky Blue, 3, 4, vs, TRUE
+2017-09-30, Courage, Pride, 2, 3, vs, TRUE
+2017-09-30, Spirit, Reign, 2, 3, vs, TRUE
+2017-09-30, Thorns, Red Stars, 3, 1, vs, TRUE
+2017-10-01, Kansas City, Dash, 1, 1, vs, TRUE
+2017-10-07, Thorns, Pride, 4, 1, vs, FALSE
+2017-10-08, Courage, Red Stars, 1, 0, vs, FALSE
+2017-10-14, Courage, Thorns, 0, 1, N, FALSE
+2018-03-24, Courage, Thorns, 1, 0, vs, TRUE
+2018-03-24, Pride, Royals, 1, 1, vs, TRUE
+2018-03-24, Reign, Spirit, 2, 1, vs, TRUE
+2018-03-25, Dash, Red Stars, 1, 1, vs, TRUE
+2018-03-30, Dash, Royals, 0, 0, vs, TRUE
+2018-03-31, Courage, Sky Blue, 1, 0, vs, TRUE
+2018-03-31, Red Stars, Thorns, 2, 3, vs, TRUE
+2018-03-31, Spirit, Pride, 2, 0, vs, TRUE
+2018-04-14, Royals, Red Stars, 0, 1, vs, TRUE
+2018-04-14, Spirit, Courage, 2, 4, vs, TRUE
+2018-04-15, Sky Blue, Reign, 0, 1, vs, TRUE
+2018-04-15, Thorns, Pride, 2, 1, vs, TRUE
+2018-04-18, Courage, Reign, 1, 0, vs, TRUE
+2018-04-18, Red Stars, Dash, 3, 0, vs, TRUE
+2018-04-20, Thorns, Spirit, 1, 1, vs, TRUE
+2018-04-21, Courage, Royals, 2, 2, vs, TRUE
+2018-04-21, Red Stars, Sky Blue, 1, 1, vs, TRUE
+2018-04-22, Pride, Dash, 1, 0, vs, TRUE
+2018-04-28, Dash, Courage, 0, 2, vs, TRUE
+2018-04-28, Pride, Reign, 1, 1, vs, TRUE
+2018-04-28, Royals, Thorns, 1, 1, vs, TRUE
+2018-04-28, Spirit, Red Stars, 1, 1, vs, TRUE
+2018-05-02, Red Stars, Pride, 0, 2, vs, TRUE
+2018-05-05, Royals, Spirit, 2, 0, vs, TRUE
+2018-05-05, Sky Blue, Dash, 2, 3, vs, TRUE
+2018-05-05, Thorns, Reign, 2, 3, vs, TRUE
+2018-05-06, Courage, Red Stars, 1, 1, vs, TRUE
+2018-05-09, Dash, Thorns, 1, 1, vs, TRUE
+2018-05-09, Royals, Pride, 0, 0, vs, TRUE
+2018-05-12, Courage, Spirit, 1, 0, vs, TRUE
+2018-05-12, Red Stars, Dash, 2, 2, vs, TRUE
+2018-05-12, Reign, Sky Blue, 4, 1, vs, TRUE
+2018-05-12, Thorns, Pride, 1, 2, vs, TRUE
+2018-05-19, Reign, Red Stars, 0, 0, vs, TRUE
+2018-05-19, Royals, Dash, 1, 0, vs, TRUE
+2018-05-19, Sky Blue, Courage, 1, 2, vs, TRUE
+2018-05-19, Spirit, Thorns, 0, 1, vs, TRUE
+2018-05-23, Dash, Reign, 2, 1, vs, TRUE
+2018-05-23, Pride, Courage, 3, 4, vs, TRUE
+2018-05-23, Spirit, Sky Blue, 1, 0, vs, TRUE
+2018-05-25, Thorns, Royals, 2, 0, vs, TRUE
+2018-05-26, Red Stars, Pride, 2, 5, vs, TRUE
+2018-05-26, Sky Blue, Reign, 0, 1, vs, TRUE
+2018-05-27, Dash, Spirit, 3, 2, vs, TRUE
+2018-05-30, Thorns, Courage, 1, 4, vs, TRUE
+2018-06-02, Sky Blue, Royals, 1, 2, vs, TRUE
+2018-06-02, Spirit, Red Stars, 0, 2, vs, TRUE
+2018-06-03, Dash, Courage, 1, 1, vs, TRUE
+2018-06-03, Reign, Pride, 0, 0, vs, TRUE
+2018-06-08, Sky Blue, Spirit, 0, 0, vs, TRUE
+2018-06-16, Courage, Royals, 0, 1, vs, TRUE
+2018-06-16, Pride, Sky Blue, 3, 2, vs, TRUE
+2018-06-16, Red Stars, Thorns, 1, 1, vs, TRUE
+2018-06-16, Spirit, Reign, 0, 0, vs, TRUE
+2018-06-22, Dash, Thorns, 1, 3, vs, TRUE
+2018-06-23, Red Stars, Royals, 2, 0, vs, TRUE
+2018-06-23, Reign, Courage, 1, 4, vs, TRUE
+2018-06-23, Spirit, Pride, 0, 1, vs, TRUE
+2018-06-27, Pride, Dash, 1, 2, vs, TRUE
+2018-06-27, Royals, Reign, 0, 0, vs, TRUE
+2018-06-27, Thorns, Sky Blue, 1, 1, vs, TRUE
+2018-06-30, Pride, Courage, 0, 3, vs, TRUE
+2018-06-30, Reign, Thorns, 1, 0, vs, TRUE
+2018-06-30, Royals, Sky Blue, 3, 1, vs, TRUE
+2018-07-01, Red Stars, Spirit, 2, 0, vs, TRUE
+2018-07-04, Courage, Red Stars, 4, 1, vs, TRUE
+2018-07-06, Thorns, Royals, 4, 0, vs, TRUE
+2018-07-07, Pride, Spirit, 2, 1, vs, TRUE
+2018-07-07, Reign, Dash, 3, 1, vs, TRUE
+2018-07-07, Sky Blue, Red Stars, 1, 3, vs, TRUE
+2018-07-11, Courage, Spirit, 2, 0, vs, TRUE
+2018-07-11, Dash, Pride, 3, 1, vs, TRUE
+2018-07-11, Reign, Royals, 1, 0, vs, TRUE
+2018-07-14, Red Stars, Reign, 1, 0, vs, TRUE
+2018-07-14, Royals, Pride, 1, 2, vs, TRUE
+2018-07-14, Sky Blue, Courage, 0, 4, vs, TRUE
+2018-07-15, Thorns, Dash, 3, 1, vs, TRUE
+2018-07-20, Royals, Courage, 0, 0, vs, TRUE
+2018-07-21, Pride, Reign, 1, 1, vs, TRUE
+2018-07-21, Sky Blue, Thorns, 1, 2, vs, TRUE
+2018-07-22, Spirit, Dash, 0, 1, vs, TRUE
+2018-08-05, Courage, Thorns, 2, 1, vs, TRUE
+2018-08-05, Dash, Royals, 1, 2, vs, TRUE
+2018-08-05, Pride, Sky Blue, 2, 2, vs, TRUE
+2018-08-05, Reign, Spirit, 2, 0, vs, TRUE
+2018-08-08, Royals, Spirit, 1, 0, vs, TRUE
+2018-08-10, Red Stars, Courage, 1, 1, vs, TRUE
+2018-08-11, Pride, Thorns, 0, 2, vs, TRUE
+2018-08-11, Royals, Reign, 0, 1, vs, TRUE
+2018-08-11, Sky Blue, Dash, 1, 2, vs, TRUE
+2018-08-15, Reign, Red Stars, 0, 0, vs, TRUE
+2018-08-17, Dash, Spirit, 4, 0, vs, TRUE
+2018-08-18, Sky Blue, Royals, 2, 2, vs, TRUE
+2018-08-18, Thorns, Red Stars, 2, 2, vs, TRUE
+2018-08-19, Courage, Pride, 3, 0, vs, TRUE
+2018-08-21, Reign, Dash, 2, 0, vs, TRUE
+2018-08-22, Spirit, Royals, 0, 1, vs, TRUE
+2018-08-22, Thorns, Sky Blue, 2, 1, vs, TRUE
+2018-08-25, Dash, Sky Blue, 6, 1, vs, TRUE
+2018-08-25, Pride, Red Stars, 1, 3, vs, TRUE
+2018-08-25, Reign, Courage, 1, 1, vs, TRUE
+2018-08-25, Spirit, Thorns, 0, 1, vs, TRUE
+2018-09-02, Spirit, Sky Blue, 1, 1, vs, TRUE
+2018-09-04, Red Stars, Sky Blue, 5, 0, vs, TRUE
+2018-09-07, Thorns, Reign, 3, 1, vs, TRUE
+2018-09-08, Courage, Dash, 5, 0, vs, TRUE
+2018-09-08, Royals, Red Stars, 2, 1, vs, TRUE
+2018-09-08, Sky Blue, Pride, 1, 0, vs, TRUE
+2018-09-15, Thorns, Reign, 2, 1, vs, FALSE
+2018-09-18, Courage, Red Stars, 2, 0, N, FALSE
+2018-09-22, Thorns, Courage, 0, 3, @, FALSE
+2019-04-13, Courage, Red Stars, 1, 1, vs, TRUE
+2019-04-13, Spirit, Sky Blue, 2, 0, vs, TRUE
+2019-04-14, Dash, Reign, 1, 1, vs, TRUE
+2019-04-14, Pride, Thorns, 0, 2, vs, TRUE
+2019-04-17, Courage, Pride, 5, 0, vs, TRUE
+2019-04-20, Red Stars, Thorns, 4, 4, vs, TRUE
+2019-04-20, Royals, Spirit, 1, 0, vs, TRUE
+2019-04-20, Sky Blue, Dash, 0, 1, vs, TRUE
+2019-04-21, Reign, Pride, 1, 1, vs, TRUE
+2019-04-27, Pride, Royals, 0, 1, vs, TRUE
+2019-04-28, Dash, Courage, 1, 4, vs, TRUE
+2019-04-28, Red Stars, Reign, 3, 0, vs, TRUE
+2019-04-28, Sky Blue, Thorns, 2, 2, vs, TRUE
+2019-05-03, Royals, Red Stars, 1, 0, vs, TRUE
+2019-05-04, Courage, Sky Blue, 0, 0, vs, TRUE
+2019-05-04, Spirit, Reign, 0, 0, vs, TRUE
+2019-05-05, Dash, Pride, 1, 0, vs, TRUE
+2019-05-11, Pride, Thorns, 1, 3, vs, TRUE
+2019-05-11, Royals, Dash, 1, 2, vs, TRUE
+2019-05-11, Sky Blue, Spirit, 2, 3, vs, TRUE
+2019-05-12, Red Stars, Courage, 3, 1, vs, TRUE
+2019-05-18, Reign, Sky Blue, 2, 1, vs, TRUE
+2019-05-18, Spirit, Thorns, 3, 1, vs, TRUE
+2019-05-19, Courage, Royals, 1, 1, vs, TRUE
+2019-05-19, Dash, Red Stars, 1, 2, vs, TRUE
+2019-05-25, Royals, Pride, 2, 0, vs, TRUE
+2019-05-25, Sky Blue, Thorns, 0, 1, vs, TRUE
+2019-05-26, Red Stars, Spirit, 0, 2, vs, TRUE
+2019-05-27, Reign, Courage, 2, 1, vs, TRUE
+2019-06-01, Pride, Courage, 0, 3, vs, TRUE
+2019-06-01, Spirit, Royals, 2, 0, vs, TRUE
+2019-06-02, Reign, Dash, 1, 1, vs, TRUE
+2019-06-02, Thorns, Red Stars, 3, 0, vs, TRUE
+2019-06-15, Courage, Thorns, 1, 1, vs, TRUE
+2019-06-15, Dash, Pride, 2, 2, vs, TRUE
+2019-06-15, Reign, Spirit, 1, 1, vs, TRUE
+2019-06-15, Royals, Sky Blue, 1, 0, vs, TRUE
+2019-06-21, Thorns, Royals, 0, 0, vs, TRUE
+2019-06-22, Sky Blue, Pride, 1, 2, vs, TRUE
+2019-06-22, Spirit, Dash, 0, 0, vs, TRUE
+2019-06-23, Red Stars, Reign, 0, 1, vs, TRUE
+2019-06-28, Royals, Reign, 0, 2, vs, TRUE
+2019-06-29, Dash, Thorns, 1, 2, vs, TRUE
+2019-06-29, Spirit, Courage, 1, 2, vs, TRUE
+2019-06-30, Pride, Red Stars, 2, 3, vs, TRUE
+2019-07-05, Courage, Dash, 5, 2, vs, TRUE
+2019-07-05, Thorns, Reign, 0, 1, vs, TRUE
+2019-07-06, Pride, Spirit, 4, 3, vs, TRUE
+2019-07-06, Red Stars, Sky Blue, 1, 2, vs, TRUE
+2019-07-12, Sky Blue, Royals, 1, 0, vs, TRUE
+2019-07-13, Courage, Reign, 2, 0, vs, TRUE
+2019-07-13, Dash, Red Stars, 0, 1, vs, TRUE
+2019-07-14, Thorns, Pride, 4, 3, vs, TRUE
+2019-07-19, Royals, Thorns, 2, 2, vs, TRUE
+2019-07-20, Pride, Sky Blue, 1, 0, vs, TRUE
+2019-07-20, Spirit, Dash, 1, 2, vs, TRUE
+2019-07-21, Red Stars, Courage, 2, 1, vs, TRUE
+2019-07-24, Sky Blue, Spirit, 0, 1, vs, TRUE
+2019-07-24, Thorns, Dash, 5, 0, vs, TRUE
+2019-07-27, Royals, Courage, 1, 2, vs, TRUE
+2019-07-28, Dash, Sky Blue, 1, 0, vs, TRUE
+2019-07-28, Reign, Red Stars, 0, 4, vs, TRUE
+2019-08-02, Courage, Spirit, 1, 0, vs, TRUE
+2019-08-02, Dash, Reign, 0, 1, vs, TRUE
+2019-08-03, Red Stars, Royals, 2, 0, vs, TRUE
+2019-08-03, Thorns, Sky Blue, 1, 1, vs, TRUE
+2019-08-07, Reign, Thorns, 1, 0, vs, TRUE
+2019-08-07, Royals, Sky Blue, 3, 0, vs, TRUE
+2019-08-10, Pride, Dash, 0, 1, vs, TRUE
+2019-08-10, Spirit, Red Stars, 0, 1, vs, TRUE
+2019-08-11, Reign, Royals, 1, 3, vs, TRUE
+2019-08-11, Thorns, Courage, 2, 1, vs, TRUE
+2019-08-14, Sky Blue, Red Stars, 2, 1, vs, TRUE
+2019-08-17, Pride, Royals, 0, 2, vs, TRUE
+2019-08-17, Thorns, Spirit, 3, 1, vs, TRUE
+2019-08-18, Sky Blue, Reign, 1, 1, vs, TRUE
+2019-08-21, Red Stars, Pride, 1, 2, vs, TRUE
+2019-08-21, Spirit, Royals, 0, 0, vs, TRUE
+2019-08-24, Courage, Reign, 1, 0, vs, TRUE
+2019-08-24, Dash, Sky Blue, 1, 2, vs, TRUE
+2019-08-24, Spirit, Pride, 2, 1, vs, TRUE
+2019-08-25, Thorns, Red Stars, 3, 0, vs, TRUE
+2019-09-06, Royals, Thorns, 1, 0, vs, TRUE
+2019-09-07, Reign, Pride, 3, 1, vs, TRUE
+2019-09-07, Sky Blue, Courage, 1, 2, vs, TRUE
+2019-09-08, Red Stars, Dash, 3, 0, vs, TRUE
+2019-09-11, Pride, Red Stars, 0, 1, vs, TRUE
+2019-09-11, Thorns, Courage, 0, 6, vs, TRUE
+2019-09-13, Dash, Royals, 2, 1, vs, TRUE
+2019-09-14, Courage, Pride, 6, 1, vs, TRUE
+2019-09-14, Spirit, Reign, 2, 2, vs, TRUE
+2019-09-15, Sky Blue, Red Stars, 0, 3, vs, TRUE
+2019-09-17, Courage, Dash, 1, 0, vs, TRUE
+2019-09-21, Red Stars, Spirit, 3, 1, vs, TRUE
+2019-09-21, Reign, Sky Blue, 0, 1, vs, TRUE
+2019-09-21, Royals, Courage, 0, 3, vs, TRUE
+2019-09-21, Thorns, Dash, 1, 0, vs, TRUE
+2019-09-25, Dash, Spirit, 0, 0, vs, TRUE
+2019-09-25, Reign, Royals, 2, 1, vs, TRUE
+2019-09-28, Red Stars, Royals, 2, 1, vs, TRUE
+2019-09-28, Spirit, Courage, 2, 1, vs, TRUE
+2019-09-29, Reign, Thorns, 2, 0, vs, TRUE
+2019-09-29, Sky Blue, Pride, 1, 1, vs, TRUE
+2019-10-05, Pride, Spirit, 0, 3, vs, TRUE
+2019-10-12, Courage, Sky Blue, 3, 2, vs, TRUE
+2019-10-12, Pride, Reign, 2, 2, vs, TRUE
+2019-10-12, Royals, Dash, 2, 1, vs, TRUE
+2019-10-12, Thorns, Spirit, 0, 0, vs, TRUE
+2019-10-20, Courage, Reign, 4, 1, vs, FALSE
+2019-10-20, Red Stars, Thorns, 1, 0, vs, FALSE
+2019-10-27, Courage, Red Stars, 4, 0, vs, FALSE
+2020-06-27, Courage, Thorns, 2, 1, N, FALSE
+2020-06-27, Red Stars, Spirit, 1, 2, N, FALSE
+2020-06-30, Dash, Royals, 3, 3, N, FALSE
+2020-06-30, Reign, Sky Blue, 0, 0, N, FALSE
+2020-07-01, Spirit, Courage, 0, 2, N, FALSE
+2020-07-01, Thorns, Red Stars, 0, 0, N, FALSE
+2020-07-04, Dash, Reign, 2, 0, N, FALSE
+2020-07-04, Royals, Sky Blue, 1, 0, N, FALSE
+2020-07-05, Courage, Red Stars, 1, 0, N, FALSE
+2020-07-05, Thorns, Spirit, 1, 1, N, FALSE
+2020-07-08, Royals, Reign, 0, 1, N, FALSE
+2020-07-08, Sky Blue, Dash, 2, 0, N, FALSE
+2020-07-12, Red Stars, Royals, 1, 0, N, FALSE
+2020-07-12, Spirit, Dash, 1, 0, N, FALSE
+2020-07-13, Reign, Thorns, 0, 0, N, FALSE
+2020-07-13, Sky Blue, Courage, 0, 2, N, FALSE
+2020-07-17, Courage, Thorns, 0, 1, N, FALSE
+2020-07-17, Dash, Royals, 0, 0, N, FALSE
+2020-07-18, Reign, Red Stars, 0, 0, N, FALSE
+2020-07-18, Spirit, Sky Blue, 0, 0, N, FALSE
+2020-07-22, Dash, Thorns, 1, 0, N, FALSE
+2020-07-22, Red Stars, Sky Blue, 3, 2, N, FALSE
+2020-07-26, Dash, Red Stars, 2, 0, N, FALSE
+2020-09-05, Spirit, Sky Blue, 1, 2, vs, FALSE
+2020-09-12, Courage, Dash, 4, 3, vs, FALSE
+2020-09-12, Spirit, Red Stars, 2, 1, vs, FALSE
+2020-09-19, Courage, Pride, 0, 0, vs, FALSE
+2020-09-20, Red Stars, Sky Blue, 4, 1, vs, FALSE
+2020-09-20, Thorns, Royals, 3, 0, vs, FALSE
+2020-09-26, Dash, Pride, 3, 1, vs, FALSE
+2020-09-26, Red Stars, Spirit, 1, 1, vs, FALSE
+2020-09-26, Royals, Reign, 2, 2, vs, FALSE
+2020-09-30, Thorns, Reign, 4, 1, vs, FALSE
+2020-10-03, Royals, Thorns, 1, 1, vs, FALSE
+2020-10-03, Sky Blue, Spirit, 0, 1, vs, FALSE
+2020-10-04, Dash, Courage, 4, 1, vs, FALSE
+2020-10-09, Pride, Dash, 1, 2, vs, FALSE
+2020-10-10, Reign, Thorns, 1, 2, vs, FALSE
+2020-10-10, Sky Blue, Red Stars, 3, 1, vs, FALSE
+2020-10-17, Pride, Courage, 3, 3, vs, FALSE
+2020-10-17, Reign, Royals, 2, 0, vs, FALSE
+2021-04-09, Dash, Red Stars, 0, 0, vs, FALSE
+2021-04-09, Thorns, Current, 2, 1, vs, FALSE
+2021-04-10, Courage, Spirit, 3, 2, vs, FALSE
+2021-04-10, Louisville, Pride, 2, 2, vs, FALSE
+2021-04-14, Pride, Gotham, 0, 1, vs, FALSE
+2021-04-15, Red Stars, Thorns, 0, 1, vs, FALSE
+2021-04-15, Spirit, Louisville, 1, 0, vs, FALSE
+2021-04-16, Reign, Dash, 0, 0, vs, FALSE
+2021-04-20, Gotham, Courage, 4, 3, vs, FALSE
+2021-04-21, Pride, Spirit, 1, 0, vs, FALSE
+2021-04-21, Red Stars, Current, 1, 1, vs, FALSE
+2021-04-21, Thorns, Reign, 2, 0, vs, FALSE
+2021-04-26, Current, Dash, 1, 3, vs, FALSE
+2021-04-26, Louisville, Courage, 2, 3, vs, FALSE
+2021-04-27, Reign, Red Stars, 3, 2, vs, FALSE
+2021-04-27, Spirit, Gotham, 0, 0, vs, FALSE
+2021-05-01, Courage, Pride, 0, 0, vs, FALSE
+2021-05-02, Dash, Thorns, 1, 1, vs, FALSE
+2021-05-02, Gotham, Louisville, 0, 0, vs, FALSE
+2021-05-03, Current, Reign, 1, 2, vs, FALSE
+2021-05-08, Thorns, Gotham, 1, 1, vs, FALSE
+2021-05-15, Gotham, Dash, 1, 0, vs, TRUE
+2021-05-15, Louisville, Current, 0, 0, vs, TRUE
+2021-05-15, Reign, Courage, 0, 0, vs, TRUE
+2021-05-16, Pride, Spirit, 1, 1, vs, TRUE
+2021-05-16, Thorns, Red Stars, 5, 0, vs, TRUE
+2021-05-21, Louisville, Spirit, 2, 0, vs, TRUE
+2021-05-22, Courage, Pride, 1, 2, vs, TRUE
+2021-05-22, Red Stars, Gotham, 0, 0, vs, TRUE
+2021-05-23, Dash, Current, 2, 2, vs, TRUE
+2021-05-23, Thorns, Reign, 1, 2, vs, TRUE
+2021-05-26, Current, Red Stars, 0, 2, vs, TRUE
+2021-05-26, Pride, Thorns, 2, 1, vs, TRUE
+2021-05-26, Spirit, Dash, 2, 1, vs, TRUE
+2021-05-28, Courage, Louisville, 5, 0, vs, TRUE
+2021-05-29, Dash, Red Stars, 2, 1, vs, TRUE
+2021-05-30, Gotham, Thorns, 0, 1, vs, TRUE
+2021-05-30, Pride, Current, 1, 0, vs, TRUE
+2021-05-30, Reign, Spirit, 0, 1, vs, TRUE
+2021-06-05, Gotham, Reign, 1, 0, vs, TRUE
+2021-06-05, Red Stars, Courage, 1, 0, vs, TRUE
+2021-06-05, Thorns, Louisville, 3, 0, vs, TRUE
+2021-06-06, Current, Dash, 0, 1, vs, TRUE
+2021-06-06, Spirit, Pride, 1, 1, vs, TRUE
+2021-06-19, Courage, Reign, 2, 1, vs, TRUE
+2021-06-19, Red Stars, Spirit, 1, 1, vs, TRUE
+2021-06-20, Louisville, Dash, 1, 0, vs, TRUE
+2021-06-20, Pride, Gotham, 1, 1, vs, TRUE
+2021-06-20, Thorns, Current, 1, 0, vs, TRUE
+2021-06-22, Reign, Red Stars, 2, 0, vs, TRUE
+2021-06-23, Current, Pride, 1, 3, vs, TRUE
+2021-06-23, Louisville, Courage, 0, 2, vs, TRUE
+2021-06-26, Courage, Thorns, 2, 0, vs, TRUE
+2021-06-26, Current, Spirit, 1, 2, vs, TRUE
+2021-06-26, Dash, Pride, 2, 1, vs, TRUE
+2021-06-26, Red Stars, Louisville, 0, 3, vs, TRUE
+2021-06-26, Reign, Gotham, 0, 3, vs, TRUE
+2021-07-02, Dash, Reign, 2, 0, vs, TRUE
+2021-07-02, Gotham, Current, 1, 1, vs, TRUE
+2021-07-02, Spirit, Red Stars, 0, 1, vs, TRUE
+2021-07-03, Louisville, Thorns, 0, 2, vs, TRUE
+2021-07-04, Pride, Courage, 0, 2, vs, TRUE
+2021-07-09, Pride, Louisville, 1, 1, vs, TRUE
+2021-07-10, Spirit, Courage, 2, 0, vs, TRUE
+2021-07-11, Red Stars, Dash, 2, 1, vs, TRUE
+2021-07-11, Reign, Current, 2, 0, vs, TRUE
+2021-07-11, Thorns, Gotham, 0, 0, vs, TRUE
+2021-07-17, Courage, Dash, 1, 2, vs, TRUE
+2021-07-18, Red Stars, Reign, 3, 1, vs, TRUE
+2021-07-18, Spirit, Gotham, 2, 3, vs, TRUE
+2021-07-18, Thorns, Pride, 2, 1, vs, TRUE
+2021-07-23, Current, Courage, 0, 0, vs, TRUE
+2021-07-24, Dash, Thorns, 0, 1, vs, TRUE
+2021-07-24, Pride, Reign, 0, 2, vs, TRUE
+2021-07-25, Gotham, Red Stars, 2, 1, vs, TRUE
+2021-07-25, Louisville, Spirit, 0, 2, vs, TRUE
+2021-07-31, Courage, Pride, 1, 1, vs, TRUE
+2021-07-31, Reign, Louisville, 2, 0, vs, TRUE
+2021-08-01, Dash, Gotham, 1, 1, vs, TRUE
+2021-08-01, Red Stars, Spirit, 3, 1, vs, TRUE
+2021-08-01, Thorns, Current, 2, 0, vs, TRUE
+2021-08-07, Gotham, Courage, 0, 1, vs, TRUE
+2021-08-07, Reign, Dash, 5, 1, vs, TRUE
+2021-08-07, Spirit, Thorns, 0, 1, vs, TRUE
+2021-08-08, Louisville, Current, 3, 1, vs, TRUE
+2021-08-08, Red Stars, Pride, 0, 2, vs, TRUE
+2021-08-13, Dash, Spirit, 2, 2, vs, TRUE
+2021-08-14, Current, Reign, 1, 0, vs, TRUE
+2021-08-14, Pride, Thorns, 1, 1, vs, TRUE
+2021-08-15, Courage, Red Stars, 1, 0, vs, TRUE
+2021-08-15, Gotham, Louisville, 1, 1, vs, TRUE
+2021-08-18, Louisville, Red Stars, 1, 1, vs, TRUE
+2021-08-21, Courage, Current, 4, 0, vs, TRUE
+2021-08-21, Reign, Gotham, 3, 2, vs, TRUE
+2021-08-22, Spirit, Pride, 2, 1, vs, TRUE
+2021-08-25, Current, Louisville, 2, 1, vs, TRUE
+2021-08-25, Thorns, Gotham, 2, 1, vs, TRUE
+2021-08-28, Red Stars, Current, 3, 0, vs, TRUE
+2021-08-29, Dash, Louisville, 1, 0, vs, TRUE
+2021-08-29, Gotham, Pride, 0, 1, vs, TRUE
+2021-08-29, Reign, Thorns, 2, 1, vs, TRUE
+2021-08-29, Spirit, Courage, 0, 0, vs, TRUE
+2021-09-01, Dash, Reign, 0, 1, vs, TRUE
+2021-09-04, Gotham, Red Stars, 0, 0, vs, TRUE
+2021-09-04, Louisville, Reign, 1, 1, vs, TRUE
+2021-09-04, Thorns, Spirit, 3, 0, vs, TRUE
+2021-09-05, Current, Courage, 0, 0, vs, TRUE
+2021-09-05, Pride, Dash, 1, 1, vs, TRUE
+2021-09-10, Dash, Red Stars, 1, 1, vs, TRUE
+2021-09-11, Pride, Louisville, 3, 1, vs, TRUE
+2021-09-12, Courage, Thorns, 0, 1, vs, TRUE
+2021-09-12, Spirit, Reign, 0, 3, vs, TRUE
+2021-09-25, Gotham, Courage, 3, 1, vs, TRUE
+2021-09-25, Red Stars, Thorns, 2, 1, vs, TRUE
+2021-09-26, Louisville, Dash, 0, 4, vs, TRUE
+2021-09-26, Reign, Pride, 3, 0, vs, TRUE
+2021-09-26, Spirit, Current, 2, 1, vs, TRUE
+2021-10-06, Courage, Louisville, 3, 1, vs, TRUE
+2021-10-06, Gotham, Spirit, 0, 0, vs, TRUE
+2021-10-06, Thorns, Dash, 2, 3, vs, TRUE
+2021-10-09, Pride, Gotham, 2, 3, vs, TRUE
+2021-10-09, Spirit, Louisville, 3, 0, vs, TRUE
+2021-10-10, Current, Thorns, 0, 0, vs, TRUE
+2021-10-10, Dash, Courage, 4, 1, vs, TRUE
+2021-10-10, Reign, Red Stars, 3, 2, vs, TRUE
+2021-10-13, Courage, Spirit, 1, 2, vs, TRUE
+2021-10-13, Current, Dash, 3, 0, vs, TRUE
+2021-10-13, Red Stars, Pride, 1, 0, vs, TRUE
+2021-10-13, Thorns, Reign, 1, 1, vs, TRUE
+2021-10-16, Louisville, Pride, 3, 1, vs, TRUE
+2021-10-16, Red Stars, Current, 2, 1, vs, TRUE
+2021-10-16, Reign, Spirit, 0, 2, vs, TRUE
+2021-10-17, Courage, Gotham, 0, 3, vs, TRUE
+2021-10-17, Dash, Thorns, 0, 1, vs, TRUE
+2021-10-22, Current, Gotham, 1, 1, vs, TRUE
+2021-10-28, Louisville, Gotham, 1, 1, vs, TRUE
+2021-10-29, Pride, Red Stars, 0, 1, vs, TRUE
+2021-10-30, Current, Reign, 0, 3, vs, TRUE
+2021-10-30, Thorns, Courage, 0, 0, vs, TRUE
+2021-10-31, Gotham, Louisville, 1, 1, vs, TRUE
+2021-10-31, Spirit, Dash, 1, 0, vs, TRUE
+2021-11-07, Red Stars, Gotham, 1, 0, vs, FALSE
+2021-11-07, Spirit, Courage, 1, 0, vs, FALSE
+2021-11-14, Reign, Spirit, 1, 2, vs, FALSE
+2021-11-14, Thorns, Red Stars, 0, 2, vs, FALSE
+2021-11-20, Spirit, Red Stars, 2, 1, N, FALSE
+2022-03-18, Louisville, Current, 1, 1, vs, FALSE
+2022-03-18, Reign, Thorns, 1, 1, vs, FALSE
+2022-03-19, Angel City, Wave, 1, 1, vs, FALSE
+2022-03-19, Courage, Gotham, 2, 0, vs, FALSE
+2022-03-19, Pride, Spirit, 0, 0, vs, FALSE
+2022-03-20, Dash, Red Stars, 1, 3, vs, FALSE
+2022-03-25, Louisville, Dash, 2, 3, vs, FALSE
+2022-03-25, Red Stars, Current, 1, 2, vs, FALSE
+2022-03-25, Spirit, Gotham, 1, 1, vs, FALSE
+2022-03-26, Angel City, Reign, 1, 3, vs, FALSE
+2022-03-26, Courage, Pride, 1, 0, vs, FALSE
+2022-03-26, Wave, Thorns, 0, 1, vs, FALSE
+2022-03-30, Dash, Current, 0, 3, vs, FALSE
+2022-03-30, Pride, Gotham, 0, 1, vs, FALSE
+2022-03-30, Red Stars, Louisville, 0, 0, vs, FALSE
+2022-03-30, Spirit, Courage, 2, 2, vs, FALSE
+2022-03-30, Thorns, Angel City, 3, 0, vs, FALSE
+2022-04-02, Current, Louisville, 0, 3, vs, FALSE
+2022-04-02, Red Stars, Dash, 2, 0, vs, FALSE
+2022-04-02, Thorns, Reign, 0, 1, vs, FALSE
+2022-04-02, Wave, Angel City, 4, 2, vs, FALSE
+2022-04-03, Gotham, Courage, 1, 1, vs, FALSE
+2022-04-03, Spirit, Pride, 4, 1, vs, FALSE
+2022-04-14, Reign, Wave, 3, 1, vs, FALSE
+2022-04-15, Current, Dash, 2, 1, vs, FALSE
+2022-04-16, Louisville, Red Stars, 1, 1, vs, FALSE
+2022-04-16, Pride, Courage, 2, 4, vs, FALSE
+2022-04-17, Gotham, Spirit, 1, 3, vs, FALSE
+2022-04-17, Reign, Angel City, 2, 1, vs, FALSE
+2022-04-17, Thorns, Wave, 3, 2, vs, FALSE
+2022-04-23, Courage, Spirit, 2, 2, vs, FALSE
+2022-04-23, Gotham, Pride, 1, 1, vs, FALSE
+2022-04-23, Wave, Reign, 1, 1, vs, FALSE
+2022-04-24, Angel City, Thorns, 1, 0, vs, FALSE
+2022-04-24, Current, Red Stars, 2, 1, vs, FALSE
+2022-04-24, Dash, Louisville, 2, 1, vs, FALSE
+2022-04-29, Angel City, Courage, 2, 1, vs, TRUE
+2022-04-30, Red Stars, Louisville, 2, 1, vs, TRUE
+2022-04-30, Thorns, Current, 3, 0, vs, TRUE
+2022-05-01, Dash, Wave, 0, 1, vs, TRUE
+2022-05-01, Pride, Gotham, 0, 3, vs, TRUE
+2022-05-01, Spirit, Reign, 2, 1, vs, TRUE
+2022-05-04, Current, Courage, 1, 2, vs, FALSE
+2022-05-04, Reign, Spirit, 0, 0, vs, FALSE
+2022-05-07, Courage, Spirit, 2, 1, vs, FALSE
+2022-05-07, Wave, Gotham, 4, 0, vs, TRUE
+2022-05-08, Angel City, Pride, 0, 1, vs, TRUE
+2022-05-08, Current, Dash, 0, 2, vs, TRUE
+2022-05-08, Reign, Louisville, 2, 2, vs, TRUE
+2022-05-13, Thorns, Reign, 0, 0, vs, TRUE
+2022-05-14, Louisville, Dash, 1, 1, vs, TRUE
+2022-05-14, Pride, Current, 2, 2, vs, TRUE
+2022-05-15, Spirit, Angel City, 0, 1, vs, TRUE
+2022-05-15, Wave, Red Stars, 2, 1, vs, TRUE
+2022-05-18, Courage, Pride, 1, 2, vs, TRUE
+2022-05-18, Louisville, Wave, 1, 0, vs, TRUE
+2022-05-18, Thorns, Spirit, 1, 1, vs, TRUE
+2022-05-21, Angel City, Current, 1, 0, vs, TRUE
+2022-05-21, Thorns, Dash, 0, 2, vs, TRUE
+2022-05-22, Courage, Wave, 0, 1, vs, TRUE
+2022-05-22, Gotham, Louisville, 0, 1, vs, TRUE
+2022-05-22, Pride, Red Stars, 2, 4, vs, TRUE
+2022-05-22, Reign, Spirit, 0, 0, vs, TRUE
+2022-05-25, Reign, Current, 1, 0, vs, TRUE
+2022-05-27, Pride, Spirit, 2, 2, vs, TRUE
+2022-05-28, Red Stars, Thorns, 2, 2, vs, TRUE
+2022-05-29, Angel City, Gotham, 0, 1, vs, TRUE
+2022-05-29, Dash, Courage, 1, 1, vs, TRUE
+2022-05-29, Reign, Wave, 1, 0, vs, TRUE
+2022-05-30, Current, Louisville, 1, 0, vs, TRUE
+2022-06-01, Spirit, Red Stars, 1, 1, vs, TRUE
+2022-06-03, Dash, Pride, 5, 0, vs, TRUE
+2022-06-03, Thorns, Angel City, 3, 0, vs, TRUE
+2022-06-04, Current, Wave, 2, 2, vs, TRUE
+2022-06-04, Gotham, Spirit, 1, 0, vs, TRUE
+2022-06-04, Louisville, Courage, 0, 3, vs, TRUE
+2022-06-04, Red Stars, Reign, 1, 0, vs, TRUE
+2022-06-07, Angel City, Dash, 0, 0, vs, TRUE
+2022-06-08, Red Stars, Spirit, 0, 0, vs, TRUE
+2022-06-08, Wave, Thorns, 2, 2, vs, TRUE
+2022-06-11, Current, Gotham, 1, 0, vs, TRUE
+2022-06-11, Louisville, Angel City, 2, 3, vs, TRUE
+2022-06-11, Spirit, Courage, 2, 3, vs, TRUE
+2022-06-12, Dash, Thorns, 0, 4, vs, TRUE
+2022-06-12, Red Stars, Pride, 1, 0, vs, TRUE
+2022-06-12, Wave, Reign, 1, 1, vs, TRUE
+2022-06-17, Spirit, Louisville, 2, 2, vs, TRUE
+2022-06-18, Current, Red Stars, 2, 2, vs, TRUE
+2022-06-18, Reign, Angel City, 1, 0, vs, TRUE
+2022-06-19, Courage, Dash, 3, 4, vs, TRUE
+2022-06-19, Gotham, Wave, 0, 3, vs, TRUE
+2022-06-19, Thorns, Pride, 6, 0, vs, TRUE
+2022-07-01, Angel City, Thorns, 1, 1, vs, TRUE
+2022-07-01, Dash, Current, 1, 2, vs, TRUE
+2022-07-01, Reign, Courage, 2, 0, vs, TRUE
+2022-07-02, Gotham, Red Stars, 0, 3, vs, TRUE
+2022-07-03, Pride, Louisville, 2, 2, vs, TRUE
+2022-07-03, Wave, Spirit, 2, 1, vs, TRUE
+2022-07-08, Louisville, Gotham, 1, 2, vs, TRUE
+2022-07-08, Pride, Dash, 1, 0, vs, TRUE
+2022-07-09, Angel City, Wave, 2, 1, vs, TRUE
+2022-07-10, Red Stars, Courage, 2, 2, vs, TRUE
+2022-07-10, Reign, Thorns, 2, 2, vs, TRUE
+2022-07-10, Spirit, Current, 0, 1, vs, TRUE
+2022-07-15, Wave, Louisville, 0, 0, vs, TRUE
+2022-07-16, Dash, Red Stars, 4, 1, vs, TRUE
+2022-07-16, Thorns, Gotham, 5, 0, vs, TRUE
+2022-07-17, Current, Reign, 1, 0, vs, TRUE
+2022-07-17, Spirit, Pride, 0, 0, vs, TRUE
+2022-07-29, Courage, Spirit, 3, 3, vs, TRUE
+2022-07-29, Louisville, Thorns, 1, 2, vs, TRUE
+2022-07-30, Angel City, Reign, 2, 3, vs, TRUE
+2022-07-30, Red Stars, Wave, 0, 1, vs, TRUE
+2022-07-31, Current, Pride, 2, 2, vs, TRUE
+2022-07-31, Gotham, Dash, 2, 4, vs, TRUE
+2022-08-02, Louisville, Reign, 1, 1, vs, TRUE
+2022-08-05, Louisville, Spirit, 1, 1, vs, TRUE
+2022-08-05, Thorns, Courage, 3, 3, vs, TRUE
+2022-08-07, Pride, Angel City, 2, 2, vs, TRUE
+2022-08-07, Red Stars, Gotham, 2, 0, vs, TRUE
+2022-08-07, Reign, Dash, 1, 2, vs, TRUE
+2022-08-07, Wave, Current, 1, 2, vs, TRUE
+2022-08-10, Spirit, Thorns, 1, 2, vs, TRUE
+2022-08-12, Dash, Louisville, 0, 0, vs, TRUE
+2022-08-13, Courage, Current, 3, 4, vs, TRUE
+2022-08-13, Wave, Pride, 0, 1, vs, TRUE
+2022-08-14, Angel City, Red Stars, 1, 0, vs, TRUE
+2022-08-14, Reign, Gotham, 4, 1, vs, TRUE
+2022-08-17, Dash, Gotham, 2, 1, vs, TRUE
+2022-08-19, Current, Angel City, 1, 1, vs, TRUE
+2022-08-20, Courage, Red Stars, 4, 0, vs, TRUE
+2022-08-20, Gotham, Pride, 1, 2, vs, TRUE
+2022-08-20, Wave, Dash, 3, 1, vs, TRUE
+2022-08-24, Courage, Thorns, 3, 1, vs, TRUE
+2022-08-26, Pride, Reign, 1, 2, vs, TRUE
+2022-08-27, Dash, Spirit, 2, 2, vs, TRUE
+2022-08-27, Louisville, Red Stars, 0, 4, vs, TRUE
+2022-08-27, Thorns, Wave, 0, 2, vs, TRUE
+2022-08-28, Current, Courage, 3, 2, vs, TRUE
+2022-08-28, Gotham, Angel City, 1, 3, vs, TRUE
+2022-09-04, Gotham, Courage, 0, 1, vs, TRUE
+2022-09-09, Pride, Thorns, 0, 2, vs, TRUE
+2022-09-09, Reign, Red Stars, 2, 2, vs, TRUE
+2022-09-10, Courage, Louisville, 5, 1, vs, TRUE
+2022-09-10, Spirit, Wave, 4, 3, vs, TRUE
+2022-09-11, Dash, Angel City, 1, 1, vs, TRUE
+2022-09-11, Gotham, Current, 0, 1, vs, TRUE
+2022-09-14, Courage, Angel City, 1, 0, vs, TRUE
+2022-09-14, Red Stars, Current, 4, 0, vs, TRUE
+2022-09-16, Louisville, Pride, 2, 0, vs, TRUE
+2022-09-17, Courage, Reign, 1, 2, vs, TRUE
+2022-09-17, Red Stars, Dash, 0, 1, vs, TRUE
+2022-09-17, Spirit, Gotham, 2, 0, vs, TRUE
+2022-09-17, Wave, Angel City, 1, 0, vs, TRUE
+2022-09-18, Current, Thorns, 1, 1, vs, TRUE
+2022-09-21, Angel City, Spirit, 2, 1, vs, TRUE
+2022-09-21, Gotham, Reign, 0, 1, vs, TRUE
+2022-09-21, Pride, Courage, 0, 3, vs, TRUE
+2022-09-21, Thorns, Louisville, 3, 0, vs, TRUE
+2022-09-24, Courage, Gotham, 3, 0, vs, TRUE
+2022-09-24, Dash, Reign, 0, 2, vs, TRUE
+2022-09-25, Angel City, Louisville, 1, 3, vs, TRUE
+2022-09-25, Current, Spirit, 3, 0, vs, TRUE
+2022-09-25, Pride, Wave, 2, 2, vs, TRUE
+2022-09-25, Thorns, Red Stars, 3, 0, vs, TRUE
+2022-09-30, Wave, Courage, 0, 0, vs, TRUE
+2022-10-01, Gotham, Thorns, 3, 3, vs, TRUE
+2022-10-01, Louisville, Current, 1, 0, vs, TRUE
+2022-10-01, Reign, Pride, 3, 0, vs, TRUE
+2022-10-01, Spirit, Dash, 1, 2, vs, TRUE
+2022-10-02, Red Stars, Angel City, 2, 0, vs, TRUE
+2022-10-16, Dash, Current, 1, 2, vs, FALSE
+2022-10-16, Wave, Red Stars, 2, 1, vs, FALSE
+2022-10-23, Reign, Current, 0, 2, vs, FALSE
+2022-10-23, Thorns, Wave, 2, 1, vs, FALSE
+2022-10-29, Thorns, Current, 2, 0, N, FALSE
+2023-03-25, Courage, Current, 1, 0, vs, TRUE
+2023-03-25, Wave, Red Stars, 3, 2, vs, TRUE
+2023-03-26, Angel City, Gotham, 1, 2, vs, TRUE
+2023-03-26, Dash, Louisville, 0, 0, vs, TRUE
+2023-03-26, Spirit, Reign, 1, 0, vs, TRUE
+2023-03-26, Thorns, Pride, 4, 0, vs, TRUE
+2023-04-01, Current, Thorns, 1, 4, vs, TRUE
+2023-04-01, Gotham, Reign, 0, 2, vs, TRUE
+2023-04-01, Louisville, Spirit, 2, 2, vs, TRUE
+2023-04-01, Red Stars, Dash, 1, 2, vs, TRUE
+2023-04-01, Wave, Courage, 3, 1, vs, TRUE
+2023-04-02, Pride, Angel City, 1, 2, vs, TRUE
+2023-04-14, Thorns, Dash, 1, 1, vs, TRUE
+2023-04-15, Angel City, Louisville, 2, 2, vs, TRUE
+2023-04-15, Courage, Spirit, 1, 2, vs, TRUE
+2023-04-15, Pride, Gotham, 0, 2, vs, TRUE
+2023-04-15, Red Stars, Current, 4, 2, vs, TRUE
+2023-04-15, Reign, Wave, 1, 0, vs, TRUE
+2023-04-19, Angel City, Reign, 0, 2, vs, FALSE
+2023-04-19, Dash, Current, 0, 2, vs, FALSE
+2023-04-19, Gotham, Spirit, 1, 0, vs, FALSE
+2023-04-19, Pride, Courage, 1, 1, vs, FALSE
+2023-04-19, Wave, Thorns, 1, 0, vs, FALSE
+2023-04-22, Gotham, Courage, 1, 0, vs, TRUE
+2023-04-22, Reign, Red Stars, 5, 2, vs, TRUE
+2023-04-22, Spirit, Dash, 0, 0, vs, TRUE
+2023-04-22, Thorns, Louisville, 2, 0, vs, TRUE
+2023-04-23, Angel City, Wave, 0, 2, vs, TRUE
+2023-04-23, Current, Pride, 2, 0, vs, TRUE
+2023-04-28, Dash, Courage, 0, 1, vs, TRUE
+2023-04-29, Louisville, Reign, 2, 2, vs, TRUE
+2023-04-29, Red Stars, Spirit, 1, 1, vs, TRUE
+2023-04-29, Thorns, Angel City, 3, 3, vs, TRUE
+2023-04-29, Wave, Pride, 1, 3, vs, TRUE
+2023-04-30, Current, Gotham, 2, 0, vs, TRUE
+2023-05-03, Courage, Gotham, 1, 1, vs, FALSE
+2023-05-03, Dash, Red Stars, 2, 0, vs, FALSE
+2023-05-03, Reign, Angel City, 0, 0, vs, FALSE
+2023-05-06, Courage, Thorns, 3, 3, vs, TRUE
+2023-05-06, Pride, Louisville, 1, 0, vs, TRUE
+2023-05-06, Reign, Dash, 2, 0, vs, TRUE
+2023-05-06, Spirit, Wave, 3, 1, vs, TRUE
+2023-05-07, Angel City, Current, 3, 2, vs, TRUE
+2023-05-07, Red Stars, Gotham, 1, 2, vs, TRUE
+2023-05-10, Spirit, Pride, 4, 2, vs, FALSE
+2023-05-12, Dash, Thorns, 2, 1, vs, TRUE
+2023-05-12, Louisville, Red Stars, 3, 0, vs, TRUE
+2023-05-13, Angel City, Spirit, 0, 1, vs, TRUE
+2023-05-14, Courage, Reign, 1, 0, vs, TRUE
+2023-05-14, Current, Wave, 0, 2, vs, TRUE
+2023-05-14, Gotham, Pride, 0, 0, vs, TRUE
+2023-05-17, Louisville, Current, 3, 2, vs, FALSE
+2023-05-20, Courage, Angel City, 0, 0, vs, TRUE
+2023-05-20, Current, Louisville, 0, 2, vs, TRUE
+2023-05-20, Dash, Wave, 0, 3, vs, TRUE
+2023-05-20, Pride, Spirit, 2, 1, vs, TRUE
+2023-05-21, Reign, Gotham, 1, 4, vs, TRUE
+2023-05-21, Thorns, Red Stars, 4, 0, vs, TRUE
+2023-05-26, Current, Dash, 0, 2, vs, TRUE
+2023-05-26, Wave, Thorns, 1, 1, vs, TRUE
+2023-05-27, Louisville, Courage, 1, 2, vs, TRUE
+2023-05-27, Red Stars, Pride, 1, 0, vs, TRUE
+2023-05-27, Reign, Angel City, 4, 1, vs, TRUE
+2023-05-28, Spirit, Gotham, 1, 1, vs, TRUE
+2023-05-31, Red Stars, Louisville, 0, 2, vs, FALSE
+2023-05-31, Thorns, Angel City, 3, 2, vs, FALSE
+2023-05-31, Wave, Reign, 0, 3, vs, FALSE
+2023-06-03, Current, Courage, 1, 0, vs, TRUE
+2023-06-03, Dash, Pride, 2, 0, vs, TRUE
+2023-06-03, Reign, Thorns, 0, 2, vs, TRUE
+2023-06-03, Spirit, Louisville, 1, 1, vs, TRUE
+2023-06-04, Gotham, Wave, 0, 1, vs, TRUE
+2023-06-05, Angel City, Red Stars, 1, 2, vs, TRUE
+2023-06-09, Louisville, Wave, 0, 0, vs, TRUE
+2023-06-10, Red Stars, Courage, 0, 5, vs, TRUE
+2023-06-10, Reign, Current, 2, 1, vs, TRUE
+2023-06-10, Spirit, Angel City, 2, 1, vs, TRUE
+2023-06-11, Dash, Gotham, 1, 1, vs, TRUE
+2023-06-11, Pride, Thorns, 3, 1, vs, TRUE
+2023-06-14, Current, Red Stars, 4, 0, vs, FALSE
+2023-06-14, Louisville, Dash, 3, 0, vs, FALSE
+2023-06-14, Spirit, Courage, 1, 2, vs, FALSE
+2023-06-17, Courage, Pride, 3, 0, vs, TRUE
+2023-06-17, Dash, Reign, 0, 0, vs, TRUE
+2023-06-17, Wave, Angel City, 1, 2, vs, TRUE
+2023-06-18, Current, Spirit, 2, 3, vs, TRUE
+2023-06-18, Louisville, Gotham, 2, 0, vs, TRUE
+2023-06-18, Red Stars, Thorns, 2, 3, vs, TRUE
+2023-06-23, Thorns, Spirit, 4, 2, vs, TRUE
+2023-06-24, Courage, Louisville, 1, 0, vs, TRUE
+2023-06-24, Pride, Current, 1, 2, vs, TRUE
+2023-06-24, Wave, Reign, 1, 2, vs, TRUE
+2023-06-25, Angel City, Dash, 0, 0, vs, TRUE
+2023-06-25, Gotham, Red Stars, 2, 1, vs, TRUE
+2023-06-28, Angel City, Wave, 2, 1, vs, FALSE
+2023-06-28, Thorns, Reign, 0, 1, vs, FALSE
+2023-07-01, Courage, Dash, 1, 0, vs, TRUE
+2023-07-01, Red Stars, Wave, 1, 0, vs, TRUE
+2023-07-01, Reign, Louisville, 2, 2, vs, TRUE
+2023-07-01, Spirit, Pride, 0, 3, vs, TRUE
+2023-07-01, Thorns, Current, 0, 1, vs, TRUE
+2023-07-02, Gotham, Angel City, 0, 0, vs, TRUE
+2023-07-07, Dash, Red Stars, 0, 1, vs, TRUE
+2023-07-07, Louisville, Current, 2, 1, vs, TRUE
+2023-07-07, Pride, Reign, 1, 0, vs, TRUE
+2023-07-08, Wave, Spirit, 2, 2, vs, TRUE
+2023-07-09, Angel City, Courage, 2, 1, vs, TRUE
+2023-07-09, Gotham, Thorns, 2, 1, vs, TRUE
+2023-07-21, Louisville, Red Stars, 2, 0, vs, FALSE
+2023-07-21, Thorns, Wave, 4, 1, vs, FALSE
+2023-07-22, Courage, Spirit, 6, 0, vs, FALSE
+2023-07-22, Current, Dash, 3, 1, vs, FALSE
+2023-07-23, Pride, Gotham, 1, 3, vs, FALSE
+2023-07-28, Reign, Wave, 1, 0, vs, FALSE
+2023-07-28, Spirit, Gotham, 4, 2, vs, FALSE
+2023-07-29, Angel City, Thorns, 2, 1, vs, FALSE
+2023-07-29, Courage, Pride, 5, 0, vs, FALSE
+2023-07-29, Dash, Louisville, 1, 0, vs, FALSE
+2023-07-29, Red Stars, Current, 0, 0, vs, FALSE
+2023-08-04, Pride, Spirit, 0, 1, vs, FALSE
+2023-08-05, Current, Louisville, 3, 0, vs, FALSE
+2023-08-05, Gotham, Courage, 2, 0, vs, FALSE
+2023-08-05, Red Stars, Dash, 3, 0, vs, FALSE
+2023-08-05, Wave, Angel City, 1, 1, vs, FALSE
+2023-08-06, Reign, Thorns, 0, 0, vs, FALSE
+2023-08-09, Gotham, Pride, 1, 1, vs, FALSE
+2023-08-18, Current, Reign, 1, 0, vs, TRUE
+2023-08-19, Dash, Spirit, 1, 1, vs, TRUE
+2023-08-19, Louisville, Angel City, 1, 1, vs, TRUE
+2023-08-19, Wave, Gotham, 2, 1, vs, TRUE
+2023-08-20, Pride, Red Stars, 5, 0, vs, TRUE
+2023-08-20, Thorns, Courage, 2, 1, vs, TRUE
+2023-08-25, Pride, Wave, 1, 2, vs, TRUE
+2023-08-26, Dash, Current, 1, 1, vs, TRUE
+2023-08-27, Angel City, Reign, 2, 1, vs, TRUE
+2023-08-27, Courage, Red Stars, 1, 1, vs, TRUE
+2023-08-27, Gotham, Louisville, 0, 0, vs, TRUE
+2023-08-27, Spirit, Thorns, 1, 1, vs, TRUE
+2023-09-01, Current, Angel City, 0, 1, vs, TRUE
+2023-09-02, Courage, Gotham, 3, 3, vs, TRUE
+2023-09-02, Louisville, Thorns, 2, 1, vs, TRUE
+2023-09-03, Reign, Pride, 1, 0, vs, TRUE
+2023-09-03, Spirit, Red Stars, 0, 2, vs, TRUE
+2023-09-03, Wave, Dash, 1, 0, vs, TRUE
+2023-09-06, Current, Courage, 0, 1, vs, FALSE
+2023-09-06, Reign, Louisville, 0, 1, vs, FALSE
+2023-09-09, Courage, Louisville, 2, 0, vs, FALSE
+2023-09-15, Louisville, Dash, 0, 1, vs, TRUE
+2023-09-16, Gotham, Spirit, 2, 0, vs, TRUE
+2023-09-16, Thorns, Reign, 2, 0, vs, TRUE
+2023-09-16, Wave, Current, 1, 2, vs, TRUE
+2023-09-17, Pride, Courage, 2, 1, vs, TRUE
+2023-09-17, Red Stars, Angel City, 2, 2, vs, TRUE
+2023-09-30, Red Stars, Louisville, 1, 0, vs, TRUE
+2023-09-30, Spirit, Current, 2, 1, vs, TRUE
+2023-09-30, Thorns, Wave, 0, 2, vs, TRUE
+2023-10-01, Gotham, Dash, 0, 2, vs, TRUE
+2023-10-01, Reign, Courage, 1, 1, vs, TRUE
+2023-10-02, Angel City, Pride, 0, 1, vs, TRUE
+2023-10-06, Louisville, Pride, 3, 2, vs, TRUE
+2023-10-06, Reign, Spirit, 0, 0, vs, TRUE
+2023-10-07, Courage, Wave, 0, 0, vs, TRUE
+2023-10-07, Current, Red Stars, 6, 3, vs, TRUE
+2023-10-07, Thorns, Gotham, 1, 0, vs, TRUE
+2023-10-08, Dash, Angel City, 1, 2, vs, TRUE
+2023-10-15, Angel City, Thorns, 5, 1, vs, TRUE
+2023-10-15, Gotham, Current, 2, 2, vs, TRUE
+2023-10-15, Pride, Dash, 1, 0, vs, TRUE
+2023-10-15, Red Stars, Reign, 0, 3, vs, TRUE
+2023-10-15, Spirit, Courage, 0, 1, vs, TRUE
+2023-10-15, Wave, Louisville, 2, 0, vs, TRUE
+2023-10-20, Reign, Angel City, 1, 0, vs, FALSE
+2023-10-22, Courage, Gotham, 0, 2, vs, FALSE
+2023-11-05, Thorns, Gotham, 0, 1, vs, FALSE
+2023-11-05, Wave, Reign, 0, 1, vs, FALSE
+2023-11-11, Reign, Gotham, 1, 2, N, FALSE
+2024-03-15, Gotham, Wave, 0, 1, vs, FALSE
+2024-03-16, Courage, Dash, 5, 1, vs, TRUE
+2024-03-16, Current, Thorns, 5, 4, vs, TRUE
+2024-03-16, Louisville, Pride, 2, 2, vs, TRUE
+2024-03-16, Royals, Red Stars, 0, 2, vs, TRUE
+2024-03-17, Angel City, Bay FC, 0, 1, vs, TRUE
+2024-03-17, Reign, Spirit, 1, 0, vs, TRUE
+2024-03-22, Pride, Angel City, 1, 1, vs, TRUE
+2024-03-22, Royals, Courage, 2, 1, vs, TRUE
+2024-03-23, Dash, Louisville, 0, 0, vs, TRUE
+2024-03-23, Red Stars, Reign, 2, 1, vs, TRUE
+2024-03-23, Spirit, Bay FC, 2, 1, vs, TRUE
+2024-03-23, Wave, Current, 1, 2, vs, TRUE
+2024-03-24, Thorns, Gotham, 0, 1, vs, TRUE
+2024-03-29, Pride, Red Stars, 1, 1, vs, TRUE
+2024-03-29, Wave, Reign, 1, 0, vs, TRUE
+2024-03-30, Bay FC, Dash, 2, 3, vs, TRUE
+2024-03-30, Courage, Gotham, 1, 0, vs, TRUE
+2024-03-30, Current, Angel City, 4, 2, vs, TRUE
+2024-03-30, Thorns, Louisville, 2, 2, vs, TRUE
+2024-03-31, Spirit, Royals, 2, 1, vs, TRUE
+2024-04-12, Dash, Spirit, 1, 3, vs, TRUE
+2024-04-12, Royals, Pride, 0, 1, vs, TRUE
+2024-04-13, Courage, Thorns, 2, 0, vs, TRUE
+2024-04-13, Louisville, Wave, 0, 0, vs, TRUE
+2024-04-13, Red Stars, Angel City, 0, 1, vs, TRUE
+2024-04-14, Bay FC, Reign, 3, 2, vs, TRUE
+2024-04-14, Gotham, Current, 1, 1, vs, TRUE
+2024-04-19, Pride, Wave, 1, 0, vs, TRUE
+2024-04-20, Current, Bay FC, 5, 2, vs, TRUE
+2024-04-20, Louisville, Royals, 5, 1, vs, TRUE
+2024-04-20, Spirit, Gotham, 2, 0, vs, TRUE
+2024-04-20, Thorns, Dash, 4, 1, vs, TRUE
+2024-04-21, Angel City, Courage, 2, 1, vs, TRUE
+2024-04-21, Reign, Red Stars, 1, 2, vs, TRUE
+2024-04-26, Angel City, Current, 1, 3, vs, TRUE
+2024-04-26, Spirit, Pride, 2, 3, vs, TRUE
+2024-04-27, Courage, Reign, 1, 0, vs, TRUE
+2024-04-27, Red Stars, Thorns, 0, 2, vs, TRUE
+2024-04-27, Royals, Dash, 0, 0, vs, TRUE
+2024-04-27, Wave, Bay FC, 2, 1, vs, TRUE
+2024-04-28, Gotham, Louisville, 1, 1, vs, TRUE
+2024-05-01, Bay FC, Thorns, 2, 3, vs, TRUE
+2024-05-01, Pride, Courage, 4, 1, vs, TRUE
+2024-05-01, Red Stars, Spirit, 2, 4, vs, TRUE
+2024-05-03, Reign, Wave, 2, 1, vs, TRUE
+2024-05-03, Royals, Angel City, 1, 2, vs, TRUE
+2024-05-04, Gotham, Courage, 1, 0, vs, TRUE
+2024-05-04, Thorns, Spirit, 2, 1, vs, TRUE
+2024-05-05, Bay FC, Red Stars, 1, 2, vs, TRUE
+2024-05-05, Dash, Current, 1, 1, vs, TRUE
+2024-05-05, Pride, Louisville, 1, 0, vs, TRUE
+2024-05-08, Dash, Gotham, 0, 1, vs, TRUE
+2024-05-08, Reign, Current, 0, 0, vs, TRUE
+2024-05-08, Wave, Royals, 2, 0, vs, TRUE
+2024-05-10, Louisville, Spirit, 1, 2, vs, TRUE
+2024-05-11, Pride, Bay FC, 1, 0, vs, TRUE
+2024-05-11, Thorns, Reign, 4, 0, vs, TRUE
+2024-05-12, Angel City, Dash, 0, 1, vs, TRUE
+2024-05-12, Current, Courage, 1, 0, vs, TRUE
+2024-05-12, Red Stars, Royals, 3, 1, vs, TRUE
+2024-05-12, Wave, Gotham, 1, 1, vs, TRUE
+2024-05-17, Bay FC, Wave, 2, 1, vs, TRUE
+2024-05-17, Courage, Royals, 1, 0, vs, TRUE
+2024-05-17, Dash, Thorns, 0, 2, vs, TRUE
+2024-05-18, Current, Louisville, 3, 3, vs, TRUE
+2024-05-18, Spirit, Angel City, 4, 2, vs, TRUE
+2024-05-19, Gotham, Red Stars, 2, 1, vs, TRUE
+2024-05-19, Reign, Pride, 2, 3, vs, TRUE
+2024-05-23, Angel City, Wave, 0, 0, vs, TRUE
+2024-05-24, Bay FC, Gotham, 0, 2, vs, TRUE
+2024-05-24, Dash, Courage, 3, 0, vs, TRUE
+2024-05-24, Pride, Thorns, 2, 1, vs, TRUE
+2024-05-24, Spirit, Reign, 3, 2, vs, TRUE
+2024-05-25, Red Stars, Louisville, 0, 1, vs, TRUE
+2024-05-25, Royals, Current, 0, 1, vs, TRUE
+2024-06-07, Louisville, Dash, 2, 0, vs, TRUE
+2024-06-07, Wave, Pride, 1, 1, vs, TRUE
+2024-06-08, Gotham, Angel City, 2, 1, vs, TRUE
+2024-06-08, Red Stars, Bay FC, 1, 2, vs, TRUE
+2024-06-08, Royals, Spirit, 0, 1, vs, TRUE
+2024-06-08, Thorns, Courage, 1, 0, vs, TRUE
+2024-06-09, Current, Reign, 5, 2, vs, TRUE
+2024-06-14, Current, Red Stars, 2, 2, vs, TRUE
+2024-06-15, Courage, Pride, 0, 0, vs, TRUE
+2024-06-15, Dash, Angel City, 0, 0, vs, TRUE
+2024-06-15, Louisville, Gotham, 0, 2, vs, TRUE
+2024-06-15, Spirit, Wave, 1, 1, vs, TRUE
+2024-06-16, Bay FC, Royals, 0, 1, vs, TRUE
+2024-06-16, Reign, Thorns, 0, 0, vs, TRUE
+2024-06-19, Angel City, Louisville, 3, 2, vs, TRUE
+2024-06-19, Gotham, Wave, 2, 1, vs, TRUE
+2024-06-21, Pride, Royals, 6, 0, vs, TRUE
+2024-06-22, Bay FC, Angel City, 1, 0, vs, TRUE
+2024-06-22, Dash, Wave, 0, 0, vs, TRUE
+2024-06-23, Courage, Red Stars, 3, 1, vs, TRUE
+2024-06-23, Gotham, Spirit, 0, 2, vs, TRUE
+2024-06-23, Reign, Louisville, 1, 1, vs, TRUE
+2024-06-23, Thorns, Current, 1, 4, vs, TRUE
+2024-06-28, Current, Dash, 2, 0, vs, TRUE
+2024-06-28, Wave, Red Stars, 0, 3, vs, TRUE
+2024-06-29, Louisville, Bay FC, 0, 1, vs, TRUE
+2024-06-29, Royals, Thorns, 0, 0, vs, TRUE
+2024-06-29, Spirit, Courage, 0, 1, vs, TRUE
+2024-06-30, Angel City, Pride, 0, 3, vs, TRUE
+2024-06-30, Gotham, Reign, 1, 1, vs, TRUE
+2024-07-05, Thorns, Wave, 1, 0, vs, TRUE
+2024-07-06, Angel City, Gotham, 1, 2, vs, TRUE
+2024-07-06, Bay FC, Spirit, 0, 3, vs, TRUE
+2024-07-06, Current, Pride, 1, 2, vs, TRUE
+2024-07-06, Red Stars, Dash, 1, 0, vs, TRUE
+2024-07-07, Courage, Louisville, 3, 1, vs, TRUE
+2024-07-07, Reign, Royals, 1, 1, vs, TRUE
+2024-08-23, Dash, Pride, 0, 1, vs, TRUE
+2024-08-23, Royals, Bay FC, 2, 1, vs, TRUE
+2024-08-24, Gotham, Thorns, 2, 0, vs, TRUE
+2024-08-24, Louisville, Red Stars, 3, 1, vs, TRUE
+2024-08-24, Wave, Angel City, 1, 2, vs, TRUE
+2024-08-25, Reign, Courage, 1, 0, vs, TRUE
+2024-08-25, Spirit, Current, 4, 1, vs, TRUE
+2024-08-30, Thorns, Bay FC, 1, 3, vs, TRUE
+2024-08-31, Dash, Royals, 1, 3, vs, TRUE
+2024-08-31, Louisville, Reign, 2, 3, vs, TRUE
+2024-09-01, Angel City, Red Stars, 2, 1, vs, TRUE
+2024-09-01, Courage, Current, 2, 1, vs, TRUE
+2024-09-01, Pride, Gotham, 3, 0, vs, TRUE
+2024-09-01, Wave, Spirit, 1, 1, vs, TRUE
+2024-09-06, Angel City, Reign, 2, 3, vs, TRUE
+2024-09-07, Bay FC, Louisville, 1, 0, vs, TRUE
+2024-09-07, Current, Royals, 1, 0, vs, TRUE
+2024-09-07, Spirit, Thorns, 2, 1, vs, TRUE
+2024-09-08, Gotham, Dash, 2, 1, vs, TRUE
+2024-09-08, Red Stars, Pride, 0, 1, vs, TRUE
+2024-09-08, Wave, Courage, 1, 4, vs, TRUE
+2024-09-13, Courage, Bay FC, 1, 1, vs, TRUE
+2024-09-13, Pride, Current, 0, 0, vs, TRUE
+2024-09-13, Thorns, Red Stars, 0, 1, vs, TRUE
+2024-09-14, Louisville, Angel City, 2, 1, vs, TRUE
+2024-09-14, Royals, Wave, 1, 2, vs, TRUE
+2024-09-15, Spirit, Dash, 3, 0, vs, TRUE
+2024-09-16, Reign, Gotham, 0, 2, vs, TRUE
+2024-09-20, Bay FC, Pride, 0, 1, vs, TRUE
+2024-09-20, Current, Spirit, 3, 0, vs, TRUE
+2024-09-21, Dash, Reign, 1, 0, vs, TRUE
+2024-09-21, Louisville, Courage, 2, 1, vs, TRUE
+2024-09-21, Red Stars, Wave, 1, 0, vs, TRUE
+2024-09-22, Gotham, Royals, 1, 0, vs, TRUE
+2024-09-23, Angel City, Thorns, 2, 2, vs, TRUE
+2024-09-27, Angel City, Spirit, 1, 2, vs, TRUE
+2024-09-28, Current, Gotham, 1, 1, vs, TRUE
+2024-09-28, Pride, Dash, 3, 1, vs, TRUE
+2024-09-28, Royals, Louisville, 1, 0, vs, TRUE
+2024-09-28, Wave, Thorns, 2, 0, vs, TRUE
+2024-09-29, Red Stars, Courage, 1, 3, vs, TRUE
+2024-09-29, Reign, Bay FC, 0, 1, vs, TRUE
+2024-10-04, Dash, Red Stars, 0, 2, vs, TRUE
+2024-10-04, Reign, Angel City, 0, 1, vs, TRUE
+2024-10-05, Courage, Wave, 2, 1, vs, TRUE
+2024-10-05, Gotham, Bay FC, 5, 1, vs, TRUE
+2024-10-05, Louisville, Current, 0, 2, vs, TRUE
+2024-10-05, Thorns, Royals, 1, 2, vs, TRUE
+2024-10-06, Pride, Spirit, 2, 0, vs, TRUE
+2024-10-11, Thorns, Pride, 2, 0, vs, TRUE
+2024-10-12, Bay FC, Current, 0, 1, vs, TRUE
+2024-10-12, Courage, Angel City, 1, 1, vs, TRUE
+2024-10-12, Red Stars, Gotham, 0, 2, vs, TRUE
+2024-10-13, Royals, Reign, 3, 0, vs, TRUE
+2024-10-13, Spirit, Louisville, 4, 1, vs, TRUE
+2024-10-13, Wave, Dash, 0, 2, vs, TRUE
+2024-10-18, Reign, Dash, 2, 1, vs, TRUE
+2024-10-19, Bay FC, Courage, 1, 0, vs, TRUE
+2024-10-19, Current, Wave, 4, 1, vs, TRUE
+2024-10-19, Louisville, Thorns, 1, 0, vs, TRUE
+2024-10-20, Angel City, Royals, 1, 1, vs, TRUE
+2024-10-20, Gotham, Pride, 3, 1, vs, TRUE
+2024-10-20, Spirit, Red Stars, 2, 0, vs, TRUE
+2024-11-01, Royals, Gotham, 1, 3, vs, TRUE
+2024-11-01, Thorns, Angel City, 3, 0, vs, TRUE
+2024-11-02, Courage, Spirit, 0, 1, vs, TRUE
+2024-11-02, Dash, Bay FC, 2, 3, vs, TRUE
+2024-11-02, Pride, Reign, 3, 2, vs, TRUE
+2024-11-03, Red Stars, Current, 1, 3, vs, TRUE
+2024-11-03, Wave, Louisville, 3, 1, vs, TRUE
+2024-11-08, Pride, Red Stars, 4, 1, vs, FALSE
+2024-11-09, Current, Courage, 1, 0, vs, FALSE
+2024-11-10, Spirit, Bay FC, 2, 1, vs, FALSE
+2024-11-10, Gotham, Thorns, 2, 1, vs, FALSE
+2024-11-16, Spirit, Gotham, 1, 1, vs, FALSE
+2024-11-17, Pride, Current, 3, 2, vs, FALSE
+2024-11-23, Pride, Spirit, 1, 0, N, FALSE

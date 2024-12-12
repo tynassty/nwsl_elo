@@ -1,10 +1,13 @@
 import math
 import random
-
-import matplotlib.pyplot as plt
+from Match import Match
+from matplotlib import pyplot as plt, gridspec
 from collections import defaultdict
 from datetime import datetime
 from datetime import timedelta
+from typing import List
+
+import ncaaf_test
 import reader
 import numpy as np
 
@@ -37,14 +40,10 @@ def update_elo(elo, score, expected, k=K_FACTOR):
     return elo + k * (score - expected)
 
 
-def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage=HOME_FIELD_ADVANTAGE, k=K_FACTOR,
+def calculate_elo_ratings(matches: List[Match], initial_elo=INITIAL_ELO, home_field_advantage=HOME_FIELD_ADVANTAGE,
+                          k=K_FACTOR,
                           print_error=True, season_reset=False, reset_date=datetime(1, 1, 1), end_date=None,
-                          windows=WINDOWS, window_weights=WINDOW_WEIGHTS):
-    total_dif = 0
-    baseline_dif = 0
-
-    clubs, dates = get_clubs_and_matches(matches)
-    elo_ratings = {club: initial_elo for club in clubs}
+                          windows=WINDOWS, window_weights=WINDOW_WEIGHTS, decay_target=None):
     """
     Calculate the Elo ratings for a list of matches.
 
@@ -71,16 +70,23 @@ def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage
                     over different windows, e.g., last 10 days, last month, last year (default=[10, 31, 365]).
     :param window_weights: Weights associated with each window in `windows`, used to adjust Elo updates based on
                            recent form. By default, weights are zeroed out (default=[0, 0, 0]).
-
     :return: A tuple of results:
              - elo_ratings: Final Elo ratings for all clubs after processing the matches.
              - elo_history: Elo ratings for all clubs at each point in time (each match date).
              - dates: List of unique match dates.
              - results_comparison: List of two sublists comparing expected and actual results:
-                                  1. Expected results for the home team.
-                                  2. Actual results for the home team.
-             - average_error: The average error between expected and actual results over all matches.
+                                   1. Expected results for the home team.
+                                   2. Actual results for the home team.
+             - brier_score: The average mean square error between expected and actual results over all matches.
     """
+    if decay_target is None:
+        decay_target = initial_elo
+    total_dif = 0
+    baseline_dif = 0
+
+    clubs, dates = get_clubs_and_matches(matches)
+    elo_ratings = {club: initial_elo for club in clubs}
+
     elo_history = [{club: initial_elo for club in clubs} for _ in range(len(dates))]
     date_index = 0
 
@@ -88,32 +94,36 @@ def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage
 
     results_comparison = [[], []]
 
-    reset_date = datetime(matches[0][0].year + 1, reset_date.month, reset_date.day)
+    reset_date = datetime(matches[0].date.year + 1, reset_date.month, reset_date.day)
 
     for match in matches:
-        date, home_club, away_club, home_score, away_score, neutral = match
+        # j;dahfadjkljdkllkadjsfkla;klf
+        # lfsf;d;kdjv;af;lkjd;lkfjk;
+        # dkqlfkjas;lfkja;ld
+        # date, home_club, away_club, home_score, away_score, neutral, regular_season = match
 
-        if end_date is not None and end_date < date:
+        if end_date is not None and end_date < match.date:
             break
 
-        home_score = int(home_score)
-        away_score = int(away_score)
+        home_score = int(match.home_score)
+        away_score = int(match.away_score)
 
         if season_reset:
             # if date.year != dates[date_index].year:
-            if date > reset_date:
+            if match.date > reset_date:
                 reset_date = datetime(reset_date.year + 1, reset_date.month, reset_date.day)
                 dates.insert(date_index + 1, dates[date_index] + timedelta(days=28))
                 elo_history.insert(date_index + 1, {club: initial_elo for club in clubs})
                 for club in clubs:
                     elo_history[date_index][club] = elo_ratings[club]
 
-                elo_ratings = {club: (initial_elo * season_reset) + (elo_ratings[club] * (1-season_reset)) for club in clubs}
+                elo_ratings = {club: (decay_target * season_reset) + (elo_ratings[club] * (1 - season_reset)) for club
+                               in clubs}
                 dates_played = {club: [] for club in clubs}
 
                 date_index += 1
 
-        if date > dates[date_index]:
+        if match.date > dates[date_index]:
             # update the current elo ratings as we move to next date
             for club in clubs:
                 elo_history[date_index][club] = elo_ratings[club]
@@ -125,13 +135,13 @@ def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage
         # if away_club not in elo_ratings:
         #     elo_ratings[away_club] = initial_elo
 
-        home_elo = elo_ratings[home_club]
-        away_elo = elo_ratings[away_club]
+        home_elo = elo_ratings[match.home_club]
+        away_elo = elo_ratings[match.away_club]
 
-        if home_score > away_score:
+        if match.home_score > match.away_score:
             home_result = 1
             away_result = 0
-        elif home_score < away_score:
+        elif match.home_score < match.away_score:
             home_result = 0
             away_result = 1
         else:
@@ -139,8 +149,8 @@ def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage
             away_result = 0.5
 
         # calc expected results
-        expected_home = expected_result(home_elo + (home_field_advantage * (not neutral)), away_elo)
-        expected_away = expected_result(away_elo, home_elo + (home_field_advantage * (not neutral)))
+        expected_home = expected_result(home_elo + (home_field_advantage * (not match.neutral)), away_elo)
+        expected_away = expected_result(away_elo, home_elo + (home_field_advantage * (not match.neutral)))
 
         # home_k = int(k + (1000 * (1/(len(dates_played[home_club])+1))))
         # away_k = int(k + (1000 * (1/(len(dates_played[away_club])+1))))
@@ -171,27 +181,31 @@ def calculate_elo_ratings(matches, initial_elo=INITIAL_ELO, home_field_advantage
         results_comparison[1].append(home_result)
 
         # print some interesting information!
-        # if abs(home_result - expected_home) > 0.98:
-        #     print(date, f"({expected_home:.4f})", home_club, f"({home_elo:.2f})", home_score, "-", away_score,
-        #           away_club, f"({away_elo:.2f})")
+        # todays_clubs = [match.home_club, match.away_club]
+        # if abs(home_result - expected_home) > 0.95 and all(club in ncaaf_test.SEC for club in todays_clubs):
+        # if abs(home_result - expected_home) > 0.95:
+        #     print(match.date, f"({expected_home:.4f})", match.home_club, f"({home_elo:.2f})", home_score, "-",
+        #           away_score, match.away_club, f"({away_elo:.2f})")
 
         # store elo ratings
-        elo_ratings[home_club] = updated_home_elo
-        elo_ratings[away_club] = updated_away_elo
+        elo_ratings[match.home_club] = updated_home_elo
+        elo_ratings[match.away_club] = updated_away_elo
 
         # store dates played
-        dates_played[home_club].append(date)
-        dates_played[away_club].append(date)
+        dates_played[match.home_club].append(match.date)
+        dates_played[match.away_club].append(match.date)
 
     for club in clubs:
         elo_history[date_index][club] = elo_ratings[club]
 
+    brier_score = total_dif / len(matches)
+
     if print_error:
-        print("Brier score:", total_dif / len(matches))
+        print("Brier score:", brier_score)
         print("baseline Brier score", baseline_dif / len(matches))
         print("\n")
 
-    return elo_ratings, elo_history, dates, results_comparison, total_dif/len(matches)
+    return elo_ratings, elo_history, dates, results_comparison, brier_score
 
 
 def get_clubs_and_matches(matches):
@@ -205,16 +219,19 @@ def get_clubs_and_matches(matches):
     clubs = []
     dates = []
     for match in matches:
-        if match[0] not in dates:
-            dates.append(match[0])
-        if match[1] not in clubs:
-            clubs.append(match[1])
-        if match[2] not in clubs:
-            clubs.append(match[2])
+        if match.date not in dates:
+            dates.append(match.date)
+        if match.home_club not in clubs:
+            clubs.append(match.home_club)
+        if match.away_club not in clubs:
+            clubs.append(match.away_club)
     return clubs, dates
 
 
-def plot_elo_ratings_over_time(arr, dates, clubs, club_metadata={}, block=True):
+def plot_elo_ratings_over_time(arr, dates, clubs, club_metadata=None, block=True):
+    if club_metadata is None:
+        club_metadata = {}
+
     # create a new figure
     plt.figure()
 
@@ -262,10 +279,15 @@ def plot_elo_ratings_over_time(arr, dates, clubs, club_metadata={}, block=True):
                         club_elos.append(full_elo_arr[i][club])
 
                 # Plot with custom styles if metadata includes them
-                if len(club_metadata[club]) > 2:
-                    plt.plot(club_dates, club_elos, club_metadata[club][2], label=club)
+                lw = 1.6
+                if len(club_metadata[club]) == 3:
+                    plt.plot(club_dates, club_elos, club_metadata[club][2], label=club, linewidth=lw)
+                elif len(club_metadata[club]) == 4:
+                    grid = gridspec.GridSpec(1, 1)
+                    plt.plot(club_dates, club_elos, club_metadata[club][2], label=club, dashes=[6, 2], linewidth=lw,
+                             gapcolor=club_metadata[club][3])
                 else:
-                    plt.plot(club_dates, club_elos, label=club)
+                    plt.plot(club_dates, club_elos, label=club, linewidth=lw)
             else:
                 # Plot without filtering if no metadata
                 plt.plot(full_dates, elo_over_time, label=club)

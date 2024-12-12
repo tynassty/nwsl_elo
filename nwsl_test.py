@@ -1,4 +1,6 @@
 from datetime import datetime
+
+import nwsl_simulator
 import reader
 import elo
 
@@ -26,7 +28,7 @@ club_metadata = {
 hfa = 45
 k = 30
 sr = 0.5511
-matches = reader.read_matches("nwsl_matches.txt")
+matches = reader.read_matches_obj("nwsl_matches.txt")
 elo_ratings, arr, dates, total_results, dif = elo.calculate_elo_ratings(matches, print_error=False,
                                                                         home_field_advantage=hfa, k=k,
                                                                         season_reset=sr,
@@ -43,7 +45,7 @@ elo_ratings, arr, dates, total_results, dif = elo.calculate_elo_ratings(matches,
 #     print(elo_rating, ":", elo_ratings[elo_rating])
 #
 sorted_elos = sorted(elo_ratings, key=elo_ratings.get)
-# sorted_elos.reverse()
+sorted_elos.reverse()
 # for elo_rating in sorted_elos:
 #     if elo_rating not in ["Boston", "Kansas City"]:
 #         print(elo_rating)
@@ -54,7 +56,9 @@ sorted_elos = sorted(elo_ratings, key=elo_ratings.get)
 clubs, _ = elo.get_clubs_and_matches(matches)
 elo.plot_elo_ratings_over_time(arr, dates, clubs, club_metadata=club_metadata)
 
-# home = "Gotham"
-# away = "Pride"
+# home = "Current"
+# away = "Courage"
 # print(str(elo_ratings[home]) + ", " + str(elo_ratings[away]))
-# print(elo.expected_result(elo_ratings[home] + hfa, elo_ratings[away]))
+# expected_result = elo.expected_result(elo_ratings[home] + hfa, elo_ratings[away])
+# nwsl_simulator.print_wdl(nwsl_simulator.calculate_probs(expected_result))
+# print(expected_result)

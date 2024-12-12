@@ -23,7 +23,7 @@ def average_ranking(club):
 
 
 if __name__ == "__main__":
-    matches = reader.read_matches("ncaaf.txt")
+    matches = reader.read_matches("ncaaf_matches.txt")
     recent_matches = [match for match in matches if match[0] > datetime.datetime(2023, 10, 3)]
     # recent_matches = matches
     clubs, _ = elo.get_clubs_and_matches(recent_matches)

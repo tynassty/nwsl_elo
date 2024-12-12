@@ -4,6 +4,7 @@ import random
 import numpy as np
 
 import elo
+import ncaaf_test
 import reader
 
 
@@ -24,38 +25,41 @@ def average_ranking(club):
         return weighted_sum / total_rankings
 
 
-# matches = reader.read_matches("ncaaf.txt")
-matches = reader.read_matches_2("ncaaf2.txt")
+# matches = reader.read_matches("ncaaf_matches.txt")
+matches = reader.read_matches_obj("ncaaf_matches.txt")
+# matches = reader.read_matches_2("ncaaf2.txt")
 # matches = [match for match in matches if match[0] < datetime.datetime(2024, 9, 26)]
 
-clubs, _ = elo.get_clubs_and_matches(matches)
+matches_21stc = [match for match in matches if match.date.year >= 2000]
+clubs, _ = elo.get_clubs_and_matches(matches_21stc)
 # clubs = ["Florida State", "Louisville", "North Carolina State", "Georgia Tech", "Virginia Tech", "North Carolina",
 #          "Clemson", "Duke", "Miami (FL)", "Boston College", "Syracuse", "Virginia", "Pittsburgh", "Wake Forest",
 #          "Southern Methodist", "California", "Stanford"]
 
 rank_dict = {club: [0 for _ in range(len(clubs))] for club in clubs}
 
-for i in range(100):
+for i in range(500):
     random.shuffle(clubs)
 
     # today = 0
-    today = 0
+    today = datetime.datetime(1, 1, 1)
 
     for match in matches:
+        # if match.date != today:
+        #     print(today, clubs)
         p = False
-        date, home_club, away_club, home_score, away_score, neutral = match
-        if today != date:
-            today = date
+        if today != match.date:
+            today = match.date
 
-        if home_club not in clubs:
+        if match.home_club not in clubs:
             continue
-        elif away_club not in clubs:
+        elif match.away_club not in clubs:
             continue
 
-        home_index = clubs.index(home_club)
-        away_index = clubs.index(away_club)
-        home_score = int(home_score)
-        away_score = int(away_score)
+        home_index = clubs.index(match.home_club)
+        away_index = clubs.index(match.away_club)
+        home_score = int(match.home_score)
+        away_score = int(match.away_score)
 
         if home_score > away_score:
             if home_index > away_index:

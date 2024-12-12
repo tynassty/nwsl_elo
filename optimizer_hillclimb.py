@@ -3,7 +3,9 @@ import random
 import elo
 import reader
 
-matches = reader.read_matches("wnba_matches.txt")
+matches = reader.read_matches_obj("ncaaf_matches.txt")
+# matches = [match for match in matches if match[0].year > 2015]
+reset_date = datetime.datetime(1, 3, 1)
 
 # Define maximum ranges
 hfa_range = (0, 100)
@@ -16,6 +18,8 @@ current_k = random.randint(k_range[0], k_range[1])
 current_sr = random.uniform(sr_range[0], sr_range[1])
 best_dif = float('inf')
 
+max_iterations = 1000
+
 
 def calculate_dif(hfa, k, sr):
     _, _, _, _, dif = elo.calculate_elo_ratings(matches,
@@ -24,16 +28,19 @@ def calculate_dif(hfa, k, sr):
                                                 k=k,
                                                 print_error=False,
                                                 season_reset=sr,
-                                                reset_date=datetime.datetime(1, 1, 1))
+                                                reset_date=reset_date)
     return dif
 
 
 # Hill Climbing Algorithm
-for iteration in range(10000):  # Limit the number of iterations
+for iteration in range(max_iterations):  # Limit the number of iterations
+    # Reduce step size as iterations progress
+    step_factor = 1 - (iteration/max_iterations)
+
     # Generate neighbors by tweaking parameters slightly
-    neighbor_hfa = current_hfa + random.randint(-5, 5)
-    neighbor_k = current_k + random.randint(-5, 5)
-    neighbor_sr = current_sr + random.uniform(-0.01, 0.01)
+    neighbor_hfa = current_hfa + int(random.randint(-5, 5) * step_factor)
+    neighbor_k = current_k + int(random.randint(-5, 5) * step_factor)
+    neighbor_sr = current_sr + random.uniform(-0.05, 0.05) * step_factor
 
     # Ensure neighbors are within bounds
     neighbor_hfa = max(hfa_range[0], min(hfa_range[1], neighbor_hfa))
@@ -49,7 +56,9 @@ for iteration in range(10000):  # Limit the number of iterations
         current_k = neighbor_k
         current_sr = neighbor_sr
         best_dif = neighbor_dif
-        print(f"Improved -> HFA: {current_hfa}, K: {current_k}, SR: {current_sr:.4f}, Dif: {best_dif:.10f}")
+        print(f"Improved -> HFA: {current_hfa}, K: {current_k}, SR: {current_sr:.4f}, Dif: {best_dif:.10f}, "
+              f"Iteration: {iteration}")
+        # print(step_factor)
 
 # Output the final best parameters
 print(f"Optimal Parameters -> HFA: {current_hfa}, K: {current_k}, SR: {current_sr:.4f}, Dif: {best_dif:.10f}")
