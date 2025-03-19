@@ -33,6 +33,10 @@ B10_CURRENT = ["UCLA", "Illinois", "Indiana", "Iowa", "Maryland", "Michigan", "M
 XII_CURRENT = ["Arizona", "Arizona State", "Baylor", "Brigham Young", "Central Florida", "Cincinnati", "Colorado",
                "Houston", "Iowa State", "Kansas", "Kansas State", "Oklahoma State", "Texas Christian", "Texas Tech",
                "Utah", "West Virginia"]
+MWC_CURRENT = ["Boise State", "Nevada-Las Vegas", "Colorado State", "Fresno State", "San Jose State", "Air Force",
+               "Hawaii", "New Mexico", "Utah State", "San Diego State", "Wyoming", "Nevada"]
+AAC_CURRENT = ["Army", "Charlotte", "East Carolina", "Florida Atlantic", "Memphis", "Navy", "North Texas", "Rice",
+               "South Florida", "Temple", "Tulane", "Tulsa", "Alabama-Birmingham", "Texas-San Antonio"]
 OLD_PAC_NORTH = ["Washington", "Oregon State", "Oregon", "Washington State", "California", "Stanford"]
 OLD_PAC_SOUTH = ["Southern California", "UCLA", "Utah", "Arizona", "Arizona State", "Colorado"]
 OLD_PAC = OLD_PAC_NORTH + OLD_PAC_SOUTH

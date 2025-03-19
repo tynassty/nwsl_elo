@@ -56971,9 +56971,41 @@
 2024-12-06, (24) Army, Tulane, 35, 14, vs
 2024-12-06, (10) Boise State, (19) Nevada-Las Vegas, 21, 7, vs
 2024-12-06, Jacksonville State, Western Kentucky, 52, 12, vs
-2024-12-07, Iowa State, Arizona State, 19, 45, N
-2024-12-07, Miami (OH), Ohio, 3, 38, N
-2024-12-07, Georgia, Texas, 22, 19, N
-2024-12-07, Marshall, Louisiana, 31, 3, vs
-2024-12-07, Penn State, Oregon, 37, 45, N
-2024-12-07, Clemson, Southern Methodist, 34, 31, N
+2024-12-07, (12) Arizona State, (16) Iowa State, 45, 19, N
+2024-12-07, (18) Clemson, (8) Southern Methodist, 34, 31, N
+2024-12-07, (5) Georgia, (2) Texas, 22, 19, N
+2024-12-07, Marshall, Louisiana, 31, 3, @
+2024-12-07, Ohio, Miami (OH), 38, 3, N
+2024-12-07, (1) Oregon, (3) Penn State, 45, 37, N
+2024-12-14, Navy, (19) Army, 31, 13, N
+2024-12-14, South Alabama, Western Michigan, 30, 23, N
+2024-12-17, (25) Memphis, West Virginia, 42, 37, N
+2024-12-18, James Madison, Western Kentucky, 27, 17, N
+2024-12-18, (24) Nevada-Las Vegas, California, 24, 13, N
+2024-12-19, Sam Houston, Georgia Southern, 31, 26, N
+2024-12-20, Florida, Tulane, 33, 8, N
+2024-12-20, (3) Notre Dame, (9) Indiana, 27, 17, vs
+2024-12-20, Ohio, Jacksonville State, 30, 27, N
+2024-12-21, (6) Ohio State, (7) Tennessee, 42, 17, vs
+2024-12-21, (5) Penn State, (12) Southern Methodist, 38, 10, vs
+2024-12-21, (4) Texas, (13) Clemson, 38, 24, vs
+2024-12-23, Northern Illinois, Fresno State, 28, 20, N
+2024-12-23, Texas-San Antonio, Coastal Carolina, 44, 15, @
+2024-12-24, South Florida, San Jose State, 41, 39, N
+2024-12-26, Arkansas State, Bowling Green, 38, 31, N
+2024-12-26, Kansas State, Rutgers, 44, 41, N
+2024-12-26, Toledo, Pittsburgh, 48, 46, N
+2024-12-27, Arkansas, Texas Tech, 39, 26, N
+2024-12-27, Navy, Oklahoma, 21, 20, N
+2024-12-27, Southern California, Texas A&M, 35, 31, N
+2024-12-27, (22) Syracuse, Washington State, 52, 35, N
+2024-12-27, Vanderbilt, Georgia Tech, 35, 27, N
+2024-12-28, (19) Army, Louisiana Tech, 27, 6, N
+2024-12-28, (17) Brigham Young, (20) Colorado, 36, 14, N
+2024-12-28, Connecticut, North Carolina, 27, 14, N
+2024-12-28, East Carolina, North Carolina State, 26, 21, N
+2024-12-28, (18) Iowa State, (15) Miami (FL), 42, 41, N
+2024-12-28, Miami (OH), Colorado State, 43, 17, N
+2024-12-28, Nebraska, Boston College, 20, 15, N
+2024-12-28, Texas Christian, Louisiana, 34, 3, N
+2024-12-30, (23) Missouri, Iowa, 27, 24, N

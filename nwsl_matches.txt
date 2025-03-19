@@ -1470,3 +1470,186 @@
 2024-11-16, Spirit, Gotham, 1, 1, vs, FALSE
 2024-11-17, Pride, Current, 3, 2, vs, FALSE
 2024-11-23, Pride, Spirit, 1, 0, N, FALSE
+2025-03-07, Pride, Spirit, 1, 1, N, FALSE
+2025-03-14,  Dash,  Spirit, 1, 2, vs,  TRUE
+2025-03-14,  Pride,  Red Stars, 6, 0, vs,  TRUE
+2025-03-15,  Current,  Thorns, 3, 1, vs,  TRUE
+2025-03-15,  Royals,  Bay FC, 1, 1, vs,  TRUE
+2025-03-15,  Louisville,  Courage, 1, 1, vs,  TRUE
+2025-03-15,  Reign,  Gotham, 1, 1, vs,  TRUE
+2025-03-16,  Angel City,  Wave, 1, 1, vs,  TRUE
+2025-03-21,  Thorns,  Angel City, -1, -1, vs,  TRUE
+2025-03-22,  Bay FC,  Louisville, -1, -1, vs,  TRUE
+2025-03-22,  Courage,  Reign, -1, -1, vs,  TRUE
+2025-03-22,  Spirit,  Current, -1, -1, vs,  TRUE
+2025-03-22,  Wave,  Royals, -1, -1, vs,  TRUE
+2025-03-23,  Gotham,  Pride, -1, -1, vs,  TRUE
+2025-03-23,  Red Stars,  Dash, -1, -1, vs,  TRUE
+2025-03-28,  Dash,  Gotham, -1, -1, vs,  TRUE
+2025-03-28,  Spirit,  Bay FC, -1, -1, vs,  TRUE
+2025-03-29,  Current,  Royals, -1, -1, vs,  TRUE
+2025-03-29,  Pride,  Wave, -1, -1, vs,  TRUE
+2025-03-29,  Thorns,  Courage, -1, -1, vs,  TRUE
+2025-03-30,  Angel City,  Reign, -1, -1, vs,  TRUE
+2025-03-30,  Red Stars,  Louisville, -1, -1, vs,  TRUE
+2025-04-11,  Royals,  Thorns, -1, -1, vs,  TRUE
+2025-04-12,  Dash,  Angel City, -1, -1, vs,  TRUE
+2025-04-12,  Louisville,  Spirit, -1, -1, vs,  TRUE
+2025-04-12,  Reign,  Pride, -1, -1, vs,  TRUE
+2025-04-12,  Wave,  Current, -1, -1, vs,  TRUE
+2025-04-13,  Bay FC,  Red Stars, -1, -1, vs,  TRUE
+2025-04-13,  Gotham,  Courage, -1, -1, vs,  TRUE
+2025-04-18,  Angel City,  Gotham, -1, -1, vs,  TRUE
+2025-04-18,  Reign,  Thorns, -1, -1, vs,  TRUE
+2025-04-18,  Royals,  Red Stars, -1, -1, vs,  TRUE
+2025-04-19,  Courage,  Bay FC, -1, -1, vs,  TRUE
+2025-04-19,  Current,  Dash, -1, -1, vs,  TRUE
+2025-04-19,  Louisville,  Wave, -1, -1, vs,  TRUE
+2025-04-19,  Pride,  Spirit, -1, -1, vs,  TRUE
+2025-04-22,  Thorns,  Gotham, -1, -1, vs,  TRUE
+2025-04-25,  Dash,  Royals, -1, -1, vs,  TRUE
+2025-04-25,  Pride,  Angel City, -1, -1, vs,  TRUE
+2025-04-26,  Bay FC,  Reign, -1, -1, vs,  TRUE
+2025-04-26,  Courage,  Current, -1, -1, vs,  TRUE
+2025-04-26,  Red Stars,  Wave, -1, -1, vs,  TRUE
+2025-04-26,  Spirit,  Gotham, -1, -1, vs,  TRUE
+2025-04-27,  Thorns,  Louisville, -1, -1, vs,  TRUE
+2025-05-02,  Dash,  Louisville, -1, -1, vs,  TRUE
+2025-05-02,  Reign,  Current, -1, -1, vs,  TRUE
+2025-05-02,  Spirit,  Angel City, -1, -1, vs,  TRUE
+2025-05-03,  Royals,  Courage, -1, -1, vs,  TRUE
+2025-05-03,  Thorns,  Pride, -1, -1, vs,  TRUE
+2025-05-04,  Gotham,  Red Stars, -1, -1, vs,  TRUE
+2025-05-04,  Wave,  Bay FC, -1, -1, vs,  TRUE
+2025-05-09,  Louisville,  Gotham, -1, -1, vs,  TRUE
+2025-05-10,  Angel City,  Royals, -1, -1, vs,  TRUE
+2025-05-10,  Courage,  Pride, -1, -1, vs,  TRUE
+2025-05-10,  Red Stars,  Spirit, -1, -1, vs,  TRUE
+2025-05-10,  Wave,  Thorns, -1, -1, vs,  TRUE
+2025-05-11,  Current,  Bay FC, -1, -1, vs,  TRUE
+2025-05-11,  Reign,  Dash, -1, -1, vs,  TRUE
+2025-05-16,  Dash,  Thorns, -1, -1, vs,  TRUE
+2025-05-16,  Gotham,  Wave, -1, -1, vs,  TRUE
+2025-05-16,  Louisville,  Reign, -1, -1, vs,  TRUE
+2025-05-16,  Pride,  Current, -1, -1, vs,  TRUE
+2025-05-17,  Courage,  Red Stars, -1, -1, vs,  TRUE
+2025-05-17,  Spirit,  Royals, -1, -1, vs,  TRUE
+2025-05-23,  Reign,  Spirit, -1, -1, vs,  TRUE
+2025-05-23,  Royals,  Pride, -1, -1, vs,  TRUE
+2025-05-24,  Angel City,  Louisville, -1, -1, vs,  TRUE
+2025-05-24,  Bay FC,  Angel City, -1, -1, vs,  TRUE
+2025-05-24,  Dash,  Bay FC, -1, -1, vs,  TRUE
+2025-05-24,  Red Stars,  Current, -1, -1, vs,  TRUE
+2025-05-25,  Wave,  Courage, -1, -1, vs,  TRUE
+2025-06-06,  Louisville,  Royals, -1, -1, vs,  TRUE
+2025-06-06,  Wave,  Reign, -1, -1, vs,  TRUE
+2025-06-07,  Angel City,  Red Stars, -1, -1, vs,  TRUE
+2025-06-07,  Bay FC,  Thorns, -1, -1, vs,  TRUE
+2025-06-07,  Gotham,  Current, -1, -1, vs,  TRUE
+2025-06-07,  Pride,  Dash, -1, -1, vs,  TRUE
+2025-06-08,  Spirit,  Courage, -1, -1, vs,  TRUE
+2025-06-13,  Dash,  Wave, -1, -1, vs,  TRUE
+2025-06-13,  Royals,  Gotham, -1, -1, vs,  TRUE
+2025-06-14,  Angel City,  Courage, -1, -1, vs,  TRUE
+2025-06-14,  Bay FC,  Pride, -1, -1, vs,  TRUE
+2025-06-14,  Current,  Louisville, -1, -1, vs,  TRUE
+2025-06-14,  Red Stars,  Reign, -1, -1, vs,  TRUE
+2025-06-15,  Thorns,  Spirit, -1, -1, vs,  TRUE
+2025-06-20,  Current,  Angel City, -1, -1, vs,  TRUE
+2025-06-20,  Louisville,  Pride, -1, -1, vs,  TRUE
+2025-06-21,  Courage,  Dash, -1, -1, vs,  TRUE
+2025-06-21,  Gotham,  Bay FC, -1, -1, vs,  TRUE
+2025-06-21,  Royals,  Reign, -1, -1, vs,  TRUE
+2025-06-21,  Thorns,  Red Stars, -1, -1, vs,  TRUE
+2025-06-22,  Wave,  Spirit, -1, -1, vs,  TRUE
+2025-08-01,  Louisville,  Current, -1, -1, vs,  TRUE
+2025-08-01,  Red Stars,  Gotham, -1, -1, vs,  TRUE
+2025-08-01,  Reign,  Angel City, -1, -1, vs,  TRUE
+2025-08-02,  Bay FC,  Dash, -1, -1, vs,  TRUE
+2025-08-02,  Courage,  Wave, -1, -1, vs,  TRUE
+2025-08-03,  Pride,  Royals, -1, -1, vs,  TRUE
+2025-08-03,  Spirit,  Thorns, -1, -1, vs,  TRUE
+2025-08-08,  Dash,  Courage, -1, -1, vs,  TRUE
+2025-08-08,  Royals,  Current, -1, -1, vs,  TRUE
+2025-08-09,  Gotham,  Spirit, -1, -1, vs,  TRUE
+2025-08-09,  Pride,  Louisville, -1, -1, vs,  TRUE
+2025-08-09,  Wave,  Angel City, -1, -1, vs,  TRUE
+2025-08-10,  Red Stars,  Bay FC, -1, -1, vs,  TRUE
+2025-08-10,  Thorns,  Reign, -1, -1, vs,  TRUE
+2025-08-15,  Royals,  Angel City, -1, -1, vs,  TRUE
+2025-08-15,  Spirit,  Louisville, -1, -1, vs,  TRUE
+2025-08-16,  Bay FC,  Wave, -1, -1, vs,  TRUE
+2025-08-16,  Courage,  Thorns, -1, -1, vs,  TRUE
+2025-08-16,  Current,  Pride, -1, -1, vs,  TRUE
+2025-08-17,  Gotham,  Dash, -1, -1, vs,  TRUE
+2025-08-18,  Reign,  Red Stars, -1, -1, vs,  TRUE
+2025-08-22,  Red Stars,  Courage, -1, -1, vs,  TRUE
+2025-08-23,  Angel City,  Pride, -1, -1, vs,  TRUE
+2025-08-23,  Bay FC,  Spirit, -1, -1, vs,  TRUE
+2025-08-23,  Gotham,  Royals, -1, -1, vs,  TRUE
+2025-08-23,  Thorns,  Current, -1, -1, vs,  TRUE
+2025-08-24,  Dash,  Reign, -1, -1, vs,  TRUE
+2025-08-24,  Wave,  Louisville, -1, -1, vs,  TRUE
+2025-08-29,  Louisville,  Dash, -1, -1, vs,  TRUE
+2025-08-29,  Pride,  Gotham, -1, -1, vs,  TRUE
+2025-08-29,  Reign,  Wave, -1, -1, vs,  TRUE
+2025-08-29,  Thorns,  Royals, -1, -1, vs,  TRUE
+2025-08-30,  Angel City,  Bay FC, -1, -1, vs,  TRUE
+2025-08-30,  Current,  Courage, -1, -1, vs,  TRUE
+2025-08-31,  Spirit,  Red Stars, -1, -1, vs,  TRUE
+2025-09-05,  Louisville,  Thorns, -1, -1, vs,  TRUE
+2025-09-06,  Bay FC,  Current, -1, -1, vs,  TRUE
+2025-09-06,  Courage,  Royals, -1, -1, vs,  TRUE
+2025-09-07,  Gotham,  Angel City, -1, -1, vs,  TRUE
+2025-09-07,  Red Stars,  Pride, -1, -1, vs,  TRUE
+2025-09-07,  Spirit,  Reign, -1, -1, vs,  TRUE
+2025-09-07,  Wave,  Dash, -1, -1, vs,  TRUE
+2025-09-12,  Wave,  Gotham, -1, -1, vs,  TRUE
+2025-09-13,  Courage,  Angel City, -1, -1, vs,  TRUE
+2025-09-13,  Current,  Spirit, -1, -1, vs,  TRUE
+2025-09-13,  Pride,  Bay FC, -1, -1, vs,  TRUE
+2025-09-14,  Red Stars,  Thorns, -1, -1, vs,  TRUE
+2025-09-14,  Reign,  Louisville, -1, -1, vs,  TRUE
+2025-09-14,  Royals,  Dash, -1, -1, vs,  TRUE
+2025-09-19,  Dash,  Red Stars, -1, -1, vs,  TRUE
+2025-09-19,  Pride,  Courage, -1, -1, vs,  TRUE
+2025-09-19,  Royals,  Louisville, -1, -1, vs,  TRUE
+2025-09-20,  Angel City,  Spirit, -1, -1, vs,  TRUE
+2025-09-20,  Bay FC,  Gotham, -1, -1, vs,  TRUE
+2025-09-20,  Current,  Reign, -1, -1, vs,  TRUE
+2025-09-20,  Thorns,  Wave, -1, -1, vs,  TRUE
+2025-09-26,  Current,  Red Stars, -1, -1, vs,  TRUE
+2025-09-26,  Gotham,  Thorns, -1, -1, vs,  TRUE
+2025-09-26,  Wave,  Pride, -1, -1, vs,  TRUE
+2025-09-27,  Bay FC,  Royals, -1, -1, vs,  TRUE
+2025-09-27,  Louisville,  Angel City, -1, -1, vs,  TRUE
+2025-09-28,  Reign,  Courage, -1, -1, vs,  TRUE
+2025-09-28,  Spirit,  Dash, -1, -1, vs,  TRUE
+2025-10-03,  Dash,  Pride, -1, -1, vs,  TRUE
+2025-10-04,  Angel City,  Current, -1, -1, vs,  TRUE
+2025-10-04,  Courage,  Louisville, -1, -1, vs,  TRUE
+2025-10-04,  Thorns,  Bay FC, -1, -1, vs,  TRUE
+2025-10-05,  Gotham,  Reign, -1, -1, vs,  TRUE
+2025-10-05,  Red Stars,  Royals, -1, -1, vs,  TRUE
+2025-10-05,  Spirit,  Wave, -1, -1, vs,  TRUE
+2025-10-10,  Louisville,  Red Stars, -1, -1, vs,  TRUE
+2025-10-10,  Pride,  Thorns, -1, -1, vs,  TRUE
+2025-10-10,  Reign,  Bay FC, -1, -1, vs,  TRUE
+2025-10-11,  Angel City,  Dash, -1, -1, vs,  TRUE
+2025-10-11,  Courage,  Spirit, -1, -1, vs,  TRUE
+2025-10-11,  Current,  Gotham, -1, -1, vs,  TRUE
+2025-10-11,  Royals,  Wave, -1, -1, vs,  TRUE
+2025-10-17,  Reign,  Royals, -1, -1, vs,  TRUE
+2025-10-18,  Angel City,  Thorns, -1, -1, vs,  TRUE
+2025-10-18,  Bay FC,  Courage, -1, -1, vs,  TRUE
+2025-10-18,  Dash,  Current, -1, -1, vs,  TRUE
+2025-10-18,  Spirit,  Pride, -1, -1, vs,  TRUE
+2025-10-18,  Wave,  Red Stars, -1, -1, vs,  TRUE
+2025-10-19,  Gotham,  Louisville, -1, -1, vs,  TRUE
+2025-11-01,  Courage,  Gotham, -1, -1, vs,  TRUE
+2025-11-01,  Current,  Wave, -1, -1, vs,  TRUE
+2025-11-01,  Louisville,  Bay FC, -1, -1, vs,  TRUE
+2025-11-01,  Pride,  Reign, -1, -1, vs,  TRUE
+2025-11-01,  Red Stars,  Angel City, -1, -1, vs,  TRUE
+2025-11-01,  Royals,  Spirit, -1, -1, vs,  TRUE
+2025-11-01,  Thorns,  Dash, -1, -1, vs,  TRUE

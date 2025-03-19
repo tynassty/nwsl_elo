@@ -43,13 +43,13 @@ if __name__ == "__main__":
     #     reset_date=datetime(1, 1, 1)
     # )
 
-    matches = reader.read_matches_obj("ncaaf_matches.txt")
-    hfa = 60
-    k = 77
-    sr = 0.0126
+    matches = reader.read_matches_obj("nwsl_matches.txt")
+    hfa = 45
+    k = 32
+    sr = 0.5511
     elo_ratings, arr, dates, total_results, dif \
         = elo.calculate_elo_ratings(matches, initial_elo=1000, home_field_advantage=hfa, k=k, season_reset=sr,
-                                    end_date=datetime(2029, 3, 1), print_error=False,
+                                    end_date=datetime(2024, 12, 23), print_error=False,
                                     reset_date=datetime(1, 3, 1))
 
     # print(elo_ratings)
@@ -59,14 +59,24 @@ if __name__ == "__main__":
     # initial_seed_list = ["Oregon", "Georgia", "Boise State", "Arizona State",
     #                      "Texas", "Penn State", "Notre Dame", "Ohio State",
     #                      "Tennessee", "Indiana", "Southern Methodist", "Clemson"]
-    initial_seed_list = ["Oregon", "Georgia", "Texas", "Penn State",
-                         "Notre Dame", "Ohio State", "Tennessee", "Indiana",
-                         "Boise State", "Southern Methodist", "Arizona State", "Clemson"]
-    for seed in initial_seed_list:
-        print(elo_ratings[seed])
-    FINAL_HOST = "Banana"
+    # initial_seed_list = ["Oregon", "Georgia", "Boise State", "Arizona State",
+    #                      "Texas", "Penn State", "Notre Dame", "Ohio State",
+    #                      "bye", "bye", "bye", "bye"]
+    # initial_seed_list = ["Oregon", "Georgia", "Texas", "Penn State",
+    #                      "Notre Dame", "Ohio State", "Tennessee", "Indiana",
+    #                      "Boise State", "Southern Methodist", "Alabama", "Arizona State",
+    #                      "Miami (FL)", "Mississippi", "South Carolina", "Clemson",
+    #                      "Brigham Young", "Iowa State", "Missouri", "Illinois",
+    #                      "Army", "Jacksonville State", "Marshall", "Ohio"]
+    # for seed in initial_seed_list:
+    #     if seed != "bye":
+    #         print(seed + ":", elo_ratings[seed])
+    #     else:
+    #         print("bye")
+    # print("Tennessee:", elo_ratings["Tennessee"])
+    FINAL_HOST = "Current"
     # initial_seed_list = ["Wave", "Thorns", "Courage", "Reign", "Angel City", "Gotham"]
-    # initial_seed_list = ["Reign", "Thorns", "Wave", "Dash", "Current", "Red Stars"]
+    initial_seed_list = ["Reign", "Thorns", "Wave", "Dash", "Current", "Red Stars"]
 
     initial_seed_list = extend_to_next_power_of_two(initial_seed_list)
     print(initial_seed_list)
@@ -99,7 +109,7 @@ if __name__ == "__main__":
             #         t_hfa = 0  # No home field advantage if FINAL_HOST is not in the final
             # else:
             #     t_hfa = hfa
-            if round_number == 0:
+            if round_number <= 0:
                 t_hfa = hfa
             else:
                 t_hfa = 0

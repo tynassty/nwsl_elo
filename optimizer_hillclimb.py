@@ -3,7 +3,17 @@ import random
 import elo
 import reader
 
-matches = reader.read_matches_obj("ncaaf_matches.txt")
+matches = []
+# matches += reader.read_matches_obj("efl_matches/epl_matches.txt")
+# matches += reader.read_matches_obj("efl_matches/eflc_matches.txt")
+# matches += reader.read_matches_obj("efl_matches/efl1_matches.txt")
+# matches += reader.read_matches_obj("efl_matches/efl2_matches.txt")
+# matches += reader.read_matches_obj("efl_matches/eflcup_matches.txt")
+# matches += reader.read_matches_obj("efl_matches/natl_matches.txt")
+# matches += reader.read_matches_obj("ncaaf_matches.txt")
+matches += reader.read_matches_obj("nwsl_matches.txt")
+matches = sorted(matches)
+print("Total matches:", len(matches))
 # matches = [match for match in matches if match[0].year > 2015]
 reset_date = datetime.datetime(1, 3, 1)
 
@@ -16,9 +26,10 @@ sr_range = (0, 1)
 current_hfa = random.randint(hfa_range[0], hfa_range[1])
 current_k = random.randint(k_range[0], k_range[1])
 current_sr = random.uniform(sr_range[0], sr_range[1])
+# current_sr = 0.5511
 best_dif = float('inf')
 
-max_iterations = 1000
+max_iterations = 10000
 
 
 def calculate_dif(hfa, k, sr):
@@ -28,6 +39,7 @@ def calculate_dif(hfa, k, sr):
                                                 k=k,
                                                 print_error=False,
                                                 season_reset=sr,
+                                                end_date=datetime.datetime.today(),
                                                 reset_date=reset_date)
     return dif
 

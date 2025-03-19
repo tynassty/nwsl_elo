@@ -31,7 +31,7 @@ if __name__ == "__main__":
     sr = 0.0126
     elo_ratings, arr, dates, total_results, dif \
         = elo.calculate_elo_ratings(matches, initial_elo=1000, home_field_advantage=hfa, k=k, season_reset=sr,
-                                    end_date=datetime(2028, 8, 23), print_error=False,
+                                    end_date=datetime(2024, 12, 30), print_error=False,
                                     reset_date=datetime(1, 3, 1))
 
     # hfa = 60
@@ -44,8 +44,10 @@ if __name__ == "__main__":
     sorted_elos = sorted(elo_ratings, key=elo_ratings.get)
     sorted_elos.reverse()
     # for i in range(len(sorted_elos)):
-    #     if sorted_elos[i] in md.XII_CURRENT:
+    #     if sorted_elos[i] in md.AAC_CURRENT:
     #         print(sorted_elos[i])
+    # for i in range(25):
+    #     print(sorted_elos[i])
 
     # for i in range(len(sorted_elos)):
     #     print(i+1, sorted_elos[i], elo_ratings[sorted_elos[i]])
@@ -54,9 +56,9 @@ if __name__ == "__main__":
 
     # clubs = md.ACC
     # elo.plot_elo_ratings_over_time(arr, dates, clubs, club_metadata=md.acc_metadata)
-    # clubs = md.XII_CURRENT
-    # clubs = ["Syracuse", "Florida"]
-    # elo.plot_elo_ratings_over_time(arr, dates, clubs)
+    # clubs = md.B10_CURRENT
+    clubs = ["Kansas State", "Northern Illinois"]
+    elo.plot_elo_ratings_over_time(arr, dates, clubs)
 
     # home = "Clemson"
     # away = "Syracuse"
@@ -68,21 +70,19 @@ if __name__ == "__main__":
     #     print(home)
     # print(expected_result)
 
-    clubs_to_test = ["UCLA", "Illinois", "Indiana", "Iowa", "Maryland", "Michigan", "Michigan State", "Minnesota",
-                     "Nebraska", "Northwestern", "Ohio State", "Oregon", "Penn State", "Purdue", "Rutgers",
-                     "Southern California", "Washington", "Wisconsin"]
-    for i in range(len(clubs_to_test)):
-        opps = []
-        matches_2024 = [match for match in matches if match.date.year == 2024 and match.date.month >= 3]
-        this_club = clubs_to_test[i]
-        for match in matches_2024:
-            clubs_in_match = [match.home_club, match.away_club]
-            if this_club in clubs_in_match:
-                opps += [item for item in clubs_in_match if item != this_club]
-        print(opps)
-
-        opps_sum = 0
-        for club in opps:
-            opps_sum += elo_ratings[club]
-        print(clubs_to_test[i])
-        print(opps_sum/len(opps))
+    # clubs_to_test = md.SEC_CURRENT
+    # for i in range(len(clubs_to_test)):
+    #     opps = []
+    #     matches_2024 = [match for match in matches if match.date.year == 2024 and match.date.month >= 3]
+    #     this_club = clubs_to_test[i]
+    #     for match in matches_2024:
+    #         clubs_in_match = [match.home_club, match.away_club]
+    #         if this_club in clubs_in_match:
+    #             opps += [item for item in clubs_in_match if item != this_club]
+    #     print(opps)
+    #
+    #     opps_sum = 0
+    #     for club in opps:
+    #         opps_sum += elo_ratings[club]
+    #     print(clubs_to_test[i])
+    #     print(opps_sum/len(opps))

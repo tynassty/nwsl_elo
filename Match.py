@@ -46,3 +46,21 @@ class Match:
         return (f"{date_str} | {self.home_club:^15} vs {self.away_club:^15} | "
                 f"Score: {score} | Location: {location} | {season_type}")
 
+    def __lt__(self, other):
+        return self.date < other.date
+
+    def __le__(self, other):
+        return self.date <= other.date
+
+    def __eq__(self, other):
+        return self.date == other.date
+
+    def __ne__(self, other):
+        return self.date != other.date
+
+    def __gt__(self, other):
+        return self.date > other.date
+
+    def __ge__(self, other):
+        return self.date >= other.date
+

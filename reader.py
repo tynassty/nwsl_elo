@@ -60,7 +60,17 @@ def read_matches_obj(match_file):
         if away_club in club_replacements:
             away_club = replace_club(away_club)
 
-        m = Match(date, home_club, away_club, home_score=int(home_score), away_score=int(away_score),
+        if home_club == "Royals" and date.year <= 2023:
+            home_club = "Royals (2018)"
+
+        if away_club == "Royals" and date.year <= 2023:
+            away_club = "Royals (2018)"
+
+
+        home_score = int(home_score)
+        away_score = int(away_score)
+
+        m = Match(date, home_club, away_club, home_score=home_score, away_score=away_score,
                   neutral=neutral, regular_season=regular_season)
 
         matches.append(m)

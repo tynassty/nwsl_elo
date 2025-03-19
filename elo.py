@@ -305,7 +305,7 @@ def plot_elo_ratings_over_time(arr, dates, clubs, club_metadata=None, block=True
 
 
 if __name__ == "__main__":
-    a = 1800
+    a = 2000
     b = 1000
     HOME_FIELD_ADVANTAGE = 0
     exp_a = expected_result(a + HOME_FIELD_ADVANTAGE, b)
