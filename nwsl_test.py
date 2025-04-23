@@ -58,6 +58,15 @@ sorted_elos.reverse()
 clubs, _ = elo.get_clubs_and_matches(matches)
 elo.plot_elo_ratings_over_time(arr, dates, clubs, club_metadata=club_metadata)
 
+completed_matches, incomplete_matches = [], []
+for match in matches:
+    (completed_matches if match.date <= datetime.today() and match.is_complete() else incomplete_matches).append(match)
+goal_array = [0 for _ in range(15)]
+for match in completed_matches:
+    goal_array[match.home_score] += 1
+    goal_array[match.away_score] += 1
+print(goal_array)
+
 # home = "Current"
 # away = "Courage"
 # print(str(elo_ratings[home]) + ", " + str(elo_ratings[away]))

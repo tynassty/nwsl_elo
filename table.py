@@ -34,7 +34,7 @@ class Club:
     def __str__(self):
         return (f"{self.name:<12} {self.points:>3} pts, {self.games_played:>2} GP, "
                 f"{self.wins:>2} W, {self.draws:>2} D, {self.losses:>2} L, "
-                f"{self.goals_scored:>2} GS, {self.goals_conceded:>2} GC, GD {self.goal_difference():>3}")
+                f"{self.goals_scored:>2} GF, {self.goals_conceded:>2} GA, GD {self.goal_difference():>3}")
 
 
 class LeagueTable:

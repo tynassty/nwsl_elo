@@ -79,6 +79,8 @@ def calculate_elo_ratings(matches: List[Match], initial_elo=INITIAL_ELO, home_fi
                                    2. Actual results for the home team.
              - brier_score: The average mean square error between expected and actual results over all matches.
     """
+    matches = [match for match in matches if match.is_complete()]
+
     if decay_target is None:
         decay_target = initial_elo
     total_dif = 0

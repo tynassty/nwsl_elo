@@ -66,9 +66,12 @@ def read_matches_obj(match_file):
         if away_club == "Royals" and date.year <= 2023:
             away_club = "Royals (2018)"
 
-
         home_score = int(home_score)
+        if home_score < 0:
+            home_score = None
         away_score = int(away_score)
+        if away_score < 0:
+            away_score = None
 
         m = Match(date, home_club, away_club, home_score=home_score, away_score=away_score,
                   neutral=neutral, regular_season=regular_season)
